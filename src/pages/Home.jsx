@@ -280,7 +280,7 @@ function Home() {
             {/* Gallery*/}
 
                 <div style={{ height: '600px', position: 'relative', p: 0, backgroundColor: '#121c3b' }}>
-  <CircularGallery bend={3} textColor="#ffffff" borderRadius={0.05} scrollEase={0.005}/>
+  <CircularGallery bend={3} textColor="#ffffff" borderRadius={0.05} scrollEase={ isMobile ? 0.2 : 0.005}/>
 </div>
 
 
