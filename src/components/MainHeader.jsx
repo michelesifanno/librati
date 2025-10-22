@@ -68,7 +68,7 @@ function MainHeader() {
             <AppBar
                 position="fixed"
                 sx={{
-                    backgroundColor: scrolled ? '#121c3b' : 'transparent',
+                    backgroundColor: scrolled ? '#111125' : 'transparent',
                     boxShadow: scrolled ? 2 : 'none',
                     transition: 'background-color 0.3s ease, box-shadow 0.3s ease',
                     zIndex: 99999999,

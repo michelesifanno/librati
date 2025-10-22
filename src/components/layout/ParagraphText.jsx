@@ -6,7 +6,7 @@ import { useGSAP } from '@gsap/react';
 
 gsap.registerPlugin(ScrollTrigger, GSAPSplitText, useGSAP);
 
-const SplitText = ({
+const ParagraphText = ({
   text,
   className = '',
   delay = 100,
@@ -187,13 +187,13 @@ const SplitText = ({
         );
       default:
         return (
-          <h2 ref={ref} style={style} className={classes}>
+          <p ref={ref} style={style} className={classes}>
             {text}
-          </h2>
+          </p>
         );
     }
   };
   return renderTag();
 };
 
-export default SplitText;
+export default ParagraphText;
