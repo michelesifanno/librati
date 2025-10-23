@@ -19,7 +19,7 @@ function Home() {
             {/* Hero Section */}
             <Box
                 sx={{
-                    minHeightheight: '100vh',
+                    minHeight: '100vh',
                     backgroundSize: 'cover',
                     backgroundPosition: 'center',
                     display: 'flex',
@@ -27,13 +27,7 @@ function Home() {
             >
                 <Container maxWidth="lg" sx={{ textAlign: 'center', pt: isMobile ? 15 : 22 }}>
 
-                    {/* <BlurText
-                        text="Qui non si bevono cocktail."
-                        delay={150}
-                        animateBy="words"
-                        direction="top"
-                        className="text-2xl font-semibold text-center"
-                    /> */}
+                    
                     <BlurText
                         text="Qui, si bevono emozioni."
                         delay={50}
@@ -44,7 +38,7 @@ function Home() {
                     <motion.div
                         initial={{ opacity: 0, y: 30 }}
                         animate={{ opacity: 1, y: 0 }}
-                        transition={{ delay: 1, duration: 0.6, ease: 'easeOut' }}
+                        transition={{ delay: 0.5, duration: 0.6, ease: 'easeOut' }}
                         style={{ textAlign: 'right', zIndex: -1 }}
                     >
                         <img src='slider-librati-2.png' alt='Librati slider' className='librati-image-slider' />
@@ -136,6 +130,7 @@ function Home() {
                     </Grid>
                 </Container>
             </Box>
+
             {/* Scrolling Text */}
             <Box sx={{ py: 5, display: 'flex' }}>
                 <Container sx={{ minWidth: '100%' }} >
@@ -163,7 +158,7 @@ function Home() {
             <Box sx={{ pt: isMobile ? 0 : 0, pb: isMobile ? 5 : 10, display: 'flex' }}>
                 <Container maxWidth="lg">
                     <Grid container spacing={isMobile ? 2 : 2}>
-                        <Grid size={{ xs: 12, md: 5 }} sx={{ display: 'flex', flexDirection: 'column', gap: 0 }}>
+                        <Grid size={{ xs: 12, md: 4 }} sx={{ display: 'flex', flexDirection: 'column', gap: 0 }}>
                             <motion.div
                                 initial={{ opacity: 0, y: 30 }}
                                 animate={{ opacity: 1, y: 0 }}
@@ -173,7 +168,7 @@ function Home() {
                                 <img src='cta-img.png' alt='prenota immagine' style={{ width: '100%', height: isMobile ? '350px' : '600px', objectFit: 'cover' }} />
                             </motion.div>
                         </Grid>
-                        <Grid size={{ xs: 12, md: 4 }} sx={{ display: 'flex', flexDirection: 'column', gap: 0 }}>
+                        <Grid size={{ xs: 12, md: 5 }} sx={{ display: 'flex', flexDirection: 'column', gap: 0 }}>
                             <em>
                                 <SplitText
                                     text="Prenota un tavolo"
@@ -214,15 +209,28 @@ function Home() {
                                 textAlign="justify"
                             />
                         </Grid>
-                        <Grid size={{ xs: 12, md: 2 }} sx={{ display: 'flex', flexDirection: 'column', gap: 0, justifyContent: 'flex-end' }}>
+                        <Grid size={{ xs: 12, md: 3 }} sx={{ display: 'flex', flexDirection: 'column', gap: 0, justifyContent: 'flex-end' }}>
                             <motion.div
                                 initial={{ opacity: 0, y: 30 }}
                                 animate={{ opacity: 1, y: 0 }}
                                 transition={{ delay: 0.5, duration: 0.6, ease: 'easeOut' }}
-                                style={{  width: '100%' }}
+                                style={{ width: '100%' }}
                             >
                                 <ParagraphText
-                                    text="Siamo aperti tutti i giorni, dalle 20:00 alle 03:00"
+                                    text="Siamo aperti tutti i giorni, "
+                                    className="orange-paragraph"
+                                    delay={2}
+                                    duration={0.6}
+                                    ease="power3.out"
+                                    splitType="chars"
+                                    from={{ opacity: 0, y: 40 }}
+                                    to={{ opacity: 1, y: 0 }}
+                                    threshold={0.1}
+                                    rootMargin="-100px"
+                                    textAlign="justify"
+                                />
+                                <ParagraphText
+                                    text="dalle 20:00 alle 03:00"
                                     className="orange-paragraph"
                                     delay={2}
                                     duration={0.6}
@@ -248,10 +256,298 @@ function Home() {
                 </Container>
             </Box>
 
+            {/* Menu CTA Section */}
+            <Box sx={{ py: isMobile ? 5 : 10, display: 'flex', backgroundColor: '#36c8c0' }}>
+                <Container maxWidth="lg">
+                    <Grid container spacing={isMobile ? 5 : 20} sx={{ alignItems: 'center' }}>
+                        <Grid size={{ xs: 12, md: 8 }} sx={{ display: 'flex', flexDirection: 'column', gap: 0 }}>
+                            <strong>
+                                <SplitText
+                                    text="Birra, cocktail, vini, distillati, liquori, analcolici & snacks"
+                                    className="title-cta-menu"
+                                    delay={20}
+                                    duration={0.6}
+                                    ease="power3.out"
+                                    splitType="chars"
+                                    from={{ opacity: 0, y: 40 }}
+                                    to={{ opacity: 1, y: 0 }}
+                                    threshold={0.1}
+                                    rootMargin="-100px"
+                                    textAlign="left"
+                                />
+                            </strong>
+                        </Grid>
+
+                        <Grid size={{ xs: 12, md: 4 }} sx={{ display: 'flex', flexDirection: 'column', gap: 0, justifyContent: 'flex-end' }}>
+                            <Button variant="outlined" size="large" className='menu-button-cta'>
+                                Menu
+                            </Button>
+                        </Grid>
+                    </Grid>
+                </Container>
+            </Box>
+
+            {/* Teddy Section */}
+            <Box sx={{ py: 10, display: 'flex' }}>
+                <Container maxWidth="lg">
+                    <Grid container spacing={isMobile ? 5 : 30} sx={{ alignItems: 'center' }}>
+                        <Grid size={{ xs: 12, md: 6 }} sx={{ display: 'flex', flexDirection: 'column', gap: 0 }}>
+                            <SplitText
+                                text="Teddy"
+                                className="title"
+                                delay={20}
+                                duration={0.6}
+                                ease="power3.out"
+                                splitType="chars"
+                                from={{ opacity: 0, y: 40 }}
+                                to={{ opacity: 1, y: 0 }}
+                                threshold={0.1}
+                                rootMargin="-100px"
+                                textAlign="left"
+                            />
+                            <div style={{ padding: isMobile ? '60px 30px 0px 30px' : '60px' }}>
+                                <b>
+                                    <ParagraphText
+                                        text="Barman, come altro potrebbe essere."
+                                        className="paragraph"
+                                        delay={2}
+                                        duration={0.6}
+                                        ease="power3.out"
+                                        splitType="chars"
+                                        from={{ opacity: 0, y: 40 }}
+                                        to={{ opacity: 1, y: 0 }}
+                                        threshold={0.1}
+                                        rootMargin="-100px"
+                                        textAlign="justify"
+                                    />
+                                </b>
+                                <ParagraphText
+                                    text="Teddy ama i cocktail, le storie dietro ogni bottiglia e i sorrisi davanti al bancone. Gli piace ospitare, ascoltare, far ridere e consigliare drink che sanno sempre sorprendere. È uno di quelli con cui non ti annoi mai, perché Teddy è il cuore del Librati. Capisce l’equilibrio perfetto tra dolce e amaro, tra profumo e sapore, tra tecnica e istinto. Shakera con passione, dosa con precisione — e, se sei fortunato, potresti vederlo creare qualcosa solo per te."
+                                    className="paragraph"
+                                    delay={2}
+                                    duration={0.6}
+                                    ease="power3.out"
+                                    splitType="chars"
+                                    from={{ opacity: 0, y: 40 }}
+                                    to={{ opacity: 1, y: 0 }}
+                                    threshold={0.1}
+                                    rootMargin="-100px"
+                                    textAlign="justify"
+                                />
+                                <ParagraphText
+                                    text="Se sei nel posto giusto, al momento giusto."
+                                    className="paragraph"
+                                    delay={2}
+                                    duration={0.6}
+                                    ease="power3.out"
+                                    splitType="chars"
+                                    from={{ opacity: 0, y: 40 }}
+                                    to={{ opacity: 1, y: 0 }}
+                                    threshold={0.1}
+                                    rootMargin="-100px"
+                                    textAlign="justify"
+                                />
+
+                            </div>
+                        </Grid>
+                        <Grid size={{ xs: 12, md: 6 }}>
+                            <img src='teddy_rutigliano.png' alt='teddy librati' style={{ width: '100%' }} />
+                        </Grid>
+                    </Grid>
+                </Container>
+            </Box>
+
+            {/* Final Section */}
+            {isMobile ? ( null ) : (
+                <Box sx={{ pt: isMobile ? 0 : 10, display: 'flex' }}>
+                <Container sx={{ minWidth: '100%!important', p: '0px!important', maxWidth: '100%!important' }} >
+                    <Grid container spacing={isMobile ? 5 : 10} sx={{ alignItems: 'center' }}>
+                        <Grid size={{ xs: 6, md: 6 }} sx={{ textAlign: 'left' }}>
+                            <img src='photo-7.jpeg' alt='final image home' style={{ width: isMobile ? '100%' : '45%', height: isMobile ? '100%' : '300px', objectFit: 'cover' }} />
+                        </Grid>
+
+                        <Grid size={{ xs: 6, md: 6 }} sx={{ textAlign: 'right' }}>
+                            <img src='photo-3.jpg' alt='final image home' style={{ width: isMobile ? '100%' : '45%', height: isMobile ? '100%' : '300px', objectFit: 'cover' }} />
+                        </Grid>
+
+                    </Grid>
+                </Container>
+            </Box>
+            )
+            }
+            <Box sx={{ py: isMobile ? 5 : 10, display: 'flex', mt: isMobile ? -5 : -40 }}>
+                <Container maxWidth="lg">
+                    <Grid container spacing={isMobile ? 5 : 10} sx={{ alignItems: 'center' }}>
+                        <Grid size={{ xs: 12 }} sx={{ textAlign: 'center' }}>
+                            <SplitText
+                                text="Da anni ci impegniamo a "
+                                className="orange-title"
+                                delay={20}
+                                duration={0.6}
+                                ease="power3.out"
+                                splitType="chars"
+                                from={{ opacity: 0, y: 40 }}
+                                to={{ opacity: 1, y: 0 }}
+                                threshold={0.1}
+                                rootMargin="-100px"
+                                textAlign={isMobile ? "left" : "center"}
+                            />
+                            <SplitText
+                                text="far sentire tutti a casa"
+                                className="orange-title"
+                                delay={20}
+                                duration={0.6}
+                                ease="power3.out"
+                                splitType="chars"
+                                from={{ opacity: 0, y: 40 }}
+                                to={{ opacity: 1, y: 0 }}
+                                threshold={0.1}
+                                rootMargin="-100px"
+                                textAlign={isMobile ? "left" : "center"}
+                            />
+                        </Grid>
+                    </Grid>
 
 
+                    {isMobile ? (
+                        <>
+                            <Grid container spacing={2} sx={{ alignItems: 'center', pt: 5 }}>
+                                <Grid size={{ xs: 12 }}>
+                                    <ParagraphText
+                                        text="Ci piace pensare al Librati come a un posto dove le persone si sentono libere di essere se stesse. Un luogo semplice, vero, dove il tempo rallenta.  Perché per noi far star bene le persone non è un dettaglio, è la nostra idea di ospitalità. E forse è proprio per questo che, una volta qui, ti senti a casa."
+                                        className="cyan-paragraph"
+                                        delay={2}
+                                        duration={0.6}
+                                        ease="power3.out"
+                                        splitType="chars"
+                                        from={{ opacity: 0, y: 40 }}
+                                        to={{ opacity: 1, y: 0 }}
+                                        threshold={0.1}
+                                        rootMargin="-100px"
+                                        textAlign="justify"
+                                    />
+                                </Grid>
+                                <Grid size={{ xs: 6 }}>
+                                    <img src='photo-7.jpeg' alt='final image home' style={{ width: '100%', height: '180px', objectFit: 'cover', marginBottom: '10px' }} />
+                                    <img src='photo-6.jpeg' alt='final image home' style={{ width: '100%', height: '200px', objectFit: 'cover', marginBottom: '10px' }} />
+                                    <img src='photo-5.jpg' alt='final image home' style={{ width: '100%', height: '150px', objectFit: 'cover' }} />
+                                </Grid>
+
+                                <Grid size={{ xs: 6 }}>
+                                    <img src='photo-3.jpg' alt='final image home' style={{ width: '100%', height: '150px', objectFit: 'cover', marginBottom: '10px' }} />
+                                    <img src='photo-4.jpg' alt='final image home' style={{ width: '100%', height: '150px', objectFit: 'cover', marginBottom: '10px' }} />
+                                    <img src='photo-9.png' alt='final image home' style={{ width: '100%', height: '230px', objectFit: 'cover' }} />
+                                </Grid>
+
+                                <Grid size={{ xs: 12 }}>
+                                    <ParagraphText
+                                        text="Qui sei in un posto dove le storie si intrecciano, i pensieri si sciolgono e il tempo si dimentica di correre. Qui ti senti, anche solo per una sera, esattamente dove dovresti essere."
+                                        className="last-paragraph"
+                                        delay={2}
+                                        duration={0.6}
+                                        ease="power3.out"
+                                        splitType="chars"
+                                        from={{ opacity: 0, y: 40 }}
+                                        to={{ opacity: 1, y: 0 }}
+                                        threshold={0.1}
+                                        rootMargin="-100px"
+                                        textAlign="justify"
+                                    />
+                                </Grid>
+
+                                <Grid size={{ xs: 12 }}>
+                                    <Button variant="outlined" size="large" className='final-button-cta'>
+                                        Vieni a<br />trovarci
+                                    </Button>
+                                </Grid>
+
+                            </Grid>
+
+                        </>
+                    )
+                        : (
+                            <>
+                                <Grid container spacing={10} sx={{ alignItems: 'flex-top', pt: 10 }}>
+                                    <Grid size={{ xs: 12, md: 2 }}>
+                                    </Grid>
+
+                                    <Grid size={{ xs: 12, md: 4 }} >
+                                        <ParagraphText
+                                            text="Ci piace pensare al Librati come a un posto dove le persone si sentono libere di essere se stesse. Un luogo semplice, vero, dove il tempo rallenta.  Perché per noi far star bene le persone non è un dettaglio, è la nostra idea di ospitalità. E forse è proprio per questo che, una volta qui, ti senti a casa."
+                                            className="cyan-paragraph"
+                                            delay={2}
+                                            duration={0.6}
+                                            ease="power3.out"
+                                            splitType="chars"
+                                            from={{ opacity: 0, y: 40 }}
+                                            to={{ opacity: 1, y: 0 }}
+                                            threshold={0.1}
+                                            rootMargin="-100px"
+                                            textAlign="justify"
+                                        />
+                                    </Grid>
+
+                                    <Grid size={{ xs: 12, md: 4 }} sx={{ textAlign: 'right' }}>
+                                        <img src='photo-6.jpeg' alt='final image home' style={{ width: isMobile ? '100%' : '80%', height: isMobile ? '500px' : '350px', objectFit: 'cover' }} />
+                                    </Grid>
+
+                                    <Grid size={{ xs: 12, md: 2 }}>
+                                    </Grid>
+
+                                </Grid>
 
 
+                                <Grid container spacing={10} sx={{ mt: -15 }}>
+                                    <Grid size={{ xs: 12, md: 4 }} sx={{ mt: -1 }}>
+                                        <img src='photo-4.jpg' alt='final image home' style={{ width: isMobile ? '100%' : '100%', height: isMobile ? '100%' : '350px', objectFit: 'cover' }} />
+                                    </Grid>
+
+                                    <Grid size={{ xs: 12, md: 4 }}>
+                                    </Grid>
+
+                                    <Grid size={{ xs: 12, md: 4 }} sx={{ textAlign: 'right', pt: 20 }}>
+                                        <img src='photo-5.jpg' alt='final image home' style={{ width: isMobile ? '100%' : '100%', height: isMobile ? '100%' : '350px', objectFit: 'cover' }} />
+                                    </Grid>
+                                </Grid>
+                                <Grid container spacing={10} sx={{ mt: -35 }}>
+                                    <Grid size={{ xs: 12, md: 6 }} >
+                                    </Grid>
+                                    <Grid size={{ xs: 12, md: 5 }} sx={{ p: 4 }} >
+                                        <Button variant="outlined" size="large" className='final-button-cta'>
+                                            Vieni a<br />trovarci
+                                        </Button>
+                                    </Grid>
+                                    <Grid size={{ xs: 12, md: 1 }} >
+                                    </Grid>
+                                </Grid>
+
+                                <Grid container spacing={0} sx={{ mt: -1, alignItems: 'center' }}>
+                                    <Grid size={{ xs: 12, md: 6 }} >
+                                        <img src='photo-9.png' alt='final image home' style={{ width: isMobile ? '100%' : '80%', height: isMobile ? '100%' : '300px', objectFit: 'cover' }} />
+                                    </Grid>
+                                    <Grid size={{ xs: 12, md: 4 }} >
+                                        <ParagraphText
+                                            text="Qui sei in un posto dove le storie si intrecciano, i pensieri si sciolgono e il tempo si dimentica di correre. Qui ti senti, anche solo per una sera, esattamente dove dovresti essere."
+                                            className="last-paragraph"
+                                            delay={2}
+                                            duration={0.6}
+                                            ease="power3.out"
+                                            splitType="chars"
+                                            from={{ opacity: 0, y: 40 }}
+                                            to={{ opacity: 1, y: 0 }}
+                                            threshold={0.1}
+                                            rootMargin="-100px"
+                                            textAlign="justify"
+                                        />
+                                        <Grid size={{ xs: 12, md: 2 }} >
+                                        </Grid>
+                                    </Grid>
+                                </Grid>
+                            </>
+                        )
+                    }
+                </Container>
+            </Box>
         </Box>
     );
 }
