@@ -19,7 +19,7 @@ function Home() {
             {/* Hero Section */}
             <Box
                 sx={{
-                    minHeight: '100vh',
+                    minHeight: isMobile ? '50vh' : '100vh',
                     backgroundSize: 'cover',
                     backgroundPosition: 'center',
                     display: 'flex',
