@@ -19,7 +19,7 @@ function Home() {
             {/* Hero Section */}
             <Box
                 sx={{
-                    minHeight: isMobile ? '50vh' : '100vh',
+                    minHeight: '100vh',
                     backgroundSize: 'cover',
                     backgroundPosition: 'center',
                     display: 'flex',
@@ -30,7 +30,7 @@ function Home() {
                     
                     <BlurText
                         text="Qui, si bevono emozioni."
-                        delay={50}
+                        delay={0}
                         animateBy="words"
                         direction="top"
                         className="hero-title"
