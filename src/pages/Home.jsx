@@ -30,7 +30,7 @@ function Home() {
                     
                     <BlurText
                         text="Qui, si bevono emozioni."
-                        delay={0}
+                        delay={50}
                         animateBy="words"
                         direction="top"
                         className="hero-title"
@@ -38,7 +38,7 @@ function Home() {
                     <motion.div
                         initial={{ opacity: 0, y: 30 }}
                         animate={{ opacity: 1, y: 0 }}
-                        transition={{ delay: 0.5, duration: 0.6, ease: 'easeOut' }}
+                        transition={{ delay: 0, duration: 0.6, ease: 'easeOut' }}
                         style={{ textAlign: 'right', zIndex: -1 }}
                     >
                         <img src='slider-librati-2.png' alt='Librati slider' className='librati-image-slider' />
