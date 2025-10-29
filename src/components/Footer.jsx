@@ -58,7 +58,7 @@ function Footer() {
                 </Container>
             </Box>
             <Box sx={{ pt: 4, backgroundColor: '#ff5700', color: 'white' }}>
-                <Grid container justifyContent="center" spacing={0}>
+                <Grid container justifyContent="center" spacing={0} sx={{marginBottom:'-10px'}}>
 
                     <Grid size={{ xs: 3 }}>
                         <img src='1.png' alt='final gallery' style={{ width: '100%', height: isMobile ? '120px' : '300px', objectFit: 'cover' }} />
