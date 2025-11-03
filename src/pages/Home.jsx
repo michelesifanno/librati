@@ -160,7 +160,7 @@ function Home() {
                                 Teddy
                             </Typography>
 
-                            <div style={{ padding: isMobile ? '60px 30px 0px 30px' : '60px' }}>
+                            <div style={{ padding: isMobile ? '40px 20px 0px 20px' : '60px' }}>
                                 <Typography variant='p' className="paragraph">
                                     <b>Barman, come altro non potrebbe essere.</b>
                                 </Typography>
@@ -204,8 +204,7 @@ function Home() {
                         <Grid size={{ xs: 12 }} sx={{ textAlign: 'center' }}>
                             <Typography variant='h2' className="orange-title">
                                 Da anni ci impegniamo a
-                            </Typography><br />
-                            <Typography variant='h2' className="orange-title">
+                                <br />
                                 far sentire tutti a casa.
                             </Typography>
                         </Grid>
@@ -239,8 +238,8 @@ function Home() {
                                     </Typography>
                                 </Grid>
 
-                                <Grid size={{ xs: 12 }}>
-                                    <Button variant="outlined" size="large" className='final-button-cta'>
+                                <Grid size={{ xs: 12 }} sx={{ textAlign: 'center!important', mt: isMobile ? 2 : 0 }}>
+                                    <Button variant="outlined" size="large" className='final-button-cta' sx={{ maxWidth: '80%!important' }}>
                                         Vieni a<br />trovarci
                                     </Button>
                                 </Grid>
@@ -303,8 +302,6 @@ function Home() {
                                         <Typography variant='p' className="last-paragraph">
                                             Qui sei in un posto dove le storie si intrecciano, i pensieri si sciolgono e il tempo si dimentica di correre. Qui ti senti, anche solo per una sera, esattamente dove dovresti essere.
                                         </Typography>
-
-
                                         <Grid size={{ xs: 12, md: 2 }} >
                                         </Grid>
                                     </Grid>
