@@ -7,7 +7,7 @@ import CloseIcon from '@mui/icons-material/Close';
 
 
 const pages = [
-    { label: 'Menu', href: '#menu', target: '' },
+    { label: 'Menu', href: '/menu', target: '' },
     { label: 'About', href: '#about', target: '' },
     { label: 'Teddy', href: '#teddy', target: '' },
     { label: 'Dove siamo', href: 'https://www.google.com/maps/dir//Via+Crocifisso,+10,+70054+Giovinazzo+BA/@41.188032,16.5871824,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x1347fa66c570d045:0x18ea035eac03c171!2m2!1d16.6695827!2d41.188059?entry=ttu&g_ep=EgoyMDI1MTAyNy4wIKXMDSoASAFQAw%3D%3D', target: '_blank' },

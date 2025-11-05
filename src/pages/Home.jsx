@@ -30,7 +30,7 @@ function Home() {
                     <img src='slider-librati-2.png' alt='Librati slider' className='librati-image-slider' />
 
                     <div style={{ display: 'flex', justifyContent: 'flex-end' }}>
-                        <Button variant="outlined" size="large" className='menu-button-slider'>
+                        <Button variant="outlined" size="large" className='menu-button-slider' href='/menu'>
                             Sfoglia Menu
                         </Button>
                     </div>
