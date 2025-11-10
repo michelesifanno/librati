@@ -3,7 +3,7 @@ import { useTheme } from '@mui/material/styles';
 
 
 
-function Footer() {
+export default function Footer() {
 
     const theme = useTheme();
     const isMobile = useMediaQuery(theme.breakpoints.down('md')); // true se sotto 'md'
@@ -13,7 +13,7 @@ function Footer() {
         <>
             <Box sx={{ pt: 4, backgroundColor: '#ff5700', color: 'white' }}>
                 <Container maxWidth="lg" sx={{ pb: 5 }}>
-                    <Grid container spacing={isMobile ? 5 : 30}>
+                    <Grid container spacing={isMobile ? 5 : 20}>
                         <Grid size={{ xs: 12, md: 4 }}>
                             <Typography component='p' sx={{ fontSize: '14px' }}>
                                 <b>Librati Cocktail Bar</b>
@@ -33,7 +33,7 @@ function Footer() {
                             </Typography>
                         </Grid>
                         <Grid size={{ xs: 12, md: 4 }}>
-                            <Typography component='h2' sx={{ fontSize: '40px', textAlign: 'right', letterSpacing: '-2px', lineHeight: '35px' }}>
+                            <Typography component='h2' sx={{ fontSize: '40px', textAlign: 'right', letterSpacing: '-1.5px', lineHeight: '35px' }}>
                                 Siamo a due passi dal centro e dal mare.
                             </Typography>
                         </Grid>
@@ -45,20 +45,20 @@ function Footer() {
                         <Grid size={{ xs: 12 }}>
                             <Typography component='h2' sx={{ fontSize: '40px', textAlign: 'left', letterSpacing: '-2px', lineHeight: '35px' }}>
                                 <a
-    href="https://www.instagram.com/librati_dal.male_official/"
-    target="_blank"
-    rel="noopener noreferrer"
-    style={{ color: 'inherit', textDecoration: 'none' }}
-  >
-    Instagram.
-  </a>
+                                    href="https://www.instagram.com/librati_dal.male_official/"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    style={{ color: 'inherit', textDecoration: 'none' }}
+                                >
+                                    Instagram.
+                                </a>
                             </Typography>
                         </Grid>
                     </Grid>
                 </Container>
             </Box>
             <Box sx={{ pt: 4, backgroundColor: '#ff5700', color: 'white' }}>
-                <Grid container justifyContent="center" spacing={0} sx={{marginBottom:'-10px'}}>
+                <Grid container justifyContent="center" spacing={0} sx={{ marginBottom: '-10px' }}>
 
                     <Grid size={{ xs: 3 }}>
                         <img src='1.png' alt='final gallery' style={{ width: '100%', height: isMobile ? '120px' : '300px', objectFit: 'cover' }} />
@@ -81,5 +81,3 @@ function Footer() {
         </>
     );
 }
-
-export default Footer;

@@ -5,7 +5,6 @@ export function useMenuData() {
   const [data, setData] = useState({});
 
   useEffect(() => {
-    // Potresti poi sostituire menuData con una fetch() API
     setData(menuData);
   }, []);
 

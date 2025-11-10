@@ -1,18 +1,15 @@
 import { Outlet } from 'react-router-dom';
-import MainHeader from '../components/MainHeader';
+import MenuHeader from '../components/MenuHeader';
 import Footer from '../components/Footer';
 
 
-function AppLayout() {
+export default function MenuLayout() {
 
 
     return (
         <>
-            <MainHeader />
+            <MenuHeader />
             <Outlet />
-            <Footer />
         </>
     );
 }
-
-export default AppLayout;

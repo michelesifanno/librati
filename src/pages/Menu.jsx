@@ -4,6 +4,7 @@ import MenuHeader from "../components/MenuHeader";
 import { Link } from "react-router-dom";
 import { useMenuData } from "../hooks/useMenuData";
 import { useTheme } from "@mui/material/styles";
+import { categoryColors } from "../config/colors";
 
 export default function Menu() {
   const { categories } = useMenuData();
@@ -11,7 +12,6 @@ export default function Menu() {
   const isMobile = useMediaQuery(theme.breakpoints.down("md"));
   const scrollRef = useRef(null);
 
-  // Duplico la lista per creare l’effetto nastro infinito
   const loopedList = [...categories, ...categories];
 
   useEffect(() => {
@@ -22,15 +22,8 @@ export default function Menu() {
 
     const handleScroll = () => {
       const scrollTop = container.scrollTop;
-
-      // Quando arrivi oltre metà → riposiziona in alto mantenendo la posizione relativa
-      if (scrollTop >= halfHeight) {
-        container.scrollTop = scrollTop - halfHeight;
-      }
-      // Quando torni troppo su → vai giù
-      else if (scrollTop <= 0) {
-        container.scrollTop = halfHeight + scrollTop;
-      }
+      if (scrollTop >= halfHeight) container.scrollTop = scrollTop - halfHeight;
+      else if (scrollTop <= 0) container.scrollTop = halfHeight + scrollTop;
     };
 
     container.addEventListener("scroll", handleScroll);
@@ -54,19 +47,34 @@ export default function Menu() {
           ref={scrollRef}
         >
           <List sx={{ textAlign: "center", pb: 20 }}>
-            {loopedList.map((cat, i) => (
-              <ListItem key={`${cat}-${i}`} sx={{ justifyContent: "center" }}>
-                <Button
-                  component={Link}
-                  to={`/menu/${cat}`}
-                  variant="outlined"
-                  size="large"
-                  className="menu-item"
-                >
-                  {cat}
-                </Button>
-              </ListItem>
-            ))}
+            {loopedList.map((cat, i) => {
+              const colorData = categoryColors[cat.toLowerCase()] || {
+                base: "#ccc",
+                text: "#000",
+              };
+              return (
+                <ListItem key={`${cat}-${i}`} sx={{ justifyContent: "center" }}>
+                  <Button
+                    component={Link}
+                    to={`/menu/${cat}`}
+                    variant="outlined"
+                    size="large"
+                    className="menu-item"
+                    sx={{
+                      borderColor: colorData.base,
+                      color: colorData.base,
+                      "&:hover": {
+                        backgroundColor: colorData.base,
+                        borderColor: colorData.base,
+                        color: colorData.text,
+                      },
+                    }}
+                  >
+                    {cat}
+                  </Button>
+                </ListItem>
+              );
+            })}
           </List>
         </Container>
       </Box>

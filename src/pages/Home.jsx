@@ -143,7 +143,12 @@ function Home() {
                         </Grid>
 
                         <Grid size={{ xs: 12, md: 4 }} sx={{ display: 'flex', flexDirection: 'column', gap: 0, justifyContent: 'flex-end' }}>
-                            <Button variant="outlined" size="large" className='menu-button-cta'>
+                            <Button
+                                variant="outlined"
+                                size="large"
+                                className='menu-button-cta'
+                                href='/menu'
+                            >
                                 Menu
                             </Button>
                         </Grid>
