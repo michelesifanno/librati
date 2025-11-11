@@ -12,37 +12,7 @@ export default function Menu() {
   const isMobile = useMediaQuery(theme.breakpoints.down("md"));
   const scrollRef = useRef(null);
 
-  const loopedList = [...categories, ...categories];
-
-  useEffect(() => {
-  const container = scrollRef.current;
-  if (!container) return;
-
-  const halfHeight = container.scrollHeight / 2;
-  let ticking = false;
-
-  const handleScroll = () => {
-    if (ticking) return;
-    window.requestAnimationFrame(() => {
-      const scrollTop = container.scrollTop;
-      if (scrollTop >= halfHeight) {
-        container.scrollTop = scrollTop - halfHeight;
-      } else if (scrollTop <= 0) {
-        container.scrollTop = halfHeight + scrollTop;
-      }
-      ticking = false;
-    });
-    ticking = true;
-  };
-
-  container.addEventListener("scroll", handleScroll, { passive: true });
-
-  // Avvia a metà lista per evitare che inizi dal punto 0
-  container.scrollTop = halfHeight / 2;
-
-  return () => container.removeEventListener("scroll", handleScroll);
-}, []);
-
+  const loopedList = Array(100).fill(categories).flat();
 
 
   return (
@@ -57,6 +27,7 @@ export default function Menu() {
             height: "100vh",
             overflowY: "scroll",
             scrollbarWidth: "none",
+            scrollBehavior: "smooth",
             "&::-webkit-scrollbar": { display: "none" },
           }}
           ref={scrollRef}
