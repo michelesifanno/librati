@@ -18,21 +18,31 @@ export default function Menu() {
   const container = scrollRef.current;
   if (!container) return;
 
-  let scrollY = 0;
-  const speed = 0.4; // velocità regolabile
-  const totalHeight = container.scrollHeight / 2;
-  let animationFrame;
+  const halfHeight = container.scrollHeight / 2;
+  let ticking = false;
 
-  const animate = () => {
-    scrollY += speed;
-    if (scrollY >= totalHeight) scrollY = 0;
-    container.scrollTop = scrollY;
-    animationFrame = requestAnimationFrame(animate);
+  const handleScroll = () => {
+    if (ticking) return;
+    window.requestAnimationFrame(() => {
+      const scrollTop = container.scrollTop;
+      if (scrollTop >= halfHeight) {
+        container.scrollTop = scrollTop - halfHeight;
+      } else if (scrollTop <= 0) {
+        container.scrollTop = halfHeight + scrollTop;
+      }
+      ticking = false;
+    });
+    ticking = true;
   };
 
-  animationFrame = requestAnimationFrame(animate);
-  return () => cancelAnimationFrame(animationFrame);
+  container.addEventListener("scroll", handleScroll, { passive: true });
+
+  // Avvia a metà lista per evitare che inizi dal punto 0
+  container.scrollTop = halfHeight / 2;
+
+  return () => container.removeEventListener("scroll", handleScroll);
 }, []);
+
 
 
   return (
