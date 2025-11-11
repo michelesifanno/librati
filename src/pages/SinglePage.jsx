@@ -95,10 +95,10 @@ export default function SinglePage() {
                                             color: colorData.hoverText || '#fff',
                                             borderColor: colorData.text,
                                         },
-                                            '&.Mui-focusVisible': {
-      outline: 'none',
-      boxShadow: 'none',
-                                            },
+                                        '&.Mui-focusVisible': {
+                                            outline: 'none',
+                                            boxShadow: 'none',
+                                        },
 
                                     }}
                                 />
@@ -154,7 +154,6 @@ export default function SinglePage() {
                                                 alignItems: "center",
                                                 gap: 1,
                                                 flexWrap: "wrap",
-                                                mb: 2,
                                             }}
                                         >
                                             {item.gradazione && (
@@ -188,7 +187,7 @@ export default function SinglePage() {
                                     )}
 
                                     {item.descrizione && (
-                                        <Typography variant="body1" sx={{ color: colorData.text, marginBottom: isMobile ? '10px' : '0px' }}>
+                                        <Typography variant="body1" sx={{ color: colorData.text, margin: isMobile ? '10px 0px' : '20px 0px 0px 0px' }}>
                                             {item.descrizione}
                                         </Typography>
                                     )}
