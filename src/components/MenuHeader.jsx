@@ -54,7 +54,7 @@ export default function MenuHeader() {
         <Box
             sx={{
                 minWidth: isMobile ? '100vw' : '75vw',
-                minHeight: '100vh',
+                minHeight: '110vh',
                 zIndex: '99999',
                 backgroundColor: '#fff',
                 display: 'flex',
