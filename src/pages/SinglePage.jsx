@@ -31,7 +31,11 @@ export default function SinglePage() {
     const colorData = categoryColors[category.toLowerCase()] || { base: "#ccc", text: "#000" };
     const formattedCategory = category.charAt(0).toUpperCase() + category.slice(1);
 
-    const handleTabChange = (event, newValue) => setTabIndex(newValue);
+    const handleTabChange = (event, newValue) =>
+        setTabIndex(newValue)
+      window.scrollTo({ top: 0, behavior: "smooth" });
+;
+    
 
     const hasSubCategories = !Array.isArray(menuDataByCategory);
     const subCategories = hasSubCategories ? Object.keys(menuDataByCategory) : [];
