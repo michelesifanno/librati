@@ -15,20 +15,25 @@ export default function Menu() {
   const loopedList = [...categories, ...categories];
 
   useEffect(() => {
-    const container = scrollRef.current;
-    if (!container) return;
+  const container = scrollRef.current;
+  if (!container) return;
 
-    const halfHeight = container.scrollHeight / 2;
+  let scrollY = 0;
+  const speed = 0.4; // velocità regolabile
+  const totalHeight = container.scrollHeight / 2;
+  let animationFrame;
 
-    const handleScroll = () => {
-      const scrollTop = container.scrollTop;
-      if (scrollTop >= halfHeight) container.scrollTop = scrollTop - halfHeight;
-      else if (scrollTop <= 0) container.scrollTop = halfHeight + scrollTop;
-    };
+  const animate = () => {
+    scrollY += speed;
+    if (scrollY >= totalHeight) scrollY = 0;
+    container.scrollTop = scrollY;
+    animationFrame = requestAnimationFrame(animate);
+  };
 
-    container.addEventListener("scroll", handleScroll);
-    return () => container.removeEventListener("scroll", handleScroll);
-  }, []);
+  animationFrame = requestAnimationFrame(animate);
+  return () => cancelAnimationFrame(animationFrame);
+}, []);
+
 
   return (
     <>
