@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
 :root {
-  font-family: "Inter", sans-serif;
+  font-family: "Work Sans", sans-serif !important;
   line-height: 1.5;
   font-weight: 400;
 
@@ -14,6 +14,7 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
 
 a {
   font-weight: 500;
@@ -43,6 +44,11 @@ h6 {
 
 p {
   color: #fff;
+  font-family: "Work Sans", sans-serif !important;
+}
+
+.MuiTypography-root p {
+  font-family: "Work Sans", sans-serif !important;
 }
 
 button {
@@ -113,15 +119,15 @@ p.white-paragraph {
 }
 
 p.paragraph {
-  font-size: 18px;
-  line-height: 28px;
+  font-size: 16px;
+  line-height: 26px;
   font-weight: 400;
   margin: 0px 0px 0px 0px;
 }
 
 p.last-paragraph {
-  font-size: 18px;
-  line-height: 28px;
+  font-size: 16px;
+  line-height: 26px;
   font-weight: 400;
   margin-left: -60px !important;
   max-width: 80%;
@@ -205,16 +211,15 @@ span.nr-prodotti {
   margin-left: -10px;
 }
 
-.title-in-menu {
-  font-size: 40px;
-  line-height: 35px;
+p.title-in-menu {
+  font-size: 30px;
+  line-height: 30px;
   letter-spacing: -0.5px;
   font-weight: 700;
   margin: 0px 0px 0px 0px;
   color: #111125;
+  text-transform: uppercase;
 }
-
-
 
 span.marquee-text {
   font-size: 26px;
@@ -352,8 +357,40 @@ span.marquee-text {
 }
 
 h2.title-single-menu {
-    margin-right: 120px;
-    font-size: 170px;
+  margin-right: 120px;
+  font-size: 170px;
+}
+
+h2.title-single-page {
+  font-family: 'Work Sans', sans-serif !important;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 35px;
+}
+
+h2.title-drawer {
+  font-family: 'Work Sans', sans-serif !important;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 20px;
+}
+
+h2.price-single-page {
+  font-family: 'Work Sans', sans-serif !important;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 30px;
+}
+
+h2.price-drawer {
+  font-family: 'Work Sans', sans-serif !important;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 20px;
 }
 
 /* Responsive Styles */
@@ -436,7 +473,7 @@ h2.title-single-menu {
   }
 
 
-  .title-in-menu {
+p.title-in-menu {
     font-size: 35px;
     line-height: 30px;
     letter-spacing: -0.5px;
@@ -481,8 +518,9 @@ h2.title-single-menu {
     padding: 20px !important;
     margin-bottom: 5px !important;
   }
+
   h2.title-single-menu {
     margin-right: 60px;
     font-size: 100px;
-}
+  }
 }

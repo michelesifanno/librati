@@ -47,11 +47,11 @@ function Home() {
                             </Typography>
                         </Grid>
                         <Grid size={{ xs: 12, md: 6 }}>
-                            <Typography variant='p' className="paragraph" sx={{ pb: 2 }}>
+                            <Typography variant='body1' className="paragraph">
                                 <b>Un posto dove vieni per bere, ma resti per le persone.</b>
                             </Typography>
                             <br />
-                            <Typography variant='p' className="paragraph">
+                            <Typography variant='body1' className="paragraph">
                                 Birre ghiacciate, cocktail curati e un’atmosfera che ti accoglie come una famiglia.
                                 Il Librati è il cocktail bar di riferimento a Giovinazzo.
                                 Qui puoi venire da solo, ma da solo non resti mai.
@@ -106,15 +106,15 @@ function Home() {
                                 +39 329 211 5340
                             </Button>
                             <br /><br />
-                            <Typography variant='p' className="orange-paragraph">
+                            <Typography variant='body1' className="orange-paragraph">
                                 Ti basterà chiamare per prenotare
                             </Typography>
                         </Grid>
                         <Grid size={{ xs: 12, md: 3 }} sx={{ display: 'flex', flexDirection: 'column', gap: 0, justifyContent: 'flex-end' }}>
-                            <Typography variant='p' className="orange-paragraph">
+                            <Typography variant='body1' className="orange-paragraph">
                                 Siamo aperti tutti i giorni,
                             </Typography>
-                            <Typography variant='p' className="orange-paragraph">
+                            <Typography variant='body1' className="orange-paragraph">
                                 dalle 20:00 alle 03:00.
                             </Typography>
                         </Grid>
@@ -166,11 +166,11 @@ function Home() {
                             </Typography>
 
                             <div style={{ padding: isMobile ? '40px 20px 0px 20px' : '60px' }}>
-                                <Typography variant='p' className="paragraph">
+                                <Typography variant='body1' className="paragraph">
                                     <b>Barman, come altro non potrebbe essere.</b>
                                 </Typography>
-                                <br /><br />
-                                <Typography variant='p' className="paragraph">
+                                <br />
+                                <Typography variant='body1' className="paragraph">
                                     Teddy ama i cocktail, le storie dietro ogni bottiglia e i sorrisi davanti al bancone. Gli piace ospitare, ascoltare, far ridere e consigliare drink che sanno sempre sorprendere. È uno di quelli con cui non ti annoi mai, perché Teddy è il cuore del Librati. Capisce l’equilibrio perfetto tra dolce e amaro, tra profumo e sapore, tra tecnica e istinto. Shakera con passione, dosa con precisione — e, se sei fortunato, potresti vederlo creare qualcosa solo per te.
                                 </Typography>
 
@@ -220,7 +220,7 @@ function Home() {
                         <>
                             <Grid container spacing={2} sx={{ alignItems: 'center', pt: 5 }}>
                                 <Grid size={{ xs: 12 }}>
-                                    <Typography variant='p' className="cyan-paragraph">
+                                    <Typography variant='body1' className="cyan-paragraph">
                                         Ci piace pensare al Librati come a un posto dove le persone si sentono libere di essere se stesse. Un luogo semplice, vero, dove il tempo rallenta.  Perché per noi far star bene le persone non è un dettaglio, è la nostra idea di ospitalità. E forse è proprio per questo che, una volta qui, ti senti a casa.
                                     </Typography>
 
@@ -238,7 +238,7 @@ function Home() {
                                 </Grid>
 
                                 <Grid size={{ xs: 12 }}>
-                                    <Typography variant='p' className="last-paragraph">
+                                    <Typography variant='body1' className="last-paragraph">
                                         Qui sei in un posto dove le storie si intrecciano, i pensieri si sciolgono e il tempo si dimentica di correre. Qui ti senti, anche solo per una sera, esattamente dove dovresti essere.
                                     </Typography>
                                 </Grid>
@@ -260,7 +260,7 @@ function Home() {
                                     </Grid>
 
                                     <Grid size={{ xs: 12, md: 4 }} >
-                                        <Typography variant='p' className="cyan-paragraph">
+                                        <Typography variant='body1' className="cyan-paragraph">
                                             Ci piace pensare al Librati come a un posto dove le persone si sentono libere di essere se stesse. Un luogo semplice, vero, dove il tempo rallenta.  Perché per noi far star bene le persone non è un dettaglio, è la nostra idea di ospitalità. E forse è proprio per questo che, una volta qui, ti senti a casa.
                                         </Typography>
                                     </Grid>
@@ -304,7 +304,7 @@ function Home() {
                                         <img src='photo-9.png' alt='final image home' style={{ width: isMobile ? '100%' : '80%', height: isMobile ? '100%' : '300px', objectFit: 'cover' }} />
                                     </Grid>
                                     <Grid size={{ xs: 12, md: 4 }} >
-                                        <Typography variant='p' className="last-paragraph">
+                                        <Typography variant='body1' className="last-paragraph">
                                             Qui sei in un posto dove le storie si intrecciano, i pensieri si sciolgono e il tempo si dimentica di correre. Qui ti senti, anche solo per una sera, esattamente dove dovresti essere.
                                         </Typography>
                                         <Grid size={{ xs: 12, md: 2 }} >

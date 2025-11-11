@@ -50,79 +50,278 @@
         "provenienza": "Messico"
       }
     ],
-    "spina": [
-      {}
+        "spina": [
+      {
+        "nome": "Ichnusa Non Filtrata",
+        "descrizione": "Birra sarda non filtrata, dal corpo morbido e gusto lievemente amarognolo.",
+        "prezzo_piccola": 3.5,
+        "prezzo_grande": 5,
+        "gradazione": "5%",
+        "provenienza": "Italia"
+      },
+      {
+        "nome": "Moretti La Rossa",
+        "descrizione": "Doppio malto dal colore ambrato, con note di caramello e tostatura.",
+        "prezzo_piccola": 3.5,
+        "prezzo_grande": 5,
+        "gradazione": "7.2%",
+        "provenienza": "Italia"
+      },
+      {
+        "nome": "Heineken",
+        "descrizione": "Lager olandese dal gusto equilibrato e leggermente amaro.",
+        "prezzo_piccola": 3,
+        "prezzo_grande": 4.5,
+        "gradazione": "5%",
+        "provenienza": "Olanda"
+      },
+      {
+        "nome": "Peroni Cruda",
+        "descrizione": "Birra italiana non pastorizzata, fresca e dal gusto naturale.",
+        "prezzo_piccola": 3.5,
+        "prezzo_grande": 5,
+        "gradazione": "4.7%",
+        "provenienza": "Italia"
+      }
     ]
   },
   "distillati": {
     "gin": [
-      {
-        "nome": "Hoswell",
-        "marchio": "Hoswell",
-        "descrizione": "London Dry Gin equilibrato, dal gusto classico e secco.",
-        "prezzo_mezzo": 4,
-        "prezzo_intero": 8,
-        "gradazione": "40%",
-        "provenienza": "Regno Unito"
-      },
-      {
-        "nome": "Adamus",
-        "marchio": "Adamus Organic",
-        "descrizione": "Gin portoghese premium, floreale e delicato.",
-        "prezzo_mezzo": 6,
-        "prezzo_intero": 12,
-        "gradazione": "44.4%",
-        "provenienza": "Portogallo"
-      },
-      {
-        "nome": "Bobby's",
-        "marchio": "Bobby’s Schiedam Dry Gin",
-        "descrizione": "Speziato e aromatico, con sentori di lemongrass e chiodi di garofano.",
-        "prezzo_mezzo": 4,
-        "prezzo_intero": 8,
-        "provenienza": "Olanda"
-      },
-      {
-        "nome": "Gin Mare",
-        "marchio": "Gin Mare",
-        "descrizione": "Mediterraneo con note di oliva, basilico e rosmarino.",
-        "prezzo_mezzo": 5,
-        "prezzo_intero": 10,
-        "provenienza": "Spagna"
-      },
-      {
-        "nome": "Hendrick’s",
-        "marchio": "Hendrick’s Gin",
-        "descrizione": "Distillato scozzese con infusione di cetriolo e petali di rosa.",
-        "prezzo_mezzo": 5,
-        "prezzo_intero": 10,
-        "provenienza": "Scozia"
-      },
-      {
-        "nome": "Bombay Sapphire",
-        "marchio": "Bombay Sapphire",
-        "descrizione": "Classico London Dry, agrumato e bilanciato.",
-        "prezzo_mezzo": 4,
-        "prezzo_intero": 8,
-        "provenienza": "Regno Unito"
-      },
-      {
-        "nome": "Nordés",
-        "marchio": "Nordés Atlantic Gin",
-        "descrizione": "Gin galiziano fresco, con note di uva albariño e fiori bianchi.",
-        "prezzo_mezzo": 5,
-        "prezzo_intero": 10,
-        "provenienza": "Spagna"
-      },
-      {
-        "nome": "Tanqueray",
-        "marchio": "Tanqueray London Dry",
-        "descrizione": "Secco e classico, tra i più iconici London Dry.",
-        "prezzo_mezzo": 4,
-        "prezzo_intero": 8,
-        "provenienza": "Regno Unito"
-      }
-    ]
+  {
+    "nome": "Hoswell",
+    "marchio": "Hoswell",
+    "descrizione": "London Dry Gin equilibrato e secco, dal gusto classico.",
+    "prezzo_mezzo": 4,
+    "prezzo_intero": 8,
+    "gradazione": "40%",
+    "provenienza": "Regno Unito"
+  },
+  {
+    "nome": "Adamus",
+    "marchio": "Adamus Organic",
+    "descrizione": "Gin portoghese premium, floreale e delicato, con botaniche biologiche.",
+    "prezzo_mezzo": 6,
+    "prezzo_intero": 12,
+    "gradazione": "44.4%",
+    "provenienza": "Portogallo"
+  },
+  {
+    "nome": "Bobby's",
+    "marchio": "Bobby’s Schiedam Dry Gin",
+    "descrizione": "Gin speziato e aromatico, con note di lemongrass e chiodi di garofano.",
+    "prezzo_mezzo": 4,
+    "prezzo_intero": 8,
+    "gradazione": "42%",
+    "provenienza": "Olanda"
+  },
+  {
+    "nome": "Gin Arte",
+    "marchio": "Gin Arte",
+    "descrizione": "Gin italiano elegante e aromatico, ispirato al mondo dell’arte.",
+    "prezzo_mezzo": 5,
+    "prezzo_intero": 10,
+    "gradazione": "43%",
+    "provenienza": "Italia"
+  },
+  {
+    "nome": "Gin Mare",
+    "marchio": "Gin Mare",
+    "descrizione": "Gin mediterraneo con note di oliva, basilico e rosmarino.",
+    "prezzo_mezzo": 5,
+    "prezzo_intero": 10,
+    "gradazione": "42.7%",
+    "provenienza": "Spagna"
+  },
+  {
+    "nome": "Brooklyn",
+    "marchio": "Brooklyn Gin",
+    "descrizione": "Distillato artigianale americano con agrumi freschi e ginepro croccante.",
+    "prezzo_mezzo": 6,
+    "prezzo_intero": 12,
+    "gradazione": "40%",
+    "provenienza": "USA"
+  },
+  {
+    "nome": "Opihr",
+    "marchio": "Opihr Oriental Spiced Gin",
+    "descrizione": "Gin speziato con coriandolo, cardamomo e pepe nero dall’Oriente.",
+    "prezzo_mezzo": 6,
+    "prezzo_intero": 12,
+    "gradazione": "42.5%",
+    "provenienza": "Regno Unito"
+  },
+  {
+    "nome": "Apium",
+    "marchio": "Apium Gin",
+    "descrizione": "Gin italiano ispirato al sedano, fresco e vegetale, perfetto per twist moderni.",
+    "prezzo_mezzo": 4.5,
+    "prezzo_intero": 9,
+    "gradazione": "41%",
+    "provenienza": "Italia"
+  },
+  {
+    "nome": "N°3",
+    "marchio": "No.3 London Dry Gin",
+    "descrizione": "Gin pluripremiato con tre frutti e tre spezie, dal gusto nitido e bilanciato.",
+    "prezzo_mezzo": 4.5,
+    "prezzo_intero": 9,
+    "gradazione": "46%",
+    "provenienza": "Regno Unito"
+  },
+  {
+    "nome": "Glendalough",
+    "marchio": "Glendalough Wild Botanical Gin",
+    "descrizione": "Gin irlandese con botaniche selvatiche raccolte a mano, profumato e floreale.",
+    "prezzo_mezzo": 4.5,
+    "prezzo_intero": 9,
+    "gradazione": "41%",
+    "provenienza": "Irlanda"
+  },
+  {
+    "nome": "Five Continents",
+    "marchio": "Five Continents Gin",
+    "descrizione": "Gin tedesco biologico con 22 botaniche provenienti dai cinque continenti.",
+    "prezzo_mezzo": 6,
+    "prezzo_intero": 12,
+    "gradazione": "47%",
+    "provenienza": "Germania"
+  },
+  {
+    "nome": "Hoxton",
+    "marchio": "Hoxton Gin",
+    "descrizione": "Gin tropicale e moderno con cocco e pompelmo rosa, dal gusto esotico.",
+    "prezzo_mezzo": 4.5,
+    "prezzo_intero": 9,
+    "gradazione": "40%",
+    "provenienza": "Regno Unito"
+  },
+  {
+    "nome": "Amuerte",
+    "marchio": "Amuerte Coca Leaf Gin",
+    "descrizione": "Gin di lusso con foglie di coca peruviane e botaniche esotiche, iconico nel design.",
+    "prezzo_mezzo": 6,
+    "prezzo_intero": 12,
+    "gradazione": "43%",
+    "provenienza": "Belgio"
+  },
+  {
+    "nome": "J. Rose",
+    "marchio": "J.Rose Gin",
+    "descrizione": "Gin italiano con botaniche mediterranee e profilo agrumato intenso.",
+    "prezzo_mezzo": 6,
+    "prezzo_intero": 12,
+    "gradazione": "43%",
+    "provenienza": "Italia"
+  },
+  {
+    "nome": "Bombay Sapphire",
+    "marchio": "Bombay Sapphire",
+    "descrizione": "London Dry classico e bilanciato con 10 botaniche esotiche.",
+    "prezzo_mezzo": 4,
+    "prezzo_intero": 8,
+    "gradazione": "40%",
+    "provenienza": "Regno Unito"
+  },
+  {
+    "nome": "Malfy",
+    "marchio": "Malfy Gin Originale",
+    "descrizione": "Gin italiano fresco e agrumato, con scorze di limone della Costiera.",
+    "prezzo_mezzo": 4,
+    "prezzo_intero": 8,
+    "gradazione": "41%",
+    "provenienza": "Italia"
+  },
+  {
+    "nome": "Nordés",
+    "marchio": "Nordés Atlantic Gin",
+    "descrizione": "Gin galiziano fresco, con note di uva albariño e fiori bianchi.",
+    "prezzo_mezzo": 5,
+    "prezzo_intero": 10,
+    "gradazione": "40%",
+    "provenienza": "Spagna"
+  },
+  {
+    "nome": "Jinzu",
+    "marchio": "Jinzu Gin",
+    "descrizione": "Gin anglo-giapponese con sake e fiori di ciliegio, morbido e aromatico.",
+    "prezzo_mezzo": 5,
+    "prezzo_intero": 10,
+    "gradazione": "41.3%",
+    "provenienza": "Regno Unito"
+  },
+  {
+    "nome": "Dolce Vita",
+    "marchio": "Dolce Vita Gin",
+    "descrizione": "Gin italiano dal carattere agrumato e floreale, omaggio alla dolce vita mediterranea.",
+    "prezzo_mezzo": 5,
+    "prezzo_intero": 10,
+    "gradazione": "40%",
+    "provenienza": "Italia"
+  },
+  {
+    "nome": "Terra Madre",
+    "marchio": "Terra Madre Gin",
+    "descrizione": "Gin pugliese artigianale con botaniche locali e accenti erbacei.",
+    "prezzo_mezzo": 5,
+    "prezzo_intero": 10,
+    "gradazione": "42%",
+    "provenienza": "Italia"
+  },
+  {
+    "nome": "Bulldog",
+    "marchio": "Bulldog London Dry Gin",
+    "descrizione": "London Dry moderno con papavero, dragoncello e foglie di loto.",
+    "prezzo_mezzo": 4.5,
+    "prezzo_intero": 9,
+    "gradazione": "40%",
+    "provenienza": "Regno Unito"
+  },
+  {
+    "nome": "Hendrick’s",
+    "marchio": "Hendrick’s Gin",
+    "descrizione": "Distillato scozzese con infusione di cetriolo e petali di rosa.",
+    "prezzo_mezzo": 5,
+    "prezzo_intero": 10,
+    "gradazione": "41.4%",
+    "provenienza": "Scozia"
+  },
+  {
+    "nome": "Aqualuce",
+    "marchio": "Aqualuce Gin",
+    "descrizione": "Gin italiano artigianale, agrumato e floreale, distillato in piccoli lotti.",
+    "prezzo_mezzo": 5,
+    "prezzo_intero": 10,
+    "gradazione": "40%",
+    "provenienza": "Italia"
+  },
+  {
+    "nome": "Acque Verdi",
+    "marchio": "Acque Verdi Gin",
+    "descrizione": "Gin valdostano con acqua di ghiacciaio e botaniche alpine, fresco e balsamico.",
+    "prezzo_mezzo": 5,
+    "prezzo_intero": 10,
+    "gradazione": "43%",
+    "provenienza": "Italia"
+  },
+  {
+    "nome": "Tanqueray",
+    "marchio": "Tanqueray London Dry",
+    "descrizione": "Secco, nitido e classico: uno dei London Dry più iconici.",
+    "prezzo_mezzo": 4,
+    "prezzo_intero": 8,
+    "gradazione": "43.1%",
+    "provenienza": "Regno Unito"
+  },
+  {
+    "nome": "Old Tom",
+    "marchio": "Hayman’s Old Tom Gin",
+    "descrizione": "Versione dolce e rotonda del classico London Dry, ideale per Tom Collins.",
+    "prezzo_mezzo": 5,
+    "prezzo_intero": 10,
+    "gradazione": "41.4%",
+    "provenienza": "Regno Unito"
+  }
+]
   },
   "cocktail": {
     "classici": [
@@ -242,64 +441,70 @@
       }
     ]
   },
-  "vini": [
-    {
-      "nome": "Primitivo di Manduria DOC",
-      "descrizione": "Rosso intenso e avvolgente, con note di frutti rossi e spezie dolci.",
-      "prezzo_calice": 5,
-      "prezzo_bottiglia": 20,
-      "provenienza": "Puglia, Taranto"
-    },
-    {
-      "nome": "Negroamaro del Salento IGP",
-      "descrizione": "Rosso morbido e armonico, con sentori di amarena e liquirizia.",
-      "prezzo_calice": 5,
-      "prezzo_bottiglia": 18,
-      "provenienza": "Puglia, Lecce"
-    },
-    {
-      "nome": "Nero di Troia DOC",
-      "descrizione": "Corposo e speziato, con profumi di prugna e pepe nero.",
-      "prezzo_calice": 5,
-      "prezzo_bottiglia": 19,
-      "provenienza": "Puglia, Foggia"
-    },
-    {
-      "nome": "Salice Salentino Rosso DOC",
-      "descrizione": "Rosso elegante e vellutato, con note di frutta matura e vaniglia.",
-      "prezzo_calice": 5,
-      "prezzo_bottiglia": 20,
-      "provenienza": "Puglia, Lecce"
-    },
-    {
-      "nome": "Castel del Monte Aglianico DOC",
-      "descrizione": "Vino dal colore rubino intenso, tannico e persistente al palato.",
-      "prezzo_calice": 6,
-      "prezzo_bottiglia": 22,
-      "provenienza": "Puglia, Bari / Barletta-Andria-Trani"
-    },
-    {
-      "nome": "Locorotondo DOC",
-      "descrizione": "Bianco secco e fresco, con note floreali e agrumate.",
-      "prezzo_calice": 4.5,
-      "prezzo_bottiglia": 17,
-      "provenienza": "Puglia, Valle d’Itria"
-    },
-    {
-      "nome": "Fiano Minutolo IGP",
-      "descrizione": "Bianco aromatico e profumato, con accenti di pera e fiori bianchi.",
-      "prezzo_calice": 5,
-      "prezzo_bottiglia": 18,
-      "provenienza": "Puglia, Valle d’Itria"
-    },
-    {
-      "nome": "Rosato del Salento IGP",
-      "descrizione": "Rosato brillante e fruttato, ottenuto da uve Negroamaro.",
-      "prezzo_calice": 4.5,
-      "prezzo_bottiglia": 17,
-      "provenienza": "Puglia, Salento"
-    }
-  ],
+  "vini": {
+    "rossi": [
+      {
+        "nome": "Primitivo di Manduria DOC",
+        "descrizione": "Rosso intenso e avvolgente, con note di frutti rossi e spezie dolci.",
+        "prezzo_calice": 5,
+        "prezzo_bottiglia": 20,
+        "provenienza": "Puglia, Taranto"
+      },
+      {
+        "nome": "Negroamaro del Salento IGP",
+        "descrizione": "Rosso morbido e armonico, con sentori di amarena e liquirizia.",
+        "prezzo_calice": 5,
+        "prezzo_bottiglia": 18,
+        "provenienza": "Puglia, Lecce"
+      },
+      {
+        "nome": "Nero di Troia DOC",
+        "descrizione": "Corposo e speziato, con profumi di prugna e pepe nero.",
+        "prezzo_calice": 5,
+        "prezzo_bottiglia": 19,
+        "provenienza": "Puglia, Foggia"
+      },
+      {
+        "nome": "Salice Salentino Rosso DOC",
+        "descrizione": "Rosso elegante e vellutato, con note di frutta matura e vaniglia.",
+        "prezzo_calice": 5,
+        "prezzo_bottiglia": 20,
+        "provenienza": "Puglia, Lecce"
+      },
+      {
+        "nome": "Castel del Monte Aglianico DOC",
+        "descrizione": "Vino dal colore rubino intenso, tannico e persistente al palato.",
+        "prezzo_calice": 6,
+        "prezzo_bottiglia": 22,
+        "provenienza": "Puglia, Bari / Barletta-Andria-Trani"
+      }
+    ],
+    "bianchi": [
+      {
+        "nome": "Locorotondo DOC",
+        "descrizione": "Bianco secco e fresco, con note floreali e agrumate.",
+        "prezzo_calice": 4.5,
+        "prezzo_bottiglia": 17,
+        "provenienza": "Puglia, Valle d’Itria"
+      },
+      {
+        "nome": "Fiano Minutolo IGP",
+        "descrizione": "Bianco aromatico e profumato, con accenti di pera e fiori bianchi.",
+        "prezzo_calice": 5,
+        "prezzo_bottiglia": 18,
+        "provenienza": "Puglia, Valle d’Itria"
+      }
+    ],
+    "rosati": [
+      {
+        "nome": "Rosato del Salento IGP",
+        "descrizione": "Rosato brillante e fruttato, ottenuto da uve Negroamaro.",
+        "prezzo_calice": 4.5,
+        "prezzo_bottiglia": 17,
+        "provenienza": "Puglia, Salento"
+      }
+    ]
+  },
   "liquori": {
     "amari": [
       {
