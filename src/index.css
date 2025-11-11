@@ -152,6 +152,10 @@ h2.title {
   text-transform: none !important;
 }
 
+.MuiButton-root.menu-link-title:hover {
+  color: #111125!important;
+}
+
 
 h2.title-cta-menu {
   font-size: 65px;

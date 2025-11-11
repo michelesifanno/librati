@@ -249,6 +249,14 @@ export default function SinglePage() {
                             </Grid>
                         );
                     })}
+                    <Grid container spacing={2} sx={{ alignItems: 'center', pt: 5 }}>
+                        <Grid size={{ xs: 12 }}>
+                            <Typography variant='body1' sx={{ fontSize: '20px', color: colorData.text }}>
+                                <b>ALLERGIE/INTOLLERENZE</b><br />
+                                <span style={{ fontSize: '16px', lineHeight: '21px' }}>Se hai allergie o intolleranze alimentari, parlane con noi prima di ordinare: saremo felici di consigliarti la scelta più adatta per goderti il tuo drink o piatto in completa tranquillità.</span>
+                            </Typography>
+                        </Grid>
+                    </Grid>
                 </Container>
             </Box>
         </Box>
