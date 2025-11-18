@@ -1,739 +1,1664 @@
 {
   "birre": {
+    "spina": [
+      {
+        "nome": "Augustiner",
+        "marchio": "Augustiner Bräu",
+        "descrizione": "Lager bionda tedesca, equilibrata e beverina",
+        "prezzo_piccola": 3,
+        "prezzo_media": 5,
+        "gradazione": "5.2%",
+        "provenienza": "Germania",
+        "colore": "Bionda",
+        "stile": "Lager"
+      },
+      {
+        "nome": "Tennent’s Extra",
+        "marchio": "Tennent’s",
+        "descrizione": "Strong lager dal carattere intenso e maltato",
+        "prezzo_piccola": 4,
+        "prezzo_media": 6,
+        "gradazione": "9%",
+        "provenienza": "Scozia",
+        "colore": "Bionda",
+        "stile": "Strong Lager"
+      },
+      {
+        "nome": "Leffe Rossa",
+        "marchio": "Leffe",
+        "descrizione": "Belgian Ale ambrata, note caramellate e speziate",
+        "prezzo_piccola": 5,
+        "gradazione": "6.6%",
+        "provenienza": "Belgio",
+        "colore": "Ambrata",
+        "stile": "Belgian Ale"
+      }
+    ],
     "bottiglia": [
       {
         "nome": "Krombacher",
-        "marchio": "Krombacher Pils",
-        "descrizione": "Pilsner tedesca dorata, fresca e bilanciata con note di luppolo delicato.",
-        "prezzo": 2,
+        "marchio": "Krombacher",
+        "descrizione": "Pils tradizionale, fresca e pulita",
+        "prezzo_bottiglia": 2,
         "gradazione": "4.8%",
-        "provenienza": "Germania"
+        "provenienza": "Germania",
+        "colore": "Bionda",
+        "stile": "Pils"
       },
       {
         "nome": "Ceres Lager",
-        "marchio": "Ceres Strong Ale",
-        "descrizione": "Bionda danese dal corpo pieno, gusto deciso e finale maltato.",
-        "prezzo": 2.5,
-        "gradazione": "7.7%",
-        "provenienza": "Danimarca"
+        "marchio": "Ceres",
+        "descrizione": "Lager danese corposa e aromatica",
+        "prezzo_bottiglia": 2.5,
+        "gradazione": "4.6%",
+        "provenienza": "Danimarca",
+        "colore": "Bionda",
+        "stile": "Lager"
+      },
+      {
+        "nome": "Beck’s",
+        "marchio": "Beck’s",
+        "descrizione": "Lager chiara dal gusto secco e luppolato",
+        "prezzo_bottiglia": 2.5,
+        "gradazione": "5%",
+        "provenienza": "Germania",
+        "colore": "Bionda",
+        "stile": "Lager"
       },
       {
         "nome": "Stella Artois",
         "marchio": "Stella Artois",
-        "descrizione": "Lager belga chiara e rinfrescante, con un amaro fine ed elegante.",
-        "prezzo": 2.5,
+        "descrizione": "Lager premium dal gusto morbido e bilanciato",
+        "prezzo_bottiglia": 3,
         "gradazione": "5%",
-        "provenienza": "Belgio"
-      },
-      {
-        "nome": "Beck’s",
-        "marchio": "Beck’s Pils",
-        "descrizione": "Birra chiara tedesca dal sapore secco e luppolato.",
-        "prezzo": 2.5,
-        "gradazione": "5%",
-        "provenienza": "Germania"
-      },
-      {
-        "nome": "Tennent’s Extra",
-        "marchio": "Tennent’s Super",
-        "descrizione": "Strong lager scozzese, dal gusto intenso e maltato.",
-        "prezzo": 3.5,
-        "gradazione": "9%",
-        "provenienza": "Scozia"
+        "provenienza": "Belgio",
+        "colore": "Bionda",
+        "stile": "Lager"
       },
       {
         "nome": "Corona",
-        "marchio": "Corona Extra",
-        "descrizione": "Birra messicana leggera e dissetante, con note agrumate.",
-        "prezzo": 3,
+        "marchio": "Corona",
+        "descrizione": "Lager leggera con note fresche e agrumate",
+        "prezzo_bottiglia": 4,
         "gradazione": "4.5%",
-        "provenienza": "Messico"
-      }
-    ],
-        "spina": [
-      {
-        "nome": "Ichnusa Non Filtrata",
-        "descrizione": "Birra sarda non filtrata, dal corpo morbido e gusto lievemente amarognolo.",
-        "prezzo_piccola": 3.5,
-        "prezzo_grande": 5,
-        "gradazione": "5%",
-        "provenienza": "Italia"
+        "provenienza": "Messico",
+        "colore": "Bionda",
+        "stile": "Lager"
       },
       {
-        "nome": "Moretti La Rossa",
-        "descrizione": "Doppio malto dal colore ambrato, con note di caramello e tostatura.",
-        "prezzo_piccola": 3.5,
-        "prezzo_grande": 5,
-        "gradazione": "7.2%",
-        "provenienza": "Italia"
+        "nome": "Bjorne Beer Doppio Malto",
+        "marchio": "Bjorne",
+        "descrizione": "Doppio malto forte, gusto intenso e rotondo",
+        "prezzo_bottiglia": 4,
+        "gradazione": "8.3%",
+        "provenienza": "Danimarca",
+        "colore": "Ambrata",
+        "stile": "Doppio Malto"
       },
       {
-        "nome": "Heineken",
-        "descrizione": "Lager olandese dal gusto equilibrato e leggermente amaro.",
-        "prezzo_piccola": 3,
-        "prezzo_grande": 4.5,
-        "gradazione": "5%",
-        "provenienza": "Olanda"
+        "nome": "HB Weiss",
+        "marchio": "Hofbräu München",
+        "descrizione": "Weiss tradizionale con note di banana e chiodi di garofano",
+        "prezzo_bottiglia": 6,
+        "gradazione": "5.1%",
+        "provenienza": "Germania",
+        "colore": "Chiara",
+        "stile": "Weiss"
       },
       {
-        "nome": "Peroni Cruda",
-        "descrizione": "Birra italiana non pastorizzata, fresca e dal gusto naturale.",
-        "prezzo_piccola": 3.5,
-        "prezzo_grande": 5,
-        "gradazione": "4.7%",
-        "provenienza": "Italia"
+        "nome": "Igea Senza Glutine",
+        "marchio": "Igea",
+        "descrizione": "Lager gluten-free dal profilo leggero e pulito",
+        "prezzo_bottiglia": 5,
+        "gradazione": "5.3%",
+        "provenienza": "Italia",
+        "colore": "Bionda",
+        "stile": "Lager"
+      },
+      {
+        "nome": "TIPA",
+        "marchio": "Birrificio Artigianale",
+        "descrizione": "Session IPA artigianale, agrumata e luppolata",
+        "prezzo_bottiglia": 5,
+        "gradazione": "4.5%",
+        "provenienza": "Italia",
+        "colore": "Dorata",
+        "stile": "Session IPA"
       }
     ]
   },
   "distillati": {
     "gin": [
-  {
-    "nome": "Hoswell",
-    "marchio": "Hoswell",
-    "descrizione": "London Dry Gin equilibrato e secco, dal gusto classico.",
-    "prezzo_mezzo": 4,
-    "prezzo_intero": 8,
-    "gradazione": "40%",
-    "provenienza": "Regno Unito"
-  },
-  {
-    "nome": "Adamus",
-    "marchio": "Adamus Organic",
-    "descrizione": "Gin portoghese premium, floreale e delicato, con botaniche biologiche.",
-    "prezzo_mezzo": 6,
-    "prezzo_intero": 12,
-    "gradazione": "44.4%",
-    "provenienza": "Portogallo"
-  },
-  {
-    "nome": "Bobby's",
-    "marchio": "Bobby’s Schiedam Dry Gin",
-    "descrizione": "Gin speziato e aromatico, con note di lemongrass e chiodi di garofano.",
-    "prezzo_mezzo": 4,
-    "prezzo_intero": 8,
-    "gradazione": "42%",
-    "provenienza": "Olanda"
-  },
-  {
-    "nome": "Gin Arte",
-    "marchio": "Gin Arte",
-    "descrizione": "Gin italiano elegante e aromatico, ispirato al mondo dell’arte.",
-    "prezzo_mezzo": 5,
-    "prezzo_intero": 10,
-    "gradazione": "43%",
-    "provenienza": "Italia"
-  },
-  {
-    "nome": "Gin Mare",
-    "marchio": "Gin Mare",
-    "descrizione": "Gin mediterraneo con note di oliva, basilico e rosmarino.",
-    "prezzo_mezzo": 5,
-    "prezzo_intero": 10,
-    "gradazione": "42.7%",
-    "provenienza": "Spagna"
-  },
-  {
-    "nome": "Brooklyn",
-    "marchio": "Brooklyn Gin",
-    "descrizione": "Distillato artigianale americano con agrumi freschi e ginepro croccante.",
-    "prezzo_mezzo": 6,
-    "prezzo_intero": 12,
-    "gradazione": "40%",
-    "provenienza": "USA"
-  },
-  {
-    "nome": "Opihr",
-    "marchio": "Opihr Oriental Spiced Gin",
-    "descrizione": "Gin speziato con coriandolo, cardamomo e pepe nero dall’Oriente.",
-    "prezzo_mezzo": 6,
-    "prezzo_intero": 12,
-    "gradazione": "42.5%",
-    "provenienza": "Regno Unito"
-  },
-  {
-    "nome": "Apium",
-    "marchio": "Apium Gin",
-    "descrizione": "Gin italiano ispirato al sedano, fresco e vegetale, perfetto per twist moderni.",
-    "prezzo_mezzo": 4.5,
-    "prezzo_intero": 9,
-    "gradazione": "41%",
-    "provenienza": "Italia"
-  },
-  {
-    "nome": "N°3",
-    "marchio": "No.3 London Dry Gin",
-    "descrizione": "Gin pluripremiato con tre frutti e tre spezie, dal gusto nitido e bilanciato.",
-    "prezzo_mezzo": 4.5,
-    "prezzo_intero": 9,
-    "gradazione": "46%",
-    "provenienza": "Regno Unito"
-  },
-  {
-    "nome": "Glendalough",
-    "marchio": "Glendalough Wild Botanical Gin",
-    "descrizione": "Gin irlandese con botaniche selvatiche raccolte a mano, profumato e floreale.",
-    "prezzo_mezzo": 4.5,
-    "prezzo_intero": 9,
-    "gradazione": "41%",
-    "provenienza": "Irlanda"
-  },
-  {
-    "nome": "Five Continents",
-    "marchio": "Five Continents Gin",
-    "descrizione": "Gin tedesco biologico con 22 botaniche provenienti dai cinque continenti.",
-    "prezzo_mezzo": 6,
-    "prezzo_intero": 12,
-    "gradazione": "47%",
-    "provenienza": "Germania"
-  },
-  {
-    "nome": "Hoxton",
-    "marchio": "Hoxton Gin",
-    "descrizione": "Gin tropicale e moderno con cocco e pompelmo rosa, dal gusto esotico.",
-    "prezzo_mezzo": 4.5,
-    "prezzo_intero": 9,
-    "gradazione": "40%",
-    "provenienza": "Regno Unito"
-  },
-  {
-    "nome": "Amuerte",
-    "marchio": "Amuerte Coca Leaf Gin",
-    "descrizione": "Gin di lusso con foglie di coca peruviane e botaniche esotiche, iconico nel design.",
-    "prezzo_mezzo": 6,
-    "prezzo_intero": 12,
-    "gradazione": "43%",
-    "provenienza": "Belgio"
-  },
-  {
-    "nome": "J. Rose",
-    "marchio": "J.Rose Gin",
-    "descrizione": "Gin italiano con botaniche mediterranee e profilo agrumato intenso.",
-    "prezzo_mezzo": 6,
-    "prezzo_intero": 12,
-    "gradazione": "43%",
-    "provenienza": "Italia"
-  },
-  {
-    "nome": "Bombay Sapphire",
-    "marchio": "Bombay Sapphire",
-    "descrizione": "London Dry classico e bilanciato con 10 botaniche esotiche.",
-    "prezzo_mezzo": 4,
-    "prezzo_intero": 8,
-    "gradazione": "40%",
-    "provenienza": "Regno Unito"
-  },
-  {
-    "nome": "Malfy",
-    "marchio": "Malfy Gin Originale",
-    "descrizione": "Gin italiano fresco e agrumato, con scorze di limone della Costiera.",
-    "prezzo_mezzo": 4,
-    "prezzo_intero": 8,
-    "gradazione": "41%",
-    "provenienza": "Italia"
-  },
-  {
-    "nome": "Nordés",
-    "marchio": "Nordés Atlantic Gin",
-    "descrizione": "Gin galiziano fresco, con note di uva albariño e fiori bianchi.",
-    "prezzo_mezzo": 5,
-    "prezzo_intero": 10,
-    "gradazione": "40%",
-    "provenienza": "Spagna"
-  },
-  {
-    "nome": "Jinzu",
-    "marchio": "Jinzu Gin",
-    "descrizione": "Gin anglo-giapponese con sake e fiori di ciliegio, morbido e aromatico.",
-    "prezzo_mezzo": 5,
-    "prezzo_intero": 10,
-    "gradazione": "41.3%",
-    "provenienza": "Regno Unito"
-  },
-  {
-    "nome": "Dolce Vita",
-    "marchio": "Dolce Vita Gin",
-    "descrizione": "Gin italiano dal carattere agrumato e floreale, omaggio alla dolce vita mediterranea.",
-    "prezzo_mezzo": 5,
-    "prezzo_intero": 10,
-    "gradazione": "40%",
-    "provenienza": "Italia"
-  },
-  {
-    "nome": "Terra Madre",
-    "marchio": "Terra Madre Gin",
-    "descrizione": "Gin pugliese artigianale con botaniche locali e accenti erbacei.",
-    "prezzo_mezzo": 5,
-    "prezzo_intero": 10,
-    "gradazione": "42%",
-    "provenienza": "Italia"
-  },
-  {
-    "nome": "Bulldog",
-    "marchio": "Bulldog London Dry Gin",
-    "descrizione": "London Dry moderno con papavero, dragoncello e foglie di loto.",
-    "prezzo_mezzo": 4.5,
-    "prezzo_intero": 9,
-    "gradazione": "40%",
-    "provenienza": "Regno Unito"
-  },
-  {
-    "nome": "Hendrick’s",
-    "marchio": "Hendrick’s Gin",
-    "descrizione": "Distillato scozzese con infusione di cetriolo e petali di rosa.",
-    "prezzo_mezzo": 5,
-    "prezzo_intero": 10,
-    "gradazione": "41.4%",
-    "provenienza": "Scozia"
-  },
-  {
-    "nome": "Aqualuce",
-    "marchio": "Aqualuce Gin",
-    "descrizione": "Gin italiano artigianale, agrumato e floreale, distillato in piccoli lotti.",
-    "prezzo_mezzo": 5,
-    "prezzo_intero": 10,
-    "gradazione": "40%",
-    "provenienza": "Italia"
-  },
-  {
-    "nome": "Acque Verdi",
-    "marchio": "Acque Verdi Gin",
-    "descrizione": "Gin valdostano con acqua di ghiacciaio e botaniche alpine, fresco e balsamico.",
-    "prezzo_mezzo": 5,
-    "prezzo_intero": 10,
-    "gradazione": "43%",
-    "provenienza": "Italia"
-  },
-  {
-    "nome": "Tanqueray",
-    "marchio": "Tanqueray London Dry",
-    "descrizione": "Secco, nitido e classico: uno dei London Dry più iconici.",
-    "prezzo_mezzo": 4,
-    "prezzo_intero": 8,
-    "gradazione": "43.1%",
-    "provenienza": "Regno Unito"
-  },
-  {
-    "nome": "Old Tom",
-    "marchio": "Hayman’s Old Tom Gin",
-    "descrizione": "Versione dolce e rotonda del classico London Dry, ideale per Tom Collins.",
-    "prezzo_mezzo": 5,
-    "prezzo_intero": 10,
-    "gradazione": "41.4%",
-    "provenienza": "Regno Unito"
-  }
-]
+      {
+        "nome": "Hoswell",
+        "marchio": "Hoswell",
+        "descrizione": "London Dry Gin equilibrato e secco, dal gusto classico.",
+        "prezzo_mezzo": 4,
+        "prezzo_intero": 8,
+        "gradazione": "40%",
+        "provenienza": "Regno Unito"
+      },
+      {
+        "nome": "Adamus",
+        "marchio": "Adamus Organic",
+        "descrizione": "Gin portoghese premium, floreale e delicato, con botaniche biologiche.",
+        "prezzo_mezzo": 6,
+        "prezzo_intero": 12,
+        "gradazione": "44.4%",
+        "provenienza": "Portogallo"
+      },
+      {
+        "nome": "Bobby's",
+        "marchio": "Bobby’s Schiedam Dry Gin",
+        "descrizione": "Gin speziato e aromatico, con note di lemongrass e chiodi di garofano.",
+        "prezzo_mezzo": 4,
+        "prezzo_intero": 8,
+        "gradazione": "42%",
+        "provenienza": "Olanda"
+      },
+      {
+        "nome": "Gin Arte",
+        "marchio": "Gin Arte",
+        "descrizione": "Gin italiano elegante e aromatico, ispirato al mondo dell’arte.",
+        "prezzo_mezzo": 5,
+        "prezzo_intero": 10,
+        "gradazione": "43%",
+        "provenienza": "Italia"
+      },
+      {
+        "nome": "Gin Mare",
+        "marchio": "Gin Mare",
+        "descrizione": "Gin mediterraneo con note di oliva, basilico e rosmarino.",
+        "prezzo_mezzo": 5,
+        "prezzo_intero": 10,
+        "gradazione": "42.7%",
+        "provenienza": "Spagna"
+      },
+      {
+        "nome": "Brooklyn",
+        "marchio": "Brooklyn Gin",
+        "descrizione": "Distillato artigianale americano con agrumi freschi e ginepro croccante.",
+        "prezzo_mezzo": 6,
+        "prezzo_intero": 12,
+        "gradazione": "40%",
+        "provenienza": "USA"
+      },
+      {
+        "nome": "Opihr",
+        "marchio": "Opihr Oriental Spiced Gin",
+        "descrizione": "Gin speziato con coriandolo, cardamomo e pepe nero dall’Oriente.",
+        "prezzo_mezzo": 6,
+        "prezzo_intero": 12,
+        "gradazione": "42.5%",
+        "provenienza": "Regno Unito"
+      },
+      {
+        "nome": "Apium",
+        "marchio": "Apium Gin",
+        "descrizione": "Gin italiano ispirato al sedano, fresco e vegetale, perfetto per twist moderni.",
+        "prezzo_mezzo": 4.5,
+        "prezzo_intero": 9,
+        "gradazione": "41%",
+        "provenienza": "Italia"
+      },
+      {
+        "nome": "N°3",
+        "marchio": "No.3 London Dry Gin",
+        "descrizione": "Gin pluripremiato con tre frutti e tre spezie, dal gusto nitido e bilanciato.",
+        "prezzo_mezzo": 4.5,
+        "prezzo_intero": 9,
+        "gradazione": "46%",
+        "provenienza": "Regno Unito"
+      },
+      {
+        "nome": "Glendalough",
+        "marchio": "Glendalough Wild Botanical Gin",
+        "descrizione": "Gin irlandese con botaniche selvatiche raccolte a mano, profumato e floreale.",
+        "prezzo_mezzo": 4.5,
+        "prezzo_intero": 9,
+        "gradazione": "41%",
+        "provenienza": "Irlanda"
+      },
+      {
+        "nome": "Five Continents",
+        "marchio": "Five Continents Gin",
+        "descrizione": "Gin tedesco biologico con 22 botaniche provenienti dai cinque continenti.",
+        "prezzo_mezzo": 6,
+        "prezzo_intero": 12,
+        "gradazione": "47%",
+        "provenienza": "Germania"
+      },
+      {
+        "nome": "Hoxton",
+        "marchio": "Hoxton Gin",
+        "descrizione": "Gin tropicale e moderno con cocco e pompelmo rosa, dal gusto esotico.",
+        "prezzo_mezzo": 4.5,
+        "prezzo_intero": 9,
+        "gradazione": "40%",
+        "provenienza": "Regno Unito"
+      },
+      {
+        "nome": "Amuerte",
+        "marchio": "Amuerte Coca Leaf Gin",
+        "descrizione": "Gin di lusso con foglie di coca peruviane e botaniche esotiche, iconico nel design.",
+        "prezzo_mezzo": 6,
+        "prezzo_intero": 12,
+        "gradazione": "43%",
+        "provenienza": "Belgio"
+      },
+      {
+        "nome": "J. Rose",
+        "marchio": "J.Rose Gin",
+        "descrizione": "Gin italiano con botaniche mediterranee e profilo agrumato intenso.",
+        "prezzo_mezzo": 6,
+        "prezzo_intero": 12,
+        "gradazione": "43%",
+        "provenienza": "Italia"
+      },
+      {
+        "nome": "Bombay Sapphire",
+        "marchio": "Bombay Sapphire",
+        "descrizione": "London Dry classico e bilanciato con 10 botaniche esotiche.",
+        "prezzo_mezzo": 4,
+        "prezzo_intero": 8,
+        "gradazione": "40%",
+        "provenienza": "Regno Unito"
+      },
+      {
+        "nome": "Malfy",
+        "marchio": "Malfy Gin Originale",
+        "descrizione": "Gin italiano fresco e agrumato, con scorze di limone della Costiera.",
+        "prezzo_mezzo": 4,
+        "prezzo_intero": 8,
+        "gradazione": "41%",
+        "provenienza": "Italia"
+      },
+      {
+        "nome": "Nordés",
+        "marchio": "Nordés Atlantic Gin",
+        "descrizione": "Gin galiziano fresco, con note di uva albariño e fiori bianchi.",
+        "prezzo_mezzo": 5,
+        "prezzo_intero": 10,
+        "gradazione": "40%",
+        "provenienza": "Spagna"
+      },
+      {
+        "nome": "Jinzu",
+        "marchio": "Jinzu Gin",
+        "descrizione": "Gin anglo-giapponese con sake e fiori di ciliegio, morbido e aromatico.",
+        "prezzo_mezzo": 5,
+        "prezzo_intero": 10,
+        "gradazione": "41.3%",
+        "provenienza": "Regno Unito"
+      },
+      {
+        "nome": "Dolce Vita",
+        "marchio": "Dolce Vita Gin",
+        "descrizione": "Gin italiano dal carattere agrumato e floreale, omaggio alla dolce vita mediterranea.",
+        "prezzo_mezzo": 5,
+        "prezzo_intero": 10,
+        "gradazione": "40%",
+        "provenienza": "Italia"
+      },
+      {
+        "nome": "Terra Madre",
+        "marchio": "Terra Madre Gin",
+        "descrizione": "Gin pugliese artigianale con botaniche locali e accenti erbacei.",
+        "prezzo_mezzo": 5,
+        "prezzo_intero": 10,
+        "gradazione": "42%",
+        "provenienza": "Italia"
+      },
+      {
+        "nome": "Bulldog",
+        "marchio": "Bulldog London Dry Gin",
+        "descrizione": "London Dry moderno con papavero, dragoncello e foglie di loto.",
+        "prezzo_mezzo": 4.5,
+        "prezzo_intero": 9,
+        "gradazione": "40%",
+        "provenienza": "Regno Unito"
+      },
+      {
+        "nome": "Hendrick’s",
+        "marchio": "Hendrick’s Gin",
+        "descrizione": "Distillato scozzese con infusione di cetriolo e petali di rosa.",
+        "prezzo_mezzo": 5,
+        "prezzo_intero": 10,
+        "gradazione": "41.4%",
+        "provenienza": "Scozia"
+      },
+      {
+        "nome": "Aqualuce",
+        "marchio": "Aqualuce Gin",
+        "descrizione": "Gin italiano artigianale, agrumato e floreale, distillato in piccoli lotti.",
+        "prezzo_mezzo": 5,
+        "prezzo_intero": 10,
+        "gradazione": "40%",
+        "provenienza": "Italia"
+      },
+      {
+        "nome": "Acque Verdi",
+        "marchio": "Acque Verdi Gin",
+        "descrizione": "Gin valdostano con acqua di ghiacciaio e botaniche alpine, fresco e balsamico.",
+        "prezzo_mezzo": 5,
+        "prezzo_intero": 10,
+        "gradazione": "43%",
+        "provenienza": "Italia"
+      },
+      {
+        "nome": "Tanqueray",
+        "marchio": "Tanqueray London Dry",
+        "descrizione": "Secco, nitido e classico: uno dei London Dry più iconici.",
+        "prezzo_mezzo": 4,
+        "prezzo_intero": 8,
+        "gradazione": "43.1%",
+        "provenienza": "Regno Unito"
+      },
+      {
+        "nome": "Old Tom",
+        "marchio": "Hayman’s Old Tom Gin",
+        "descrizione": "Versione dolce e rotonda del classico London Dry, ideale per Tom Collins.",
+        "prezzo_mezzo": 5,
+        "prezzo_intero": 10,
+        "gradazione": "41.4%",
+        "provenienza": "Regno Unito"
+      }
+    ],
+    "whisky": [
+      {
+        "nome": "Talisker 10 anni",
+        "marchio": "Talisker",
+        "descrizione": "Scotch whisky single malt torbato e marino.",
+        "prezzo_mezzo": 5,
+        "prezzo_intero": 10,
+        "gradazione": "45.8%",
+        "provenienza": "Scozia (Isola di Skye)"
+      },
+      {
+        "nome": "Lagavulin 16 anni",
+        "marchio": "Lagavulin",
+        "descrizione": "Single malt torbato intenso e affumicato.",
+        "prezzo_mezzo": 8,
+        "prezzo_intero": 16,
+        "gradazione": "43%",
+        "provenienza": "Scozia (Islay)"
+      },
+      {
+        "nome": "Laphroaig 10 anni",
+        "marchio": "Laphroaig",
+        "descrizione": "Single malt torbato, note medicinali tipiche di Islay.",
+        "prezzo_mezzo": 5,
+        "prezzo_intero": 10,
+        "gradazione": "40%",
+        "provenienza": "Scozia (Islay)"
+      },
+      {
+        "nome": "Oban 14 anni",
+        "marchio": "Oban",
+        "descrizione": "Single malt bilanciato con note marine.",
+        "prezzo_mezzo": 8,
+        "prezzo_intero": 16,
+        "gradazione": "43%",
+        "provenienza": "Scozia (Highlands)"
+      },
+      {
+        "nome": "Caol Ila 12 anni",
+        "marchio": "Caol Ila",
+        "descrizione": "Single malt torbato elegante.",
+        "prezzo_mezzo": 9,
+        "prezzo_intero": 18,
+        "gradazione": "43%",
+        "provenienza": "Scozia (Islay)"
+      },
+      {
+        "nome": "The Macallan 12 anni",
+        "marchio": "Macallan",
+        "descrizione": "Single malt affinato in botti sherry.",
+        "prezzo_mezzo": 9,
+        "prezzo_intero": 18,
+        "gradazione": "40%",
+        "provenienza": "Scozia (Speyside)"
+      },
+      {
+        "nome": "Port Askaig 8 anni",
+        "marchio": "Port Askaig",
+        "descrizione": "Single malt torbato e marino.",
+        "prezzo_mezzo": 5,
+        "prezzo_intero": 10,
+        "gradazione": "45.8%",
+        "provenienza": "Scozia (Islay)"
+      },
+      {
+        "nome": "Johnnie Walker Black Label 12 anni",
+        "marchio": "Johnnie Walker",
+        "descrizione": "Blended Scotch whisky.",
+        "prezzo_mezzo": 4,
+        "prezzo_intero": 8,
+        "gradazione": "40%",
+        "provenienza": "Scozia"
+      },
+      {
+        "nome": "Wild Turkey Bourbon",
+        "marchio": "Wild Turkey",
+        "descrizione": "Kentucky straight bourbon.",
+        "prezzo_mezzo": 4,
+        "prezzo_intero": 8,
+        "gradazione": "40.5%",
+        "provenienza": "USA"
+      },
+      {
+        "nome": "Wild Turkey Rye",
+        "marchio": "Wild Turkey",
+        "descrizione": "American rye whiskey.",
+        "prezzo_mezzo": 4.5,
+        "prezzo_intero": 9,
+        "gradazione": "40.5%",
+        "provenienza": "USA"
+      },
+      {
+        "nome": "Bulleit Bourbon",
+        "marchio": "Bulleit",
+        "descrizione": "Kentucky bourbon ad alto contenuto di segale.",
+        "prezzo_mezzo": 4,
+        "prezzo_intero": 8,
+        "gradazione": "45%",
+        "provenienza": "USA"
+      },
+      {
+        "nome": "Bulleit Rye",
+        "marchio": "Bulleit",
+        "descrizione": "American rye whiskey speziato.",
+        "prezzo_mezzo": 4.5,
+        "prezzo_intero": 9,
+        "gradazione": "45%",
+        "provenienza": "USA"
+      },
+      {
+        "nome": "Jack Daniel's",
+        "marchio": "Jack Daniel's",
+        "descrizione": "Tennessee whiskey filtrato al carbone.",
+        "prezzo_mezzo": 3,
+        "prezzo_intero": 6,
+        "gradazione": "40%",
+        "provenienza": "USA"
+      },
+      {
+        "nome": "Jameson",
+        "marchio": "Jameson",
+        "descrizione": "Irish whiskey triple distilled.",
+        "prezzo_mezzo": 3,
+        "prezzo_intero": 6,
+        "gradazione": "40%",
+        "provenienza": "Irlanda"
+      },
+      {
+        "nome": "Jim Beam",
+        "marchio": "Jim Beam",
+        "descrizione": "Kentucky straight bourbon.",
+        "prezzo_mezzo": 2.5,
+        "prezzo_intero": 5,
+        "gradazione": "40%",
+        "provenienza": "USA"
+      },
+      {
+        "nome": "Jim Beam Rye",
+        "marchio": "Jim Beam",
+        "descrizione": "American rye whiskey.",
+        "prezzo_mezzo": 4,
+        "prezzo_intero": 8,
+        "gradazione": "40%",
+        "provenienza": "USA"
+      }
+    ],
+    "cognac": [
+      {
+        "nome": "Courvoisier VS",
+        "marchio": "Courvoisier",
+        "descrizione": "Cognac VS morbido e fragrante.",
+        "prezzo_mezzo": 3.5,
+        "prezzo_intero": 7,
+        "gradazione": "40%",
+        "provenienza": "Francia"
+      },
+      {
+        "nome": "Carlos I",
+        "marchio": "Osborne",
+        "descrizione": "Brandy Solera Gran Reserva.",
+        "prezzo_mezzo": 6,
+        "prezzo_intero": 12,
+        "gradazione": "40%",
+        "provenienza": "Spagna"
+      }
+    ],
+    "grappe": [
+      {
+        "nome": "Bottega Bianca",
+        "marchio": "Bottega",
+        "descrizione": "Grappa bianca tradizionale.",
+        "prezzo_mezzo": 2.5,
+        "prezzo_intero": 5,
+        "gradazione": "38%",
+        "provenienza": "Italia"
+      },
+      {
+        "nome": "Bottega Barricata",
+        "marchio": "Bottega",
+        "descrizione": "Grappa affinata in barrique.",
+        "prezzo_mezzo": 3,
+        "prezzo_intero": 6,
+        "gradazione": "40%",
+        "provenienza": "Italia"
+      },
+      {
+        "nome": "XO di Amarone",
+        "marchio": "Bottega",
+        "descrizione": "Grappa barricata da vinacce di Amarone.",
+        "prezzo_mezzo": 5,
+        "prezzo_intero": 10,
+        "gradazione": "40%",
+        "provenienza": "Italia"
+      },
+      {
+        "nome": "XO in botti di ciliegio",
+        "marchio": "Bottega",
+        "descrizione": "Grappa affinata in legno di ciliegio.",
+        "prezzo_mezzo": 6,
+        "prezzo_intero": 12,
+        "gradazione": "40%",
+        "provenienza": "Italia"
+      },
+      {
+        "nome": "EVO Barricata",
+        "marchio": "EVO",
+        "descrizione": "Grappa barricata dal profilo morbido.",
+        "prezzo_mezzo": 6,
+        "prezzo_intero": 12,
+        "gradazione": "40%",
+        "provenienza": "Italia"
+      },
+      {
+        "nome": "EVO Bianca",
+        "marchio": "EVO",
+        "descrizione": "Grappa bianca elegante.",
+        "prezzo_mezzo": 4,
+        "prezzo_intero": 8,
+        "gradazione": "40%",
+        "provenienza": "Italia"
+      }
+    ],
+    "rum": [
+      {
+        "nome": "Saint James",
+        "marchio": "Saint James",
+        "descrizione": "Rum agricolo della Martinica.",
+        "prezzo_mezzo": 3.5,
+        "prezzo_intero": 7,
+        "gradazione": "40%",
+        "provenienza": "Martinica"
+      },
+      {
+        "nome": "Clairin Communal",
+        "marchio": "Clairin",
+        "descrizione": "Rum agricolo artigianale haitiano.",
+        "prezzo_mezzo": 3.5,
+        "prezzo_intero": 7,
+        "gradazione": "43%",
+        "provenienza": "Haiti"
+      },
+      {
+        "nome": "Goslings Black Seal",
+        "marchio": "Goslings",
+        "descrizione": "Bermuda black rum.",
+        "prezzo_mezzo": 3,
+        "prezzo_intero": 6,
+        "gradazione": "40%",
+        "provenienza": "Bermuda"
+      },
+      {
+        "nome": "El Tarasco",
+        "marchio": "El Tarasco",
+        "descrizione": "Rum speziato piccante.",
+        "prezzo_mezzo": 3.5,
+        "prezzo_intero": 7,
+        "gradazione": "35%",
+        "provenienza": "Messico"
+      },
+      {
+        "nome": "Sailor Jerry",
+        "marchio": "Sailor Jerry",
+        "descrizione": "Spiced rum americano.",
+        "prezzo_mezzo": 3,
+        "prezzo_intero": 6,
+        "gradazione": "40%",
+        "provenienza": "USA"
+      },
+      {
+        "nome": "Legendario",
+        "marchio": "Legendario",
+        "descrizione": "Rum cubano morbido.",
+        "prezzo_mezzo": 3,
+        "prezzo_intero": 6,
+        "gradazione": "34%",
+        "provenienza": "Cuba"
+      },
+      {
+        "nome": "Brugal",
+        "marchio": "Brugal",
+        "descrizione": "Rum dominicano tradizionale.",
+        "prezzo_mezzo": 2.5,
+        "prezzo_intero": 5,
+        "gradazione": "38%",
+        "provenienza": "Repubblica Dominicana"
+      },
+      {
+        "nome": "Myers's Rum",
+        "marchio": "Myers's",
+        "descrizione": "Jamaica dark rum.",
+        "prezzo_mezzo": 3,
+        "prezzo_intero": 6,
+        "gradazione": "40%",
+        "provenienza": "Giamaica"
+      },
+      {
+        "nome": "Havana 7",
+        "marchio": "Havana Club",
+        "descrizione": "Rum cubano invecchiato 7 anni.",
+        "prezzo_mezzo": 3,
+        "prezzo_intero": 6,
+        "gradazione": "40%",
+        "provenienza": "Cuba"
+      },
+      {
+        "nome": "Copalli Rum Bianco",
+        "marchio": "Copalli",
+        "descrizione": "Rum bianco biologico.",
+        "prezzo_mezzo": 3.5,
+        "prezzo_intero": 7,
+        "gradazione": "42%",
+        "provenienza": "Belize"
+      },
+      {
+        "nome": "Diplomatico",
+        "marchio": "Diplomatico",
+        "descrizione": "Rum venezuelano ricco e morbido.",
+        "prezzo_mezzo": 4,
+        "prezzo_intero": 8,
+        "gradazione": "40%",
+        "provenienza": "Venezuela"
+      },
+      {
+        "nome": "Guadalupe Rum Bianco",
+        "marchio": "Guadalupe",
+        "descrizione": "Rum bianco agricolo.",
+        "prezzo_mezzo": 3.5,
+        "prezzo_intero": 7,
+        "gradazione": "50%",
+        "provenienza": "Guadalupe"
+      },
+      {
+        "nome": "Gran Añejo",
+        "marchio": "Barceló",
+        "descrizione": "Rum invecchiato dominicano.",
+        "prezzo_mezzo": 3,
+        "prezzo_intero": 6,
+        "gradazione": "37.5%",
+        "provenienza": "Repubblica Dominicana"
+      },
+      {
+        "nome": "Pampero Aniversario",
+        "marchio": "Pampero",
+        "descrizione": "Rum venezuelano storico.",
+        "prezzo_mezzo": 3,
+        "prezzo_intero": 6,
+        "gradazione": "40%",
+        "provenienza": "Venezuela"
+      },
+      {
+        "nome": "Kraken",
+        "marchio": "Kraken",
+        "descrizione": "Black spiced rum.",
+        "prezzo_mezzo": 3.5,
+        "prezzo_intero": 7,
+        "gradazione": "40%",
+        "provenienza": "USA"
+      },
+      {
+        "nome": "Captain Morgan",
+        "marchio": "Captain Morgan",
+        "descrizione": "Spiced rum leggero.",
+        "prezzo_mezzo": 2.5,
+        "prezzo_intero": 5,
+        "gradazione": "35%",
+        "provenienza": "Giamaica"
+      },
+      {
+        "nome": "El Profeta Caribe",
+        "marchio": "El Profeta",
+        "descrizione": "Rum caraibico aromatico.",
+        "prezzo_mezzo": 4,
+        "prezzo_intero": 8,
+        "gradazione": "40%",
+        "provenienza": "Caraibi"
+      },
+      {
+        "nome": "Don Papa Baroko",
+        "marchio": "Don Papa",
+        "descrizione": "Rum filippino dolce e profumato.",
+        "prezzo_mezzo": 4,
+        "prezzo_intero": 8,
+        "gradazione": "40%",
+        "provenienza": "Filippine"
+      },
+      {
+        "nome": "Vizcaya 21 anni",
+        "marchio": "Vizcaya",
+        "descrizione": "Rum premium in stile cubano.",
+        "prezzo_mezzo": 6,
+        "prezzo_intero": 12,
+        "gradazione": "40%",
+        "provenienza": "Repubblica Dominicana"
+      },
+      {
+        "nome": "El Dorado 12 anni",
+        "marchio": "El Dorado",
+        "descrizione": "Rum Demerara invecchiato.",
+        "prezzo_mezzo": 4,
+        "prezzo_intero": 8,
+        "gradazione": "40%",
+        "provenienza": "Guyana"
+      },
+      {
+        "nome": "Bonpland Rum",
+        "marchio": "Bonpland",
+        "descrizione": "Blend di rum agricoli caraibici.",
+        "prezzo_mezzo": 4,
+        "prezzo_intero": 8,
+        "gradazione": "40%",
+        "provenienza": "Caraibi"
+      }
+    ],
+    "liquori": [
+      {
+        "nome": "Absinthe Tunel Verde",
+        "marchio": "Tunel",
+        "descrizione": "Assenzio verde intenso.",
+        "prezzo_mezzo": 3,
+        "prezzo_intero": 6,
+        "gradazione": "70%",
+        "provenienza": "Spagna"
+      },
+      {
+        "nome": "Ancho Reyes",
+        "marchio": "Ancho Reyes",
+        "descrizione": "Liquore al peperoncino ancho.",
+        "prezzo_mezzo": 3,
+        "prezzo_intero": 6,
+        "gradazione": "40%",
+        "provenienza": "Messico"
+      },
+      {
+        "nome": "Ancho Reyes Verde",
+        "marchio": "Ancho Reyes",
+        "descrizione": "Liquore al peperone verde.",
+        "prezzo_mezzo": 3,
+        "prezzo_intero": 6,
+        "gradazione": "40%",
+        "provenienza": "Messico"
+      },
+      {
+        "nome": "Chartreuse Verte",
+        "marchio": "Chartreuse",
+        "descrizione": "Liquore erboristico dei monaci certosini.",
+        "prezzo_mezzo": 4,
+        "prezzo_intero": 8,
+        "gradazione": "55%",
+        "provenienza": "Francia"
+      }
+    ],
+    "tequila": [
+      {
+        "nome": "Espolòn Blanco",
+        "marchio": "Espolòn",
+        "descrizione": "Tequila 100% agave.",
+        "prezzo_mezzo": 3,
+        "prezzo_intero": 6,
+        "gradazione": "40%",
+        "provenienza": "Messico"
+      },
+      {
+        "nome": "Espolòn Reposado",
+        "marchio": "Espolòn",
+        "descrizione": "Tequila affinata in rovere.",
+        "prezzo_mezzo": 3.5,
+        "prezzo_intero": 7,
+        "gradazione": "40%",
+        "provenienza": "Messico"
+      },
+      {
+        "nome": "Mezcal",
+        "marchio": "Artigianale",
+        "descrizione": "Mezcal affumicato tradizionale.",
+        "prezzo_mezzo": 3.5,
+        "prezzo_intero": 7,
+        "gradazione": "40-45%",
+        "provenienza": "Oaxaca, Messico"
+      }
+    ]
   },
   "cocktail": {
+    "special": [
+      {
+        "nome": "Sabrina",
+        "marchio": "",
+        "descrizione": "Vodka liscia, Vodka alla pesca, Cointreau, succo di limone, zucchero liquido, succo d’arancia, Ginger Ale",
+        "prezzo_base": "8",
+        "prezzo_premium": "",
+        "gradazione_visuale": "●●●○○ (3/5)",
+        "provenienza": "Italia"
+      },
+      {
+        "nome": "Lamonica",
+        "marchio": "",
+        "descrizione": "Gin, Aperol, liquore al sambuco, succo di limone, zucchero liquido, tonica al pompelmo rosa",
+        "prezzo_base": "8",
+        "prezzo_premium": "",
+        "gradazione_visuale": "●●●○○ (3/5)",
+        "provenienza": "Italia"
+      },
+      {
+        "nome": "Madame Cherry",
+        "marchio": "",
+        "descrizione": "Liquore allo cherry, succo di ananas, limone, zucchero liquido, Ginger Ale",
+        "prezzo_base": "8",
+        "prezzo_premium": "",
+        "gradazione_visuale": "●●○○○ (2/5)",
+        "provenienza": "Italia"
+      },
+      {
+        "nome": "Il Teddy",
+        "marchio": "",
+        "descrizione": "Vodka liscia, succo d’arancia, succo di lime, zucchero liquido, succo di limone, Ginger Beer",
+        "prezzo_base": "8",
+        "prezzo_premium": "",
+        "gradazione_visuale": "●●●○○ (3/5)",
+        "provenienza": "Italia"
+      },
+      {
+        "nome": "Pablo",
+        "marchio": "",
+        "descrizione": "Coca Buton, succo di limone, zucchero liquido, Ginger Beer",
+        "prezzo_base": "8",
+        "prezzo_premium": "",
+        "gradazione_visuale": "●●●○○ (3/5)",
+        "provenienza": "Italia"
+      },
+      {
+        "nome": "Leilà",
+        "marchio": "",
+        "descrizione": "Liquore di salvia e limone agrumato, vodka, zucchero liquido, Ginger Beer",
+        "prezzo_base": "8",
+        "prezzo_premium": "",
+        "gradazione_visuale": "●●●○○ (3/5)",
+        "provenienza": "Italia"
+      },
+      {
+        "nome": "Siesta",
+        "marchio": "",
+        "descrizione": "Gin, succo di limone, zucchero liquido, Ginger Beer",
+        "prezzo_base": "8",
+        "prezzo_premium": "",
+        "gradazione_visuale": "●●●○○ (3/5)",
+        "provenienza": "Italia"
+      },
+      {
+        "nome": "Cleo",
+        "marchio": "",
+        "descrizione": "Rum bianco, succo di limone, zucchero liquido, Ginger Ale, sciroppo di litchis",
+        "prezzo_base": "8",
+        "prezzo_premium": "",
+        "gradazione_visuale": "●●○○○ (2/5)",
+        "provenienza": "Italia"
+      },
+      {
+        "nome": "Depravato",
+        "marchio": "",
+        "descrizione": "Rum bianco, rum scuro, succo di limone, zucchero liquido, Ginger Ale",
+        "prezzo_base": "8",
+        "prezzo_premium": "",
+        "gradazione_visuale": "●●●●○ (4/5)",
+        "provenienza": "Italia"
+      },
+      {
+        "nome": "Portugal",
+        "marchio": "",
+        "descrizione": "Vino porto, succo d’arancia, Cointreau, vino rosso",
+        "prezzo_base": "8",
+        "prezzo_premium": "",
+        "gradazione_visuale": "●●●○○ (3/5)",
+        "provenienza": "Portogallo"
+      }
+    ],
     "classici": [
       {
-        "nome": "Negroni",
-        "descrizione": "Gin, Vermouth rosso e Campari.",
-        "prezzo": 8,
-        "gradazione": "25%",
+        "nome": "Gin Tonic / Lemon",
+        "marchio": "",
+        "descrizione": "Gin + Tonica / Lemon Soda",
+        "prezzo_base": "7",
+        "prezzo_premium": "Da 8",
+        "gradazione_visuale": "●●●○○ (3/5)",
+        "provenienza": "Internazionale"
+      },
+      {
+        "nome": "Vodka Tonic / Lemon / RedBull",
+        "marchio": "",
+        "descrizione": "Vodka + Tonica / Lemon / RedBull",
+        "prezzo_base": "7",
+        "prezzo_premium": "Da 8",
+        "gradazione_visuale": "●●●○○ (3/5)",
+        "provenienza": "Internazionale"
+      },
+      {
+        "nome": "Spritz campari",
+        "marchio": "",
+        "descrizione": "Campari, Prosecco, Soda",
+        "prezzo_base": "7",
+        "prezzo_premium": "",
+        "gradazione_visuale": "●●●○○ (3/5)",
+        "provenienza": "Italia"
+      },
+      {
+        "nome": "Spritz aperol",
+        "marchio": "",
+        "descrizione": "Aperol, Prosecco, Soda",
+        "prezzo_base": "6",
+        "prezzo_premium": "",
+        "gradazione_visuale": "●●○○○ (2/5)",
+        "provenienza": "Italia"
+      },
+      {
+        "nome": "Spritz hugo",
+        "marchio": "",
+        "descrizione": "Sambuco, Prosecco, Soda, Menta",
+        "prezzo_base": "7",
+        "prezzo_premium": "",
+        "gradazione_visuale": "●○○○○ (1/5)",
+        "provenienza": "Italia"
+      },
+      {
+        "nome": "Negroni Classico / Sbagliato",
+        "marchio": "",
+        "descrizione": "Gin, Vermouth rosso, Bitter / Prosecco",
+        "prezzo_base": "7",
+        "prezzo_premium": "",
+        "gradazione_visuale": "●●●●● (5/5)",
         "provenienza": "Italia"
       },
       {
         "nome": "Americano",
-        "descrizione": "Vermouth rosso, bitter Campari e soda.",
-        "prezzo": 7,
-        "gradazione": "16%",
+        "marchio": "",
+        "descrizione": "Bitter, Vermouth rosso, Soda",
+        "prezzo_base": "7",
+        "prezzo_premium": "",
+        "gradazione_visuale": "●●●○○ (3/5)",
         "provenienza": "Italia"
       },
       {
-        "nome": "Mojito",
-        "descrizione": "Rum bianco, menta fresca, lime, zucchero di canna e soda.",
-        "prezzo": 8,
-        "gradazione": "14%",
-        "provenienza": "Cuba"
-      },
-      {
-        "nome": "Spritz Aperol",
-        "descrizione": "Prosecco, Aperol e soda.",
-        "prezzo": 6,
-        "gradazione": "11%",
+        "nome": "Americano ginger beer",
+        "marchio": "",
+        "descrizione": "Variante con Ginger Beer",
+        "prezzo_base": "7",
+        "prezzo_premium": "",
+        "gradazione_visuale": "●●●○○ (3/5)",
         "provenienza": "Italia"
-      },
-      {
-        "nome": "Gin Tonic",
-        "descrizione": "Gin e acqua tonica, servito con ghiaccio e scorza di lime.",
-        "prezzo": 8,
-        "gradazione": "20%",
-        "provenienza": "Regno Unito"
       },
       {
         "nome": "Margarita",
-        "descrizione": "Tequila, triple sec e succo di lime.",
-        "prezzo": 8,
-        "gradazione": "18%",
+        "marchio": "",
+        "descrizione": "Tequila, Triple Sec, lime",
+        "prezzo_base": "7",
+        "prezzo_premium": "",
+        "gradazione_visuale": "●●●●○ (4/5)",
         "provenienza": "Messico"
       },
       {
         "nome": "Daiquiri",
-        "descrizione": "Rum bianco, succo di lime fresco e zucchero.",
-        "prezzo": 8,
-        "gradazione": "18%",
+        "marchio": "",
+        "descrizione": "Rum bianco, lime, zucchero",
+        "prezzo_base": "7",
+        "prezzo_premium": "",
+        "gradazione_visuale": "●●●○○ (3/5)",
         "provenienza": "Cuba"
       },
       {
-        "nome": "Martini Dry",
-        "descrizione": "Gin e vermouth dry, servito con oliva o scorza di limone.",
-        "prezzo": 8,
-        "gradazione": "22%",
-        "provenienza": "USA"
+        "nome": "Martini dry",
+        "marchio": "",
+        "descrizione": "Gin, Vermouth Dry",
+        "prezzo_base": "8",
+        "prezzo_premium": "",
+        "gradazione_visuale": "●●●●● (5/5)",
+        "provenienza": "Usa"
       },
       {
-        "nome": "Caipirinha",
-        "descrizione": "Cachaça, lime fresco e zucchero di canna.",
-        "prezzo": 7,
-        "gradazione": "18%",
-        "provenienza": "Brasile"
+        "nome": "Long island",
+        "marchio": "",
+        "descrizione": "Vodka, Gin, Rum, Tequila, Triple Sec, lemon, Coca-Cola",
+        "prezzo_base": "8",
+        "prezzo_premium": "",
+        "gradazione_visuale": "●●●●● (5/5)",
+        "provenienza": "Usa"
       },
       {
-        "nome": "Long Island Iced Tea",
-        "descrizione": "Vodka, gin, rum, triple sec, tequila, succo di limone e cola.",
-        "prezzo": 10,
-        "gradazione": "25%",
-        "provenienza": "USA"
-      }
-    ],
-    "librati_style": [
-      {
-        "nome": "Librati Mule",
-        "descrizione": "Rivisitazione del Moscow Mule con zenzero fresco e lime.",
-        "prezzo": 9,
-        "gradazione": "15%",
-        "provenienza": "Italia"
+        "nome": "Manhattan",
+        "marchio": "",
+        "descrizione": "Whiskey, Vermouth rosso, Angostura",
+        "prezzo_base": "8",
+        "prezzo_premium": "",
+        "gradazione_visuale": "●●●●● (5/5)",
+        "provenienza": "Usa"
       },
       {
-        "nome": "Sunset Spritz",
-        "descrizione": "Aperitivo estivo con rosé, bitter e profumo d’arancia.",
-        "prezzo": 8,
-        "gradazione": "11%",
-        "provenienza": "Italia"
+        "nome": "Whisky sour",
+        "marchio": "",
+        "descrizione": "Whisky, limone, zucchero",
+        "prezzo_base": "Da 8",
+        "prezzo_premium": "",
+        "gradazione_visuale": "●●●○○ (3/5)",
+        "provenienza": "Usa"
       },
       {
-        "nome": "Teddy Sour",
-        "descrizione": "Twist del Whiskey Sour con liquore alle erbe e miele pugliese.",
-        "prezzo": 9,
-        "gradazione": "17%",
-        "provenienza": "Italia"
+        "nome": "Vodka sour",
+        "marchio": "",
+        "descrizione": "Vodka, limone, zucchero",
+        "prezzo_base": "8",
+        "prezzo_premium": "",
+        "gradazione_visuale": "●●●○○ (3/5)",
+        "provenienza": "Internazionale"
       },
       {
-        "nome": "Mediterraneo",
-        "descrizione": "Gin Mare, basilico fresco e acqua tonica mediterranea.",
-        "prezzo": 10,
-        "gradazione": "18%",
-        "provenienza": "Italia"
+        "nome": "Old fashioned",
+        "marchio": "",
+        "descrizione": "Bourbon/Rye, zucchero, Angostura",
+        "prezzo_base": "Da 8",
+        "prezzo_premium": "",
+        "gradazione_visuale": "●●●●● (5/5)",
+        "provenienza": "Usa"
       },
       {
-        "nome": "Librati Negroni",
-        "descrizione": "Versione della casa con bitter artigianale e scorza d’arancia essiccata.",
-        "prezzo": 9,
-        "gradazione": "25%",
-        "provenienza": "Italia"
+        "nome": "Cosmopolitan",
+        "marchio": "",
+        "descrizione": "Vodka, Cointreau, lime, cranberry",
+        "prezzo_base": "8",
+        "prezzo_premium": "",
+        "gradazione_visuale": "●●●○○ (3/5)",
+        "provenienza": "Usa"
       },
       {
-        "nome": "Pink Apulia",
-        "descrizione": "Gin pugliese, tonica ai fiori e tocco di melograno.",
-        "prezzo": 9,
-        "gradazione": "16%",
-        "provenienza": "Italia"
+        "nome": "Black russian",
+        "marchio": "",
+        "descrizione": "Vodka, liquore al caffè",
+        "prezzo_base": "7",
+        "prezzo_premium": "",
+        "gradazione_visuale": "●●●○○ (3/5)",
+        "provenienza": "Russia/usa"
+      },
+      {
+        "nome": "Mojito",
+        "marchio": "",
+        "descrizione": "Rum bianco, lime, zucchero, menta, soda",
+        "prezzo_base": "7",
+        "prezzo_premium": "",
+        "gradazione_visuale": "●●○○○ (2/5)",
+        "provenienza": "Cuba"
+      },
+      {
+        "nome": "Moscow / London mule",
+        "marchio": "",
+        "descrizione": "Vodka o Gin + lime + Ginger Beer",
+        "prezzo_base": "8",
+        "prezzo_premium": "",
+        "gradazione_visuale": "●●●○○ (3/5)",
+        "provenienza": "Internazionale"
+      },
+      {
+        "nome": "Mai tai",
+        "marchio": "",
+        "descrizione": "Rum, Triple Sec, lime, orzata",
+        "prezzo_base": "8",
+        "prezzo_premium": "",
+        "gradazione_visuale": "●●●○○ (3/5)",
+        "provenienza": "Polinesia"
+      },
+      {
+        "nome": "Tom collins",
+        "marchio": "",
+        "descrizione": "Gin, limone, zucchero, soda",
+        "prezzo_base": "8",
+        "prezzo_premium": "",
+        "gradazione_visuale": "●●●○○ (3/5)",
+        "provenienza": "Usa"
+      },
+      {
+        "nome": "Paloma",
+        "marchio": "",
+        "descrizione": "Tequila, lime, pompelmo",
+        "prezzo_base": "8",
+        "prezzo_premium": "",
+        "gradazione_visuale": "●●●○○ (3/5)",
+        "provenienza": "Messico"
+      },
+      {
+        "nome": "Screwdriver",
+        "marchio": "",
+        "descrizione": "Vodka + succo d’arancia",
+        "prezzo_base": "7",
+        "prezzo_premium": "",
+        "gradazione_visuale": "●●○○○ (2/5)",
+        "provenienza": "Usa"
       }
     ]
   },
   "vini": {
     "rossi": [
       {
-        "nome": "Primitivo di Manduria DOC",
-        "descrizione": "Rosso intenso e avvolgente, con note di frutti rossi e spezie dolci.",
-        "prezzo_calice": 5,
-        "prezzo_bottiglia": 20,
-        "provenienza": "Puglia, Taranto"
+        "nome": "Fanova",
+        "marchio": "Terre Carsiche 1939",
+        "descrizione": "Primitivo di Gioia del Colle",
+        "prezzo_calice": "",
+        "prezzo_bottiglia": "28",
+        "gradazione": "14.5%",
+        "provenienza": "Gioia del Colle (BA)"
       },
       {
-        "nome": "Negroamaro del Salento IGP",
-        "descrizione": "Rosso morbido e armonico, con sentori di amarena e liquirizia.",
-        "prezzo_calice": 5,
-        "prezzo_bottiglia": 18,
-        "provenienza": "Puglia, Lecce"
+        "nome": "Mo",
+        "marchio": "San Marzano",
+        "descrizione": "Primitivo di Manduria",
+        "prezzo_calice": "",
+        "prezzo_bottiglia": "28",
+        "gradazione": "14.5%",
+        "provenienza": "Manduria (TA)"
       },
       {
-        "nome": "Nero di Troia DOC",
-        "descrizione": "Corposo e speziato, con profumi di prugna e pepe nero.",
-        "prezzo_calice": 5,
-        "prezzo_bottiglia": 19,
-        "provenienza": "Puglia, Foggia"
+        "nome": "Collezione Cinquanta",
+        "marchio": "San Marzano",
+        "descrizione": "Blend rosso",
+        "prezzo_calice": "",
+        "prezzo_bottiglia": "35",
+        "gradazione": "14.5%",
+        "provenienza": "San Marzano di San Giuseppe (TA)"
       },
       {
-        "nome": "Salice Salentino Rosso DOC",
-        "descrizione": "Rosso elegante e vellutato, con note di frutta matura e vaniglia.",
-        "prezzo_calice": 5,
-        "prezzo_bottiglia": 20,
-        "provenienza": "Puglia, Lecce"
+        "nome": "Il Cavaliere",
+        "marchio": "Cantine Lizzano",
+        "descrizione": "Malvasia nera – rosso dolce",
+        "prezzo_calice": "",
+        "prezzo_bottiglia": "20",
+        "gradazione": "12.5%",
+        "provenienza": "Lizzano (TA)"
       },
       {
-        "nome": "Castel del Monte Aglianico DOC",
-        "descrizione": "Vino dal colore rubino intenso, tannico e persistente al palato.",
-        "prezzo_calice": 6,
-        "prezzo_bottiglia": 22,
-        "provenienza": "Puglia, Bari / Barletta-Andria-Trani"
+        "nome": "Primitivo di Manduria Dolce Naturale 2013",
+        "marchio": "Attanasio",
+        "descrizione": "Primitivo dolce naturale DOCG",
+        "prezzo_calice": "",
+        "prezzo_bottiglia": "",
+        "gradazione": "21%",
+        "provenienza": "Manduria (TA)"
+      },
+      {
+        "nome": "Bibeo 2021",
+        "marchio": "Tenuta Pere Rosse",
+        "descrizione": "Negroamaro Rosso",
+        "prezzo_calice": "",
+        "prezzo_bottiglia": "25",
+        "gradazione": "13%",
+        "provenienza": "Bitonto (BA)"
+      },
+      {
+        "nome": "Dott. Davide Fregonese 2016",
+        "marchio": "Davide Fregonese",
+        "descrizione": "Barolo DOCG",
+        "prezzo_calice": "",
+        "prezzo_bottiglia": "80",
+        "gradazione": "14%",
+        "provenienza": "Serralunga d'Alba (CN)"
       }
     ],
-    "bianchi": [
+    "rosati e prosecco": [
       {
-        "nome": "Locorotondo DOC",
-        "descrizione": "Bianco secco e fresco, con note floreali e agrumate.",
-        "prezzo_calice": 4.5,
-        "prezzo_bottiglia": 17,
-        "provenienza": "Puglia, Valle d’Itria"
+        "nome": "Rosett",
+        "marchio": "Cantine Sannella",
+        "descrizione": "Primitivo Rosé",
+        "prezzo_calice": "",
+        "prezzo_bottiglia": "25",
+        "gradazione": "12.5%",
+        "provenienza": "San Severo (FG)"
       },
       {
-        "nome": "Fiano Minutolo IGP",
-        "descrizione": "Bianco aromatico e profumato, con accenti di pera e fiori bianchi.",
-        "prezzo_calice": 5,
-        "prezzo_bottiglia": 18,
-        "provenienza": "Puglia, Valle d’Itria"
+        "nome": "Pelledoca",
+        "marchio": "Pelledoca",
+        "descrizione": "Prosecco DOC",
+        "prezzo_calice": "4",
+        "prezzo_bottiglia": "20",
+        "gradazione": "11%",
+        "provenienza": "Valdobbiadene (TV)"
       }
     ],
-    "rosati": [
+    "calici": [
       {
-        "nome": "Rosato del Salento IGP",
-        "descrizione": "Rosato brillante e fruttato, ottenuto da uve Negroamaro.",
-        "prezzo_calice": 4.5,
-        "prezzo_bottiglia": 17,
-        "provenienza": "Puglia, Salento"
+        "nome": "Calice rosso",
+        "marchio": "",
+        "descrizione": "Chiedi info allo staff",
+        "prezzo_calice": "7",
+        "prezzo_bottiglia": "",
+        "gradazione": "",
+        "provenienza": ""
+      },
+      {
+        "nome": "Calice rosato",
+        "marchio": "",
+        "descrizione": "Chiedi info allo staff",
+        "prezzo_calice": "5",
+        "prezzo_bottiglia": "",
+        "gradazione": "",
+        "provenienza": ""
+      },
+      {
+        "nome": "Calice bianco",
+        "marchio": "",
+        "descrizione": "Chiedi info allo staff",
+        "prezzo_calice": "4.5",
+        "prezzo_bottiglia": "",
+        "gradazione": "",
+        "provenienza": ""
       }
     ]
   },
   "liquori": {
     "amari": [
       {
-        "nome": "Amaro Lucano",
-        "marchio": "Lucano",
-        "descrizione": "Amaro alle erbe dal gusto bilanciato e aromatico.",
-        "prezzo_mezzo": 3,
-        "prezzo_intero": 5,
-        "gradazione": "28%",
-        "provenienza": "Basilicata, Italia"
-      },
-      {
-        "nome": "Amaro del Capo",
-        "marchio": "Vecchio Amaro del Capo",
-        "descrizione": "Amaro calabrese con note di agrumi ed erbe mediterranee.",
-        "prezzo_mezzo": 3,
-        "prezzo_intero": 5,
-        "gradazione": "35%",
-        "provenienza": "Calabria, Italia"
-      },
-      {
-        "nome": "Fernet Branca",
-        "marchio": "Fernet Branca",
-        "descrizione": "Amaro intenso con botaniche e spezie.",
-        "prezzo_mezzo": 3,
-        "prezzo_intero": 5,
-        "gradazione": "39%",
-        "provenienza": "Lombardia, Italia"
+        "nome": "Montenegro",
+        "marchio": "Amaro Montenegro",
+        "descrizione": "Amaro alle erbe aromatiche",
+        "prezzo_mezzo": "2.5",
+        "prezzo_intero": "3",
+        "gradazione": "23%",
+        "provenienza": "Bologna (Emilia-Romagna)"
       },
       {
         "nome": "Jägermeister",
         "marchio": "Jägermeister",
-        "descrizione": "Liquore alle erbe tedesco, deciso e aromatico.",
-        "prezzo_mezzo": 3,
-        "prezzo_intero": 5,
+        "descrizione": "Amaro alle 56 erbe",
+        "prezzo_mezzo": "2.5",
+        "prezzo_intero": "3",
         "gradazione": "35%",
-        "provenienza": "Germania"
+        "provenienza": "Wolfenbüttel (Germania)"
       },
       {
-        "nome": "Amaro Montenegro",
-        "marchio": "Montenegro",
-        "descrizione": "Storico amaro bolognese, delicato e profumato.",
-        "prezzo_mezzo": 3,
-        "prezzo_intero": 5,
-        "gradazione": "23%",
-        "provenienza": "Emilia-Romagna, Italia"
-      }
-    ],
-    "grappe": [
+        "nome": "Amaro del Capo",
+        "marchio": "Fratelli Caffo",
+        "descrizione": "Amaro calabrese alle erbe e agrumi",
+        "prezzo_mezzo": "2.5",
+        "prezzo_intero": "3",
+        "gradazione": "35%",
+        "provenienza": "Pizzo Calabro (Calabria)"
+      },
       {
-        "nome": "Grappa Bianca",
-        "marchio": "Distilleria Nardini",
-        "descrizione": "Grappa giovane dal profumo secco e deciso.",
-        "prezzo_mezzo": 3.5,
-        "prezzo_intero": 6,
+        "nome": "Radis",
+        "marchio": "Stock",
+        "descrizione": "Amaro alle erbe tradizionale",
+        "prezzo_mezzo": "2.5",
+        "prezzo_intero": "3",
+        "gradazione": "32%",
+        "provenienza": "Italia"
+      },
+      {
+        "nome": "Brancamenta",
+        "marchio": "Branca",
+        "descrizione": "Liquore alla menta e erbe alpine",
+        "prezzo_mezzo": "2.5",
+        "prezzo_intero": "3",
+        "gradazione": "28%",
+        "provenienza": "Milano (Lombardia)"
+      },
+      {
+        "nome": "Fernet Branca",
+        "marchio": "Fratelli Branca",
+        "descrizione": "Amaro storico alle erbe e spezie",
+        "prezzo_mezzo": "2.5",
+        "prezzo_intero": "3",
+        "gradazione": "39%",
+        "provenienza": "Milano (Lombardia)"
+      },
+      {
+        "nome": "Unicum",
+        "marchio": "Zwack",
+        "descrizione": "Amaro ungherese alle erbe officinali",
+        "prezzo_mezzo": "2.5",
+        "prezzo_intero": "3",
         "gradazione": "40%",
-        "provenienza": "Veneto, Italia"
+        "provenienza": "Budapest (Ungheria)"
       },
       {
-        "nome": "Grappa Barrique",
-        "marchio": "Berta Elisi",
-        "descrizione": "Grappa affinata in legno con note di vaniglia e miele.",
-        "prezzo_mezzo": 4,
-        "prezzo_intero": 7,
+        "nome": "San Simone",
+        "marchio": "",
+        "descrizione": "Amaro piemontese alle erbe alpine",
+        "prezzo_mezzo": "2.5",
+        "prezzo_intero": "3",
+        "gradazione": "",
+        "provenienza": "Piemonte"
+      },
+      {
+        "nome": "San Felice",
+        "marchio": "",
+        "descrizione": "Amaro artigianale del Piemonte",
+        "prezzo_mezzo": "2.5",
+        "prezzo_intero": "3",
+        "gradazione": "",
+        "provenienza": "Piemonte"
+      },
+      {
+        "nome": "Padre Peppe",
+        "marchio": "",
+        "descrizione": "Elisir di noci verdi tipico pugliese",
+        "prezzo_mezzo": "2.5",
+        "prezzo_intero": "3",
         "gradazione": "42%",
-        "provenienza": "Piemonte, Italia"
+        "provenienza": "Altamura (Puglia)"
       },
       {
-        "nome": "Grappa di Primitivo",
-        "marchio": "Artigianale Pugliese",
-        "descrizione": "Distillato ottenuto da vinacce di Primitivo, morbido e profumato.",
-        "prezzo_mezzo": 3.5,
-        "prezzo_intero": 6,
+        "nome": "Braulio",
+        "marchio": "",
+        "descrizione": "Amaro alle erbe alpine della Valtellina",
+        "prezzo_mezzo": "2.5",
+        "prezzo_intero": "3",
+        "gradazione": "21%",
+        "provenienza": "Bormio (Lombardia)"
+      },
+      {
+        "nome": "Averna",
+        "marchio": "Averna",
+        "descrizione": "Amaro siciliano dolce-amaro",
+        "prezzo_mezzo": "2.5",
+        "prezzo_intero": "3",
+        "gradazione": "29%",
+        "provenienza": "Caltanissetta (Sicilia)"
+      },
+      {
+        "nome": "Amaro di Rucola",
+        "marchio": "",
+        "descrizione": "Amaro artigianale alla rucola",
+        "prezzo_mezzo": "2.5",
+        "prezzo_intero": "3",
+        "gradazione": "",
+        "provenienza": "Italia"
+      },
+      {
+        "nome": "Amaro Locale",
+        "marchio": "",
+        "descrizione": "Amaro artigianale della casa",
+        "prezzo_mezzo": "2.5",
+        "prezzo_intero": "3",
+        "gradazione": "",
+        "provenienza": "Italia"
+      },
+      {
+        "nome": "Amara",
+        "marchio": "Amara",
+        "descrizione": "Amaro all'arancia rossa di Sicilia",
+        "prezzo_mezzo": "2.5",
+        "prezzo_intero": "3",
+        "gradazione": "30%",
+        "provenienza": "Etna (Sicilia)"
+      },
+      {
+        "nome": "Amaro 33",
+        "marchio": "",
+        "descrizione": "Amaro a base 33 erbe",
+        "prezzo_mezzo": "2.5",
+        "prezzo_intero": "3",
+        "gradazione": "",
+        "provenienza": "Italia"
+      }
+    ],
+    "liquori": [
+      {
+        "nome": "Limoncello",
+        "marchio": "",
+        "descrizione": "Liquore al limone della tradizione campana",
+        "prezzo_mezzo": "2.5",
+        "prezzo_intero": "3",
+        "gradazione": "28-32%",
+        "provenienza": "Costiera Amalfitana"
+      },
+      {
+        "nome": "Southern Comfort",
+        "marchio": "Southern Comfort",
+        "descrizione": "Whisky aromatizzato con frutta e spezie",
+        "prezzo_mezzo": "2.5",
+        "prezzo_intero": "3",
+        "gradazione": "35%",
+        "provenienza": "USA"
+      },
+      {
+        "nome": "Jack Daniels Honey",
+        "marchio": "Jack Daniels",
+        "descrizione": "Tennessee whiskey al miele",
+        "prezzo_mezzo": "3",
+        "prezzo_intero": "6",
+        "gradazione": "35%",
+        "provenienza": "Tennessee (USA)"
+      },
+      {
+        "nome": "Licor 43",
+        "marchio": "Licor 43",
+        "descrizione": "Liquore dolce alla vaniglia e agrumi",
+        "prezzo_mezzo": "2.5",
+        "prezzo_intero": "3",
+        "gradazione": "31%",
+        "provenienza": "Cartagena (Spagna)"
+      },
+      {
+        "nome": "Frangelico",
+        "marchio": "Frangelico",
+        "descrizione": "Liquore alla nocciola del Piemonte",
+        "prezzo_mezzo": "2.5",
+        "prezzo_intero": "3",
+        "gradazione": "20%",
+        "provenienza": "Canale (Piemonte)"
+      },
+      {
+        "nome": "Fireball",
+        "marchio": "Fireball",
+        "descrizione": "Whisky alla cannella",
+        "prezzo_mezzo": "2.5",
+        "prezzo_intero": "3",
+        "gradazione": "33%",
+        "provenienza": "Canada"
+      },
+      {
+        "nome": "Sambuca Molinari",
+        "marchio": "Molinari",
+        "descrizione": "Sambuca extra all'anice stellato",
+        "prezzo_mezzo": "2.5",
+        "prezzo_intero": "3",
+        "gradazione": "42%",
+        "provenienza": "Roma (Lazio)"
+      },
+      {
+        "nome": "Finocchietto Filippo D'Attolico",
+        "marchio": "Filippo D’Attolico",
+        "descrizione": "Liquore artigianale al finocchietto selvatico",
+        "prezzo_mezzo": "2.5",
+        "prezzo_intero": "3",
+        "gradazione": "",
+        "provenienza": "Puglia"
+      },
+      {
+        "nome": "Liquorice",
+        "marchio": "",
+        "descrizione": "Liquore alla liquirizia",
+        "prezzo_mezzo": "2.5",
+        "prezzo_intero": "3",
+        "gradazione": "",
+        "provenienza": "Italia"
+      },
+      {
+        "nome": "Cointreau",
+        "marchio": "Cointreau",
+        "descrizione": "Triple sec all'arancia",
+        "prezzo_mezzo": "3",
+        "prezzo_intero": "6",
         "gradazione": "40%",
-        "provenienza": "Puglia, Italia"
+        "provenienza": "Angers (Francia)"
       },
       {
-        "nome": "Grappa di Amarone",
-        "marchio": "Marzadro",
-        "descrizione": "Grappa elegante e strutturata con aromi di frutta rossa e legno.",
-        "prezzo_mezzo": 4,
-        "prezzo_intero": 7,
-        "gradazione": "41%",
-        "provenienza": "Trentino, Italia"
+        "nome": "Heering",
+        "marchio": "Cherry Heering",
+        "descrizione": "Storico liquore danese alla ciliegia",
+        "prezzo_mezzo": "3",
+        "prezzo_intero": "6",
+        "gradazione": "24%",
+        "provenienza": "Copenhagen (Danimarca)"
+      },
+      {
+        "nome": "Kahlúa",
+        "marchio": "Kahlúa",
+        "descrizione": "Liquore al caffè con note di vaniglia",
+        "prezzo_mezzo": "2.5",
+        "prezzo_intero": "5",
+        "gradazione": "20%",
+        "provenienza": "Veracruz (Messico)"
+      },
+      {
+        "nome": "Disaronno",
+        "marchio": "Disaronno",
+        "descrizione": "Liquore alle mandorle e aromi naturali",
+        "prezzo_mezzo": "2.5",
+        "prezzo_intero": "5",
+        "gradazione": "28%",
+        "provenienza": "Saronno (Lombardia)"
       }
     ]
   },
-  "analcolici": {
-    "bibite": [
-      {
-        "nome": "Coca-Cola",
-        "descrizione": "Bevanda analcolica gassata al gusto di cola.",
-        "prezzo": 3,
-        "provenienza": "USA"
-      },
-      {
-        "nome": "Coca-Cola Zero",
-        "descrizione": "Versione senza zuccheri della classica cola.",
-        "prezzo": 3,
-        "provenienza": "USA"
-      },
-      {
-        "nome": "Fanta",
-        "descrizione": "Bevanda gassata all’arancia, dolce e fruttata.",
-        "prezzo": 3,
-        "provenienza": "Italia"
-      },
-      {
-        "nome": "Sprite",
-        "descrizione": "Bibita al limone e lime, fresca e dissetante.",
-        "prezzo": 3,
-        "provenienza": "Italia"
-      },
-      {
-        "nome": "Tè Freddo Pesca",
-        "descrizione": "Tè freddo al gusto pesca, servito con ghiaccio.",
-        "prezzo": 3,
-        "provenienza": "Italia"
-      },
-      {
-        "nome": "Tè Freddo Limone",
-        "descrizione": "Tè freddo al limone, dal gusto leggermente agrumato.",
-        "prezzo": 3,
-        "provenienza": "Italia"
-      },
-      {
-        "nome": "Schweppes Tonica",
-        "descrizione": "Acqua tonica con chinino, perfetta anche per cocktail.",
-        "prezzo": 3,
-        "provenienza": "Italia"
-      },
-      {
-        "nome": "Red Bull",
-        "descrizione": "Bevanda energetica frizzante.",
-        "prezzo": 4,
-        "provenienza": "Austria"
-      }
-    ],
-    "analcolici_miscelati": [
-      {
-        "nome": "Virgin Mojito",
-        "descrizione": "Versione analcolica del Mojito con lime, menta e soda.",
-        "prezzo": 5,
-        "provenienza": "Cuba"
-      },
-      {
-        "nome": "Fruit Punch",
-        "descrizione": "Mix di succhi tropicali con arancia, ananas e grenadine.",
-        "prezzo": 5,
-        "provenienza": "Caraibi"
-      },
-      {
-        "nome": "Librati Detox",
-        "descrizione": "Centrifugato di zenzero, mela verde e limone.",
-        "prezzo": 5,
-        "provenienza": "Italia"
-      },
-      {
-        "nome": "Virgin Spritz",
-        "descrizione": "Aperitivo analcolico con soda e bitter analcolico.",
-        "prezzo": 5,
-        "provenienza": "Italia"
-      }
-    ],
-    "acque": [
-      {
-        "nome": "Acqua Naturale",
-        "descrizione": "Acqua minerale naturale da 50cl.",
-        "prezzo": 1.5,
-        "provenienza": "Italia"
-      },
-      {
-        "nome": "Acqua Frizzante",
-        "descrizione": "Acqua minerale frizzante da 50cl.",
-        "prezzo": 1.5,
-        "provenienza": "Italia"
-      }
-    ]
-  },
+  "analcolici": [
+    {
+      "nome": "Cocktail analcolico Teddy Stile",
+      "marchio": "",
+      "descrizione": "Richiedi a Teddy: drink creato al momento",
+      "prezzo": "5"
+    },
+    {
+      "nome": "Succo di frutta",
+      "marchio": "",
+      "descrizione": "Succo 100% frutta",
+      "prezzo": "4"
+    },
+    {
+      "nome": "Cedrata",
+      "marchio": "",
+      "descrizione": "Bibita analcolica al cedro",
+      "prezzo": "3"
+    },
+    {
+      "nome": "Acqua tonica",
+      "marchio": "",
+      "descrizione": "Soft drink al chinino",
+      "prezzo": "3"
+    },
+    {
+      "nome": "Ginger ale",
+      "marchio": "",
+      "descrizione": "Soft drink allo zenzero",
+      "prezzo": "3"
+    },
+    {
+      "nome": "Ginger beer",
+      "marchio": "",
+      "descrizione": "Bibita allo zenzero più intensa",
+      "prezzo": "3"
+    },
+    {
+      "nome": "Soda",
+      "marchio": "",
+      "descrizione": "Bibita gassata neutra",
+      "prezzo": "3"
+    },
+    {
+      "nome": "Coca Cola / Zero",
+      "marchio": "",
+      "descrizione": "Cola originale",
+      "prezzo": "3"
+    },
+    {
+      "nome": "Tonica al pompelmo rosa",
+      "marchio": "",
+      "descrizione": "Tonica aromatizzata al pompelmo",
+      "prezzo": "3"
+    },
+    {
+      "nome": "Schweppes Lemon",
+      "marchio": "",
+      "descrizione": "Soda al limone",
+      "prezzo": "3"
+    },
+    {
+      "nome": "Estathé Limone / Pesca",
+      "marchio": "",
+      "descrizione": "Tè freddo alla pesca",
+      "prezzo": "3"
+    },
+    {
+      "nome": "Acqua",
+      "marchio": "",
+      "descrizione": "Naturale o frizzante",
+      "prezzo": "1"
+    }
+  ],
   "snacks": [
     {
-      "nome": "Olive Miste",
-      "descrizione": "Selezione di olive verdi e nere condite con olio e spezie.",
-      "prezzo": 3
+      "nome": "Olive",
+      "descrizione": "Olive miste da aperitivo",
+      "prezzo": "2.5"
     },
     {
-      "nome": "Taralli Pugliesi",
-      "descrizione": "Taralli artigianali all’olio extravergine d’oliva.",
-      "prezzo": 3
+      "nome": "Conetti di mais",
+      "descrizione": "Snack croccante di mais",
+      "prezzo": "2.5"
     },
     {
-      "nome": "Arachidi Tostate",
-      "descrizione": "Arachidi salate, classico accompagnamento da aperitivo.",
-      "prezzo": 3
+      "nome": "Anacardi",
+      "descrizione": "Anacardi tostati e salati",
+      "prezzo": "3"
     },
     {
-      "nome": "Anacardi Salati",
-      "descrizione": "Anacardi croccanti tostati e leggermente salati.",
-      "prezzo": 3.5
+      "nome": "Salatini misti",
+      "descrizione": "Mix di salatini da aperitivo",
+      "prezzo": "2.5"
     },
     {
-      "nome": "Mix Rais & Nuts",
-      "descrizione": "Uvetta e frutta secca mista, dolce e saporita.",
-      "prezzo": 3.5
+      "nome": "Taralli al pepe",
+      "descrizione": "Taralli artigianali al pepe",
+      "prezzo": "2.5"
     },
     {
       "nome": "Patatine",
-      "descrizione": "Chips croccanti al sale marino.",
-      "prezzo": 3
+      "descrizione": "Chips classiche confezionate",
+      "prezzo": "2.5"
     },
     {
-      "nome": "Paninetto Classico",
-      "descrizione": "Mini panino con prosciutto crudo e scaglie di grana.",
-      "prezzo": 4.5
+      "nome": "Mais tostato",
+      "descrizione": "Chicchi di mais croccanti",
+      "prezzo": "2.5"
     },
     {
-      "nome": "Paninetto Vegetariano",
-      "descrizione": "Mini panino con pomodoro secco, rucola e mozzarella.",
-      "prezzo": 4.5
+      "nome": "Arachidi salate",
+      "descrizione": "Arachidi tostate e salate",
+      "prezzo": "2.5"
     },
     {
-      "nome": "Paninetto Librati",
-      "descrizione": "Mini panino con salame, provola e salsa delicata della casa.",
-      "prezzo": 5
-    },
-    {
-      "nome": "Toast Cotto e Fontina",
-      "descrizione": "Toast dorato con prosciutto cotto e fontina filante.",
-      "prezzo": 5
+      "nome": "Altre proposte",
+      "descrizione": "Chiedi allo staff le proposte del giorno",
+      "prezzo": ""
     }
   ]
 }

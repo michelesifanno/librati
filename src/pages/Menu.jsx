@@ -42,7 +42,7 @@ export default function Menu() {
                 <ListItem key={`${cat}-${i}`} sx={{ justifyContent: "center" }}>
                   <Button
                     component={Link}
-                    to={`/menu/${cat}`}
+                    to={`/drinklist/${cat}`}
                     variant="outlined"
                     size="large"
                     className="menu-item"

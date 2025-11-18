@@ -17,7 +17,7 @@ export const router = createBrowserRouter([
         ],
     },
     {
-        path: "/menu",
+        path: "/drinklist",
         element: <MenuRoot />,
         children: [
             {

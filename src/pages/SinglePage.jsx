@@ -31,11 +31,11 @@ export default function SinglePage() {
     const colorData = categoryColors[category.toLowerCase()] || { base: "#ccc", text: "#000" };
     const formattedCategory = category.charAt(0).toUpperCase() + category.slice(1);
 
-    const handleTabChange = (event, newValue) =>
-        setTabIndex(newValue)
-      window.scrollTo({ top: 0, behavior: "smooth" });
-;
-    
+    const handleTabChange = (event, newValue) => {
+        setTabIndex(newValue);
+        window.scrollTo({ top: 0, behavior: "smooth" });
+    };
+
 
     const hasSubCategories = !Array.isArray(menuDataByCategory);
     const subCategories = hasSubCategories ? Object.keys(menuDataByCategory) : [];
@@ -69,6 +69,7 @@ export default function SinglePage() {
                         <Tabs
                             value={tabIndex}
                             onChange={handleTabChange}
+                            variant="scrollable"
                             sx={{
                                 mb: 2,
                                 position: 'sticky',
@@ -82,6 +83,7 @@ export default function SinglePage() {
                             {subCategories.map((sub) => (
                                 <Tab
                                     key={sub}
+
                                     label={sub.charAt(0).toUpperCase() + sub.slice(1)}
                                     sx={{
                                         border: '2px solid',
@@ -151,7 +153,7 @@ export default function SinglePage() {
                                         {item.nome}
                                     </Typography>
 
-                                    {(item.gradazione || item.marchio || item.provenienza) && (
+                                    {(item.gradazione || item.gradazione_visuale || item.marchio || item.provenienza) && (
                                         <Box
                                             sx={{
                                                 display: "inline-flex",
@@ -166,7 +168,17 @@ export default function SinglePage() {
                                                     component="span"
                                                     sx={{ fontSize: '20px', color: colorData.text }}
                                                 >
-                                                    <b>{item.gradazione}</b> -
+                                                    <b>{item.gradazione}</b>
+                                                </Typography>
+                                            )}
+
+                                            {item.gradazione_visuale && (
+                                                <Typography
+                                                    variant="body1"
+                                                    component="span"
+                                                    sx={{ color: colorData.text }}
+                                                >
+                                                    Gradazione: <b>{item.gradazione_visuale}</b>
                                                 </Typography>
                                             )}
                                             {/* {item.marchio && (
@@ -184,9 +196,30 @@ export default function SinglePage() {
                                                     component="span"
                                                     sx={{ color: colorData.text }}
                                                 >
-                                                    {item.provenienza}
+                                                    • {item.provenienza}
                                                 </Typography>
                                             )}
+
+                                            {item.colore && (
+                                                <Typography
+                                                    variant="body1"
+                                                    component="span"
+                                                    sx={{ color: colorData.text }}
+                                                >
+                                                    • {item.colore}
+                                                </Typography>
+                                            )}
+
+                                            {item.stile && (
+                                                <Typography
+                                                    variant="body1"
+                                                    component="span"
+                                                    sx={{ color: colorData.text }}
+                                                >
+                                                    • {item.stile}
+                                                </Typography>
+                                            )}
+
                                         </Box>
                                     )}
 
@@ -249,6 +282,20 @@ export default function SinglePage() {
                                             <span style={{ fontSize: '17px' }}>€ bottiglia</span>
                                         </Typography>
                                     )}
+                                    {item.prezzo_base && (
+                                        <Typography variant="h2" className="price-single-page" sx={{ textAlign: isMobile ? 'left' : 'right', color: colorData.text }}>
+                                            <b>{item.prezzo_base}</b>
+                                            <span style={{ fontSize: '17px' }}>€</span>
+                                        </Typography>
+                                    )}
+
+                                    {item.prezzo_premium && (
+                                        <Typography variant="h2" className="price-single-page" sx={{ textAlign: isMobile ? 'left' : 'right', color: colorData.text }}>
+                                            <b> {item.prezzo_premium}</b>
+                                            <span style={{ fontSize: '17px' }}>€ PREMIUM</span>
+                                        </Typography>
+                                    )}
+
                                 </Grid>
                             </Grid>
                         );
@@ -257,7 +304,7 @@ export default function SinglePage() {
                         <Grid size={{ xs: 12 }}>
                             <Typography variant='body1' sx={{ fontSize: '20px', color: colorData.text }}>
                                 <b>ALLERGIE/INTOLLERENZE</b><br />
-                                <span style={{ fontSize: '16px', lineHeight: '21px' }}>Se hai allergie o intolleranze alimentari, parlane con noi prima di ordinare: saremo felici di consigliarti la scelta più adatta per goderti il tuo drink o piatto in completa tranquillità.</span>
+                                <span style={{ fontSize: '16px', lineHeight: '21px' }}>Se hai allergie o intolleranze alimentari, parlane con noi prima di ordinare: saremo felici di consigliarti la scelta più adatta per goderti il tuo drink o snack in completa tranquillità.</span>
                             </Typography>
                         </Grid>
                     </Grid>

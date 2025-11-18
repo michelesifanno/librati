@@ -31,7 +31,7 @@ function Home() {
 
                     <div style={{ display: 'flex', justifyContent: 'flex-end' }}>
                         <Button variant="outlined" size="large" className='menu-button-slider' href='/menu'>
-                            Sfoglia Menu
+                            Drink List
                         </Button>
                     </div>
                 </Container>
@@ -149,7 +149,7 @@ function Home() {
                                 className='menu-button-cta'
                                 href='/menu'
                             >
-                                Menu
+                                Drink List
                             </Button>
                         </Grid>
                     </Grid>
