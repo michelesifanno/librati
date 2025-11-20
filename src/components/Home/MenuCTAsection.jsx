@@ -25,7 +25,7 @@ function MenuCTAsection() {
                             variant="outlined"
                             size="large"
                             className='menu-button-cta'
-                            href='/menu'
+                            href='/drinklist'
                         >
                             Drink List
                         </Button>
