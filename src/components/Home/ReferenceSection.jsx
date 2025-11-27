@@ -44,7 +44,7 @@ function ReferenceSection() {
                         <>
                             <Grid container spacing={2} sx={{ alignItems: 'center', pt: 5 }}>
                                 <Grid size={{ xs: 12 }}>
-                                    <Typography variant='body1' className="cyan-paragraph">
+                                    <Typography variant='body1' className="yellow-paragraph">
                                         Ci piace pensare al Librati come a un posto dove le persone si sentono libere di essere se stesse. Un luogo semplice, vero, dove il tempo rallenta.  Perché per noi far star bene le persone non è un dettaglio, è la nostra idea di ospitalità. E forse è proprio per questo che, una volta qui, ti senti a casa.
                                     </Typography>
 
@@ -84,7 +84,7 @@ function ReferenceSection() {
                                     </Grid>
 
                                     <Grid size={{ xs: 12, md: 4 }} >
-                                        <Typography variant='body1' className="cyan-paragraph">
+                                        <Typography variant='body1' className="yellow-paragraph" style={{textAlign:isMobile ? 'center' : 'left'}}>
                                             Ci piace pensare al Librati come a un posto dove le persone si sentono libere di essere se stesse. Un luogo semplice, vero, dove il tempo rallenta.  Perché per noi far star bene le persone non è un dettaglio, è la nostra idea di ospitalità. E forse è proprio per questo che, una volta qui, ti senti a casa.
                                         </Typography>
                                     </Grid>

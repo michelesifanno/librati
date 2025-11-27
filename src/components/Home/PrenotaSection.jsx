@@ -13,9 +13,9 @@ function PrenotaSection() {
                 <Container maxWidth="lg">
                     <Grid container spacing={isMobile ? 2 : 2}>
                         <Grid size={{ xs: 12, md: 4 }} sx={{ display: 'flex', flexDirection: 'column', gap: 0 }}>
-                            <img src='cta-img.png' alt='prenota immagine' style={{ width: '100%', height: isMobile ? '350px' : '600px', objectFit: 'cover' }} />
+                            <img src='cta-img.png' alt='prenota immagine' style={{ width: '100%', height: isMobile ? '450px' : '600px', objectFit: 'cover' }} />
                         </Grid>
-                        <Grid size={{ xs: 12, md: 5 }} sx={{ display: 'flex', flexDirection: 'column', gap: 0 }}>
+                        <Grid size={{ xs: 12, md: 5 }} sx={{ display: 'flex', flexDirection: 'column', gap: 0, p: isMobile ? 2 : 4  }}>
                             <em>
                                 <Typography variant='h2' className="cta-title">
                                     Prenota un tavolo

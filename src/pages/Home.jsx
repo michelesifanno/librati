@@ -7,7 +7,7 @@ import ImageSection from '../components/Home/ImageSection';
 import MenuCTAsection from '../components/Home/MenuCTAsection';
 import Teddy from '../components/Home/Teddy';
 import ReferenceSection from '../components/Home/ReferenceSection';
-
+import ScrollGallery from '../components/Home/ScrollGallery';
 
 
 
@@ -23,6 +23,7 @@ function Home() {
             <ImageSection />
             <MenuCTAsection />
             <Teddy />
+            <ScrollGallery />
             <ReferenceSection />
         </Box>
     );

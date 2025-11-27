@@ -46,7 +46,7 @@ export default function SinglePage() {
 
     return (
         <Box>
-            <Box sx={{ pt: 10, pb: 10, backgroundColor: colorData.base }}>
+            <Box sx={{ pt: 10, pb: 10, backgroundColor: "#111125" }}>
                 <Container maxWidth="lg" sx={{ minHeight: '100vh' }}>
 
                     {/* Titolo scorrevole */}
@@ -57,7 +57,7 @@ export default function SinglePage() {
                                 variant="h2"
                                 gutterBottom
                                 className="title-single-menu"
-                                sx={{ color: colorData.text }}
+                                sx={{ color: "#ffc88a", textTransform: 'capitalize' }}
                             >
                                 {formattedCategory}
                             </Typography>
@@ -75,7 +75,7 @@ export default function SinglePage() {
                                 position: 'sticky',
                                 top: 75,
                                 zIndex: 1,
-                                backgroundColor: colorData.base,
+                                backgroundColor: "#111125",
                                 pt: 2,
                                 pb: 2,
                             }}
@@ -87,19 +87,19 @@ export default function SinglePage() {
                                     label={sub.charAt(0).toUpperCase() + sub.slice(1)}
                                     sx={{
                                         border: '2px solid',
-                                        borderColor: colorData.text,
+                                        borderColor: "#ffc88a",
                                         mr: 2,
-                                        color: colorData.text,
+                                        color: "#ffc88a",
                                         transition: 'all 0.3s ease',
                                         '&:hover': {
-                                            backgroundColor: colorData.text,
-                                            color: colorData.hoverText || '#fff',
-                                            borderColor: colorData.text,
+                                            backgroundColor: "#ffc88a",
+                                            color: "#111125" || '#fff',
+                                            borderColor: "#ffc88a",
                                         },
                                         '&.Mui-selected': {
-                                            backgroundColor: colorData.text,
-                                            color: colorData.hoverText || '#fff',
-                                            borderColor: colorData.text,
+                                            backgroundColor: "#ffc88a",
+                                            color: "#111125" || '#fff',
+                                            borderColor: "#ffc88a",
                                         },
                                         '&.Mui-focusVisible': {
                                             outline: 'none',
@@ -125,7 +125,7 @@ export default function SinglePage() {
                                     display: 'flex',
                                     alignItems: 'flex-start',
                                     padding: '40px 0px',
-                                    borderBottom: `1px solid ${colorData.text}`,
+                                    borderBottom: `1px solid ${"#ffc88a"}`,
                                     position: 'relative',
                                 }}
                             >
@@ -134,7 +134,7 @@ export default function SinglePage() {
                                     <IconButton
                                         onClick={() => dispatch(toggleChoice(item))}
                                         sx={{
-                                            color: isChosen ? 'red' : colorData.text,
+                                            color: isChosen ? 'red' : "#ffc88a",
                                             transition: 'all 0.3s ease',
                                             '&:hover': { transform: 'scale(1.2)' },
                                         }}
@@ -148,7 +148,7 @@ export default function SinglePage() {
                                     <Typography
                                         variant="h2"
                                         className="title-single-page"
-                                        sx={{ color: colorData.text }}
+                                        sx={{ color: "#fff" }}
                                     >
                                         {item.nome}
                                     </Typography>
@@ -166,7 +166,7 @@ export default function SinglePage() {
                                                 <Typography
                                                     variant="body1"
                                                     component="span"
-                                                    sx={{ fontSize: '20px', color: colorData.text }}
+                                                    sx={{ fontSize: '20px', color: "#fff" }}
                                                 >
                                                     <b>{item.gradazione}</b>
                                                 </Typography>
@@ -176,7 +176,7 @@ export default function SinglePage() {
                                                 <Typography
                                                     variant="body1"
                                                     component="span"
-                                                    sx={{ color: colorData.text }}
+                                                    sx={{ color: "#fff" }}
                                                 >
                                                     Gradazione: <b>{item.gradazione_visuale}</b>
                                                 </Typography>
@@ -185,7 +185,7 @@ export default function SinglePage() {
                                                 <Typography
                                                     variant="body1"
                                                     component="span"
-                                                    sx={{ color: colorData.text }}
+                                                    sx={{ color: "#111125" }}
                                                 >
                                                     {item.marchio} -
                                                 </Typography>
@@ -194,7 +194,7 @@ export default function SinglePage() {
                                                 <Typography
                                                     variant="body1"
                                                     component="span"
-                                                    sx={{ color: colorData.text }}
+                                                    sx={{ color: "#fff" }}
                                                 >
                                                     • {item.provenienza}
                                                 </Typography>
@@ -204,7 +204,7 @@ export default function SinglePage() {
                                                 <Typography
                                                     variant="body1"
                                                     component="span"
-                                                    sx={{ color: colorData.text }}
+                                                    sx={{ color: "#fff" }}
                                                 >
                                                     • {item.colore}
                                                 </Typography>
@@ -214,7 +214,7 @@ export default function SinglePage() {
                                                 <Typography
                                                     variant="body1"
                                                     component="span"
-                                                    sx={{ color: colorData.text }}
+                                                    sx={{ color: "#fff" }}
                                                 >
                                                     • {item.stile}
                                                 </Typography>
@@ -224,7 +224,7 @@ export default function SinglePage() {
                                     )}
 
                                     {item.descrizione && (
-                                        <Typography variant="body1" sx={{ color: colorData.text, margin: isMobile ? '10px 0px' : '20px 0px 0px 0px' }}>
+                                        <Typography variant="body1" sx={{ color: "#fff", margin: isMobile ? '10px 0px' : '20px 0px 0px 0px' }}>
                                             {item.descrizione}
                                         </Typography>
                                     )}
@@ -239,7 +239,7 @@ export default function SinglePage() {
                                             sx={{
                                                 textAlign: isMobile ? 'left' : 'right',
                                                 mt: 2,
-                                                color: colorData.text,
+                                                color: "#ffc88a",
                                             }}
                                         >
                                             <b>{item.prezzo}</b>
@@ -247,50 +247,50 @@ export default function SinglePage() {
                                         </Typography>
                                     )}
                                     {item.prezzo_piccola && (
-                                        <Typography variant="h2" className="price-single-page" sx={{ textAlign: isMobile ? 'left' : 'right', color: colorData.text }}>
+                                        <Typography variant="h2" className="price-single-page" sx={{ textAlign: isMobile ? 'left' : 'right', color: "#ffc88a" }}>
                                             <b>{item.prezzo_piccola}</b>
                                             <span style={{ fontSize: '17px' }}>€ (0.25l)</span>
                                         </Typography>
                                     )}
                                     {item.prezzo_grande && (
-                                        <Typography variant="h2" className="price-single-page" sx={{ textAlign: isMobile ? 'left' : 'right', color: colorData.text }}>
+                                        <Typography variant="h2" className="price-single-page" sx={{ textAlign: isMobile ? 'left' : 'right', color: "#ffc88a" }}>
                                             <b>{item.prezzo_grande}</b>
                                             <span style={{ fontSize: '17px' }}>€ (0.40l)</span>
                                         </Typography>
                                     )}
                                     {item.prezzo_mezzo && (
-                                        <Typography variant="h2" className="price-single-page" sx={{ textAlign: isMobile ? 'left' : 'right', color: colorData.text }}>
+                                        <Typography variant="h2" className="price-single-page" sx={{ textAlign: isMobile ? 'left' : 'right', color: "#ffc88a" }}>
                                             <b>{item.prezzo_mezzo}</b>
                                             <span style={{ fontSize: '17px' }}>€ (mezzo)</span>
                                         </Typography>
                                     )}
                                     {item.prezzo_intero && (
-                                        <Typography variant="h2" className="price-single-page" sx={{ textAlign: isMobile ? 'left' : 'right', color: colorData.text }}>
+                                        <Typography variant="h2" className="price-single-page" sx={{ textAlign: isMobile ? 'left' : 'right', color: "#ffc88a" }}>
                                             <b>{item.prezzo_intero}</b>
                                             <span style={{ fontSize: '17px' }}>€ (intero)</span>
                                         </Typography>
                                     )}
                                     {item.prezzo_calice && (
-                                        <Typography variant="h2" className="price-single-page" sx={{ textAlign: isMobile ? 'left' : 'right', color: colorData.text }}>
+                                        <Typography variant="h2" className="price-single-page" sx={{ textAlign: isMobile ? 'left' : 'right', color: "#ffc88a" }}>
                                             <b>{item.prezzo_calice}</b>
                                             <span style={{ fontSize: '17px' }}>€ calice</span>
                                         </Typography>
                                     )}
                                     {item.prezzo_bottiglia && (
-                                        <Typography variant="h2" className="price-single-page" sx={{ textAlign: isMobile ? 'left' : 'right', color: colorData.text }}>
+                                        <Typography variant="h2" className="price-single-page" sx={{ textAlign: isMobile ? 'left' : 'right', color: "#ffc88a" }}>
                                             <b>{item.prezzo_bottiglia}</b>
                                             <span style={{ fontSize: '17px' }}>€ bottiglia</span>
                                         </Typography>
                                     )}
                                     {item.prezzo_base && (
-                                        <Typography variant="h2" className="price-single-page" sx={{ textAlign: isMobile ? 'left' : 'right', color: colorData.text }}>
+                                        <Typography variant="h2" className="price-single-page" sx={{ textAlign: isMobile ? 'left' : 'right', color: "#ffc88a" }}>
                                             <b>{item.prezzo_base}</b>
                                             <span style={{ fontSize: '17px' }}>€</span>
                                         </Typography>
                                     )}
 
                                     {item.prezzo_premium && (
-                                        <Typography variant="h2" className="price-single-page" sx={{ textAlign: isMobile ? 'left' : 'right', color: colorData.text }}>
+                                        <Typography variant="h2" className="price-single-page" sx={{ textAlign: isMobile ? 'left' : 'right', color: "#ffc88a" }}>
                                             <b> {item.prezzo_premium}</b>
                                             <span style={{ fontSize: '17px' }}>€ PREMIUM</span>
                                         </Typography>
@@ -302,7 +302,7 @@ export default function SinglePage() {
                     })}
                     <Grid container spacing={2} sx={{ alignItems: 'center', pt: 5 }}>
                         <Grid size={{ xs: 12 }}>
-                            <Typography variant='body1' sx={{ fontSize: '20px', color: colorData.text }}>
+                            <Typography variant='body1' sx={{ fontSize: '20px', color: "#fff" }}>
                                 <b>ALLERGIE/INTOLLERENZE</b><br />
                                 <span style={{ fontSize: '16px', lineHeight: '21px' }}>Se hai allergie o intolleranze alimentari, parlane con noi prima di ordinare: saremo felici di consigliarti la scelta più adatta per goderti il tuo drink o snack in completa tranquillità.</span>
                             </Typography>

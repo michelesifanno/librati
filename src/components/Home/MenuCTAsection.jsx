@@ -9,7 +9,7 @@ function MenuCTAsection() {
     const isMobile = useMediaQuery(theme.breakpoints.down('md')); // true se sotto 'md'
 
     return (
-        <Box sx={{ py: isMobile ? 5 : 10, display: 'flex', backgroundColor: '#36c8c0' }}>
+        <Box sx={{ py: isMobile ? 5 : 10, display: 'flex', backgroundColor: '#e7bc2d' }}>
             <Container maxWidth="lg">
                 <Grid container spacing={isMobile ? 5 : 20} sx={{ alignItems: 'center' }}>
                     <Grid size={{ xs: 12, md: 8 }} sx={{ display: 'flex', flexDirection: 'column', gap: 0 }}>

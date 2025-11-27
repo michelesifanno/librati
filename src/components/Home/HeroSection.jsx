@@ -27,7 +27,7 @@ function HeroSection() {
                 <img src='slider-librati-2.png' alt='Librati slider' className='librati-image-slider' />
 
                 <div style={{ display: 'flex', justifyContent: 'flex-end' }}>
-                    <Button variant="outlined" size="large" className='menu-button-slider' href='/drinklist'>
+                    <Button variant="contained" size="large" className='menu-button-slider' href='/drinklist'>
                         Drink List
                     </Button>
                 </div>
