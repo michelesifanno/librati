@@ -30,19 +30,20 @@ export default function Menu() {
           <Grid container spacing={10} sx={{ alignItems: 'flex-top', pt: 10 }}>
             <Grid size={{ xs: 12, md: 2 }}>
             </Grid>
+            
             <Grid size={{ xs: 12, md: 8 }} sx={{
               position: "sticky",
               top: isMobile ? "30vh" : "10vh",
               zIndex: 0,
               textAlign: "center",
               mb: isMobile ? 15 : 40,
-              maxHeight: '100px',
             }}
             >
               <Typography variant='h2' className="hero-title" sx={{ textAlign: 'center!important', color: '#ffc88a!important' }}>
-                Le cose buone che abbiamo scelto per te.
+                Le nostre selezioni.
               </Typography>
             </Grid>
+
             <Grid size={{ xs: 12, md: 2 }}>
             </Grid>
 

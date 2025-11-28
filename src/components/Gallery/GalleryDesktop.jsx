@@ -32,22 +32,22 @@ export default function GalleryDesktop() {
                     <Grid size={{ xs: 12, md: 2 }}>
                     </Grid>
 
-                    <Grid size={{ xs: 6, md: 6 }} sx={{ zIndex: isMobile ? 1 : 0, p: 8, textAlign: 'left' }}>
-                        <img src='1.png' alt='final image home' style={{ width: '75%', height: isMobile ? '250px' : '600px', objectFit: 'cover', marginBottom: '40px' }} />
-                        <img src='2.png' alt='final image home' style={{ width: '75%', height: isMobile ? '250px' : '600px', objectFit: 'cover', marginBottom: '40px' }} />
-                        <img src='3.png' alt='final image home' style={{ width: '75%', height: isMobile ? '250px' : '600px', objectFit: 'cover', marginBottom: '40px' }} />
-                        <img src='4.png' alt='final image home' style={{ width: '75%', height: isMobile ? '250px' : '600px', objectFit: 'cover', marginBottom: '40px' }} />
-                        <img src='5.png' alt='final image home' style={{ width: '75%', height: isMobile ? '250px' : '600px', objectFit: 'cover', marginBottom: '40px' }} />
-                        <img src='6.png' alt='final image home' style={{ width: '75%', height: isMobile ? '250px' : '600px', objectFit: 'cover' }} />
+                    <Grid size={{ xs: 6, md: 6 }} sx={{ zIndex: isMobile ? 1 : 0, p: 8, textAlign: 'left', alignItems:'flex-top' }}>
+                        <img src='1.png' alt='final image home' style={{ width: '100%', height: '800px', objectFit: 'cover', marginBottom: '40px' }} />
+                        <img src='2.png' alt='final image home' style={{ width: '100%', height: '600px', objectFit: 'cover', marginBottom: '40px' }} />
+                        <img src='3.png' alt='final image home' style={{ width: '100%', height: '800px', objectFit: 'cover', marginBottom: '40px' }} />
+                        <img src='4.png' alt='final image home' style={{ width: '100%', height: '600px', objectFit: 'cover', marginBottom: '40px' }} />
+                        <img src='5.png' alt='final image home' style={{ width: '100%', height: '800px', objectFit: 'cover', marginBottom: '40px' }} />
+                        <img src='6.png' alt='final image home' style={{ width: '100%', height: '600px', objectFit: 'cover' }} />
                     </Grid>
 
                     <Grid size={{ xs: 6, md: 6 }} sx={{ zIndex: isMobile ? 1 : 0, p: 1, textAlign: 'right' }}>
-                        <img src='7.png' alt='final image home' style={{ width: '75%', height: isMobile ? '250px' : '600px', objectFit: 'cover', marginBottom: '40px' }} />
-                        <img src='8.png' alt='final image home' style={{ width: '75%', height: isMobile ? '250px' : '600px', objectFit: 'cover', marginBottom: '40px' }} />
-                        <img src='9.png' alt='final image home' style={{ width: '75%', height: isMobile ? '250px' : '600px', objectFit: 'cover', marginBottom: '40px' }} />
-                        <img src='10.png' alt='final image home' style={{ width: '75%', height: isMobile ? '250px' : '600px', objectFit: 'cover', marginBottom: '40px' }} />
-                        <img src='11.png' alt='final image home' style={{ width: '75%', height: isMobile ? '250px' : '600px', objectFit: 'cover', marginBottom: '40px' }} />
-                        <img src='12.png' alt='final image home' style={{ width: '75%', height: isMobile ? '250px' : '600px', objectFit: 'cover' }} />
+                        <img src='7.png' alt='final image home' style={{ width: '100%', height: '600px', objectFit: 'cover', marginBottom: '40px' }} />
+                        <img src='8.png' alt='final image home' style={{ width: '100%', height: '800px', objectFit: 'cover', marginBottom: '40px' }} />
+                        <img src='9.png' alt='final image home' style={{ width: '100%', height: '600px', objectFit: 'cover', marginBottom: '40px' }} />
+                        <img src='10.png' alt='final image home' style={{ width: '100%', height:'800px', objectFit: 'cover', marginBottom: '40px' }} />
+                        <img src='11.png' alt='final image home' style={{ width: '100%', height:'600px', objectFit: 'cover', marginBottom: '40px' }} />
+                        <img src='12.png' alt='final image home' style={{ width: '100%', height:'800px', objectFit: 'cover' }} />
                     </Grid>
                 </Grid>
             </Box>
