@@ -24,7 +24,7 @@ function HeroSection() {
                 </Typography>
 
 
-                <img src='slider-librati-2.png' alt='Librati slider' className='librati-image-slider' />
+                <img src='slider.png' alt='Librati slider' className='librati-image-slider' />
 
                 <div style={{ display: 'flex', justifyContent: 'flex-end' }}>
                     <Button variant="contained" size="large" className='menu-button-slider' href='/drinklist'>

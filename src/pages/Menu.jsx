@@ -40,7 +40,7 @@ export default function Menu() {
             }}
             >
               <Typography variant='h2' className="hero-title" sx={{ textAlign: 'center!important', color: '#ffc88a!important' }}>
-                Le nostre selezioni.
+                Le nostre<br/>selezioni.
               </Typography>
             </Grid>
 

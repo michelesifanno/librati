@@ -15,7 +15,7 @@ function MenuCTAsection() {
                     <Grid size={{ xs: 12, md: 8 }} sx={{ display: 'flex', flexDirection: 'column', gap: 0 }}>
                         <strong>
                             <Typography variant='h2' className="title-cta-menu">
-                                Birra, cocktail, vini, distillati, liquori, analcolici & snacks
+                                Lasciati conquistare dalle nostre selezioni e Librati dal male!
                             </Typography>
                         </strong>
                     </Grid>

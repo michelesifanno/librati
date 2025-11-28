@@ -65,11 +65,11 @@ export default function Footer() {
                     </Grid>
 
                     <Grid size={{ xs: 3 }}>
-                        <img src='4.png' alt='final gallery' style={{ width: '100%', height: isMobile ? '120px' : '300px', objectFit: 'cover' }} />
+                        <img src='8.png' alt='final gallery' style={{ width: '100%', height: isMobile ? '120px' : '300px', objectFit: 'cover' }} />
                     </Grid>
 
                     <Grid size={{ xs: 3 }}>
-                        <img src='8.png' alt='final gallery' style={{ width: '100%', height: isMobile ? '120px' : '300px', objectFit: 'cover' }} />
+                        <img src='4.png' alt='final gallery' style={{ width: '100%', height: isMobile ? '120px' : '300px', objectFit: 'cover' }} />
                     </Grid>
 
                     <Grid size={{ xs: 3 }}>
