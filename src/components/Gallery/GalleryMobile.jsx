@@ -19,7 +19,7 @@ export default function GalleryMobile() {
                     <Grid size={{ xs: 12 }} sx={{
                         position: "sticky",
                         top: isMobile ? "30vh" : "30vh",
-                        zIndex: isMobile ? 0 : 1,
+                        zIndex: isMobile ? 1 : 1,
                         textAlign: "center",
                         mb: 15,
                     }}
