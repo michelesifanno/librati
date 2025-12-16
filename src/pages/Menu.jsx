@@ -23,6 +23,13 @@ export default function Menu() {
     return cat.toLowerCase().replace(/ & /g, "_").replace(/ /g, "_");
   }
 
+
+  useEffect(() => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  }, []);
+
+
+
   return (
     <>
 
@@ -97,52 +104,6 @@ export default function Menu() {
         </Box>
       </Box>
 
-      {/* <Box>
-        <Container
-          maxWidth="lg"
-          sx={{
-            textAlign: "center",
-            pt: isMobile ? 5 : 10,
-            height: "100vh",
-            overflowY: "scroll",
-            scrollbarWidth: "none",
-            scrollBehavior: "smooth",
-            "&::-webkit-scrollbar": { display: "none" },
-          }}
-          ref={scrollRef}
-        >
-          <List sx={{ textAlign: "center", pb: 20 }}>
-            {categories.map((cat, i) => {
-              const colorData = categoryColors[formatKey(cat)] || { base: "#ffc88a", text: "#111125" };
-
-              return (
-                <ListItem key={`${cat}-${i}`} sx={{ justifyContent: "center", p: 0, pb: 3 }}>
-                  <Button
-                    component={Link}
-                    to={`/drinklist/${cat}`}
-                    variant="outlined"
-                    size="large"
-                    className="menu-item"
-                    sx={{
-                      borderColor: colorData.base,
-                      color: colorData.base,
-                      "&:hover": {
-                        backgroundColor: colorData.base,
-                        borderColor: colorData.base,
-                        color: colorData.text,
-                      },
-                    }}
-                  >
-                    <Typography variant='h2' className="menu-item-text">
-                      {cat}
-                    </Typography>
-                  </Button>
-                </ListItem>
-              );
-            })}
-          </List>
-        </Container>
-      </Box> */}
     </>
   );
 }

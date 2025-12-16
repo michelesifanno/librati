@@ -15,6 +15,10 @@ import { Helmet } from "react-helmet-async";
 function Home() {
 
 
+    useEffect(() => {
+        window.scrollTo({ top: 0, behavior: "smooth" });
+    }, []);
+
     return (
         <>
 

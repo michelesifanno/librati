@@ -24,6 +24,11 @@ export default function SinglePage() {
         dispatch(clearExpiredSession());
     }, [dispatch]);
 
+    useEffect(() => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+}, []);
+
+
     const theme = useTheme();
     const isMobile = useMediaQuery(theme.breakpoints.down('md'));
     const { category } = useParams();

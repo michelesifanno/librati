@@ -1,6 +1,7 @@
 import { HelmetProvider } from "react-helmet-async";
 import { createBrowserRouter, RouterProvider, Outlet } from 'react-router-dom';
 import { router } from './routes/Routing';
+import ScrollToTop from './ScrollToTop';
 
 
 function App() {
