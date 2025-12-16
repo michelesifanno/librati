@@ -9,45 +9,57 @@ import Teddy from '../components/Home/Teddy';
 import ReferenceSection from '../components/Home/ReferenceSection';
 import ScrollGallery from '../components/Home/ScrollGallery';
 import LazyRender from '../components/LazyRender';
+import { Helmet } from "react-helmet-async";
 
 
 function Home() {
 
 
     return (
-        <Box>
-            <HeroSection />
+        <>
 
-            <LazyRender >
-                <AboutSection />
-            </LazyRender>
-
-            <ScrollingText />
-
-            <LazyRender>
-                <PrenotaSection />
-            </LazyRender>
-
-            <ImageSection />
-
-            <LazyRender>
-                <MenuCTAsection />
-            </LazyRender>
-
-            <LazyRender>
-                <Teddy />
-            </LazyRender>
-
-            <LazyRender>
-                <ScrollGallery />
-            </LazyRender>
-
-            <LazyRender>
-                <ReferenceSection />
-            </LazyRender>
+            <Helmet>
+                <title>Librati Cocktail Bar a Giovinazzo | Drink d’autore</title>
+                <meta name="description" content="Cocktail bar a Giovinazzo con selezioni premium e drink artigianali. Scopri il menu e prenota." />
+                <link rel="canonical" href="https://www.libratipub.com/" />
+            </Helmet>
 
 
-        </Box>
+            <Box>
+                <HeroSection />
+
+                <LazyRender >
+                    <AboutSection />
+                </LazyRender>
+
+                <ScrollingText />
+
+                <LazyRender>
+                    <PrenotaSection />
+                </LazyRender>
+
+                <ImageSection />
+
+                <LazyRender>
+                    <MenuCTAsection />
+                </LazyRender>
+
+                <LazyRender>
+                    <Teddy />
+                </LazyRender>
+
+                <LazyRender>
+                    <ScrollGallery />
+                </LazyRender>
+
+                <LazyRender>
+                    <ReferenceSection />
+                </LazyRender>
+
+
+            </Box>
+        </>
+
     );
 }
 

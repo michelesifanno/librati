@@ -6,6 +6,7 @@ import { useMenuData } from "../hooks/useMenuData";
 import { useTheme } from "@mui/material/styles";
 import { categoryColors } from "../config/colors";
 import LazyRender from '../components/LazyRender';
+import { Helmet } from "react-helmet-async";
 
 
 
@@ -24,6 +25,14 @@ export default function Menu() {
 
   return (
     <>
+
+      <Helmet>
+        <title>Vini, Drink e Birra | Menu | Librati Cocktail Giovinazzo</title>
+        <meta name="description" content="Scopri il menu del Librati Cocktail bar a Giovinazzo con selezioni premium e drink artigianali." />
+        <link rel="canonical" href="https://www.libratipub.com/menu/" />
+      </Helmet>
+
+
       <MenuHeader />
 
       <Box sx={{ position: "relative", width: "100%" }}>
