@@ -28,33 +28,33 @@ function Home() {
             <Box>
                 <HeroSection />
 
-                <LazyRender >
-                    <AboutSection />
-                </LazyRender>
+                {/* <LazyRender > */}
+                <AboutSection />
+                {/* </LazyRender> */}
 
                 <ScrollingText />
 
-                <LazyRender>
-                    <PrenotaSection />
-                </LazyRender>
+                {/* <LazyRender> */}
+                <PrenotaSection />
+                {/* </LazyRender> */}
 
                 <ImageSection />
 
-                <LazyRender>
-                    <MenuCTAsection />
-                </LazyRender>
+                {/* <LazyRender> */}
+                <MenuCTAsection />
+                {/* </LazyRender> */}
 
-                <LazyRender>
-                    <Teddy />
-                </LazyRender>
+                {/* <LazyRender> */}
+                <Teddy />
+                {/* </LazyRender> */}
 
-                <LazyRender>
-                    <ScrollGallery />
-                </LazyRender>
+                {/* <LazyRender> */}
+                <ScrollGallery />
+                {/* </LazyRender> */}
 
-                <LazyRender>
-                    <ReferenceSection />
-                </LazyRender>
+                {/* <LazyRender> */}
+                <ReferenceSection />
+                {/* </LazyRender> */}
 
 
             </Box>
