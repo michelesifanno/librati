@@ -3,6 +3,7 @@ import { useTheme } from '@mui/material/styles';
 import GalleryDesktop from '../Gallery/GalleryDesktop';
 import GalleryMobile from '../Gallery/GalleryMobile';
 
+
 export default function ScrollGallery() {
 
     const theme = useTheme();

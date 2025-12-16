@@ -1,6 +1,6 @@
 import { Box, Container, Typography, Grid, useMediaQuery } from '@mui/material';
 import { useTheme } from '@mui/material/styles';
-
+import 'animate.css'
 
 
 function Teddy() {
@@ -13,7 +13,7 @@ function Teddy() {
         <Box sx={{ py: 10, display: 'flex' }} id="teddy">
             <Container maxWidth="lg">
                 <Grid container spacing={isMobile ? 5 : 30} sx={{ alignItems: 'center' }}>
-                    <Grid size={{ xs: 12, md: 6 }} sx={{ display: 'flex', flexDirection: 'column', gap: 0 }}>
+                    <Grid size={{ xs: 12, md: 6 }} sx={{ display: 'flex', flexDirection: 'column', gap: 0 }} className="animate__animated animate__fadeInLeft">
                         <Typography variant='h2' className="title">
                             Teddy
                         </Typography>
@@ -31,7 +31,7 @@ function Teddy() {
 
                         </div>
                     </Grid>
-                    <Grid size={{ xs: 12, md: 6 }}>
+                    <Grid size={{ xs: 12, md: 6 }} className="animate__animated animate__fadeIn">
                         <img src='teddy_rutigliano.png' alt='teddy librati' style={{ width: '100%' }} />
                     </Grid>
                 </Grid>

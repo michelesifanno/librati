@@ -1,5 +1,6 @@
 import { Box, Container, Typography, Button, useMediaQuery, Grid } from '@mui/material';
 import { useTheme } from '@mui/material/styles';
+import 'animate.css'
 
 
 export default function GalleryDesktop() {
@@ -25,14 +26,14 @@ export default function GalleryDesktop() {
                         mb: 15,
                     }}
                     >
-                        <Typography variant='h2' className="hero-title" sx={{ textAlign: 'center!important' }}>
+                        <Typography variant='h2' className="hero-title animate__animated animate__fadeIn" sx={{ textAlign: 'center!important' }}>
                             Dove le serate diventano storie.
                         </Typography>
                     </Grid>
                     <Grid size={{ xs: 12, md: 2 }}>
                     </Grid>
 
-                    <Grid size={{ xs: 6, md: 6 }} sx={{ zIndex: isMobile ? 1 : 0, p: 8, textAlign: 'left', alignItems:'flex-top' }}>
+                    <Grid size={{ xs: 6, md: 6 }} sx={{ zIndex: isMobile ? 1 : 0, p: 8, textAlign: 'left', alignItems:'flex-top' }} className="animate__animated animate__fadeInUp">
                         <img src='1.png' alt='final image home' style={{ width: '100%', height: '800px', objectFit: 'cover', marginBottom: '40px' }} />
                         <img src='2.png' alt='final image home' style={{ width: '100%', height: '600px', objectFit: 'cover', marginBottom: '40px' }} />
                         <img src='3.png' alt='final image home' style={{ width: '100%', height: '800px', objectFit: 'cover', marginBottom: '40px' }} />
@@ -41,7 +42,7 @@ export default function GalleryDesktop() {
                         <img src='6.png' alt='final image home' style={{ width: '100%', height: '600px', objectFit: 'cover' }} />
                     </Grid>
 
-                    <Grid size={{ xs: 6, md: 6 }} sx={{ zIndex: isMobile ? 1 : 0, p: 1, textAlign: 'right' }}>
+                    <Grid size={{ xs: 6, md: 6 }} sx={{ zIndex: isMobile ? 1 : 0, p: 1, textAlign: 'right' }} className="animate__animated animate__fadeInUp">
                         <img src='7.png' alt='final image home' style={{ width: '100%', height: '600px', objectFit: 'cover', marginBottom: '40px' }} />
                         <img src='8.png' alt='final image home' style={{ width: '100%', height: '800px', objectFit: 'cover', marginBottom: '40px' }} />
                         <img src='9.png' alt='final image home' style={{ width: '100%', height: '600px', objectFit: 'cover', marginBottom: '40px' }} />

@@ -1,9 +1,11 @@
 import { Box, Container, Typography, useMediaQuery, Grid } from '@mui/material';
 import { useTheme } from '@mui/material/styles';
+import 'animate.css'
 
 
 
 function AboutSection() {
+
 
     const theme = useTheme();
     const isMobile = useMediaQuery(theme.breakpoints.down('md')); // true se sotto 'md'
@@ -14,11 +16,11 @@ function AboutSection() {
             <Container maxWidth="lg">
                 <Grid container spacing={isMobile ? 5 : 30}>
                     <Grid size={{ xs: 12, md: 6 }} sx={{ display: 'flex', flexDirection: 'column', gap: 0 }}>
-                        <Typography variant='h2' className="title">
+                        <Typography variant='h2' className="title animate__animated animate__fadeInLeft">
                             Più che un<br />locale, una<br />seconda casa.
                         </Typography>
                     </Grid>
-                    <Grid size={{ xs: 12, md: 6 }}>
+                    <Grid size={{ xs: 12, md: 6 }} className="animate__animated animate__fadeInRight">
                         <Typography variant='body1' className="paragraph">
                             <b>Un posto dove vieni per bere, ma resti per le persone.</b>
                         </Typography>

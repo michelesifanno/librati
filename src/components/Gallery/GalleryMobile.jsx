@@ -1,5 +1,6 @@
 import { Box, Container, Typography, Button, useMediaQuery, Grid } from '@mui/material';
 import { useTheme } from '@mui/material/styles';
+import 'animate.css'
 
 
 export default function GalleryMobile() {
@@ -23,12 +24,12 @@ export default function GalleryMobile() {
                         mb: 15,
                     }}
                     >
-                        <Typography variant='h2' className="hero-title" sx={{ textAlign: 'center!important' }}>
+                        <Typography variant='h2' className="hero-title animate__animated animate__fadeIn" sx={{ textAlign: 'center!important' }}>
                             Dove le serate diventano storie.
                         </Typography>
                     </Grid>
 
-                                <Grid size={{ xs: 6 }}>
+                    <Grid size={{ xs: 6 }} className="animate__animated animate__fadeInUp">
                         <img src='1.png' alt='final image home' style={{ width: '100%', height: '350px', objectFit: 'cover', marginBottom: '10px' }} />
                         <img src='2.png' alt='final image home' style={{ width: '100%', height: '250px', objectFit: 'cover', marginBottom: '10px' }} />
                         <img src='3.png' alt='final image home' style={{ width: '100%', height: '350px', objectFit: 'cover', marginBottom: '10px' }} />
@@ -37,7 +38,7 @@ export default function GalleryMobile() {
                         <img src='6.png' alt='final image home' style={{ width: '100%', height: '250px', objectFit: 'cover' }} />
                     </Grid>
 
-                                <Grid size={{ xs: 6 }}>
+                    <Grid size={{ xs: 6 }} className="animate__animated animate__fadeInUp">
                         <img src='7.png' alt='final image home' style={{ width: '100%', height: '250px', objectFit: 'cover', marginBottom: '10px' }} />
                         <img src='8.png' alt='final image home' style={{ width: '100%', height: '350px', objectFit: 'cover', marginBottom: '10px' }} />
                         <img src='9.png' alt='final image home' style={{ width: '100%', height: '250px', objectFit: 'cover', marginBottom: '10px' }} />

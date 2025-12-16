@@ -1,6 +1,6 @@
 import { Box, Container, Typography, Button, useMediaQuery, Grid } from '@mui/material';
 import { useTheme } from '@mui/material/styles';
-
+import 'animate.css'
 
 
 function MenuCTAsection() {
@@ -14,7 +14,7 @@ function MenuCTAsection() {
                 <Grid container spacing={isMobile ? 5 : 20} sx={{ alignItems: 'center' }}>
                     <Grid size={{ xs: 12, md: 8 }} sx={{ display: 'flex', flexDirection: 'column', gap: 0 }}>
                         <strong>
-                            <Typography variant='h2' className="title-cta-menu">
+                            <Typography variant='h2' className="title-cta-menu animate__animated animate__fadeIn">
                                 Lasciati conquistare dalle nostre selezioni e Librati dal male!
                             </Typography>
                         </strong>
@@ -24,7 +24,7 @@ function MenuCTAsection() {
                         <Button
                             variant="outlined"
                             size="large"
-                            className='menu-button-cta'
+                            className='menu-button-cta animate__animated animate__fadeInUp'
                             href='/drinklist'
                         >
                             Drink List

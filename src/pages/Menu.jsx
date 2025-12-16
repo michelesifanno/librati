@@ -5,6 +5,10 @@ import { Link } from "react-router-dom";
 import { useMenuData } from "../hooks/useMenuData";
 import { useTheme } from "@mui/material/styles";
 import { categoryColors } from "../config/colors";
+import LazyRender from '../components/LazyRender';
+
+
+
 
 export default function Menu() {
   const { categories } = useMenuData();
@@ -25,22 +29,22 @@ export default function Menu() {
       <Box sx={{ position: "relative", width: "100%" }}>
 
         {/* CONTENITORE SCROLL SEZIONE */}
-        <Box sx={{ position: "relative", minHeight: "100vh", pt: 10 }}>
+        <Box sx={{ position: "relative", minHeight: "0vh", pt: 10 }}>
 
-          <Grid container spacing={10} sx={{ alignItems: 'flex-top', pt: 10 }}>
+          <Grid container spacing={10} sx={{ alignItems: 'flex-top', pt: isMobile ? 5 : 10 }}>
             <Grid size={{ xs: 12, md: 2 }}>
             </Grid>
-            
+
             <Grid size={{ xs: 12, md: 8 }} sx={{
               position: "sticky",
-              top: isMobile ? "30vh" : "10vh",
+              top: isMobile ? "10vh" : "10vh",
               zIndex: 0,
               textAlign: "center",
-              mb: isMobile ? 15 : 40,
+              mb: isMobile ? -10 : 10,
             }}
             >
-              <Typography variant='h2' className="hero-title" sx={{ textAlign: 'center!important', color: '#ffc88a!important' }}>
-                Le nostre<br/>selezioni.
+              <Typography variant='h2' className="hero-title animate__animated animate__fadeIn" sx={{ textAlign: 'center!important', color: '#ffc88a!important' }}>
+                Le nostre<br />selezioni.
               </Typography>
             </Grid>
 
@@ -53,7 +57,7 @@ export default function Menu() {
                   const colorData = categoryColors[formatKey(cat)] || { base: "#ffc88a", text: "#111125" };
 
                   return (
-                    <ListItem key={`${cat}-${i}`} sx={{ justifyContent: "center", p: 0, pb: 3 }}>
+                    <ListItem key={`${cat}-${i}`} sx={{ justifyContent: "center", p: 0, pb: 3 }} className="animate__animated animate__fadeInUp">
                       <Button
                         component={Link}
                         to={`/drinklist/${cat}`}

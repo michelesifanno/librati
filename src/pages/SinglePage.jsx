@@ -9,6 +9,10 @@ import FavoriteBorderIcon from '@mui/icons-material/FavoriteBorder';
 import FavoriteIcon from '@mui/icons-material/Favorite';
 import { useDispatch, useSelector } from 'react-redux';
 import { toggleChoice, clearExpiredSession } from '../slices/choicesSlice';
+import 'animate.css';
+
+
+
 
 export default function SinglePage() {
     const dispatch = useDispatch();
@@ -50,7 +54,7 @@ export default function SinglePage() {
                 <Container maxWidth="lg" sx={{ minHeight: '100vh' }}>
 
                     {/* Titolo scorrevole */}
-                    <Marquee>
+                    <Marquee className="animate__animated animate__fadeIn">
                         {[...Array(3)].map((_, i) => (
                             <Typography
                                 key={i}
@@ -79,6 +83,7 @@ export default function SinglePage() {
                                 pt: 2,
                                 pb: 2,
                             }}
+                            className="animate__animated animate__fadeInUp"
                         >
                             {subCategories.map((sub) => (
                                 <Tab
@@ -128,6 +133,7 @@ export default function SinglePage() {
                                     borderBottom: `1px solid ${"#ffc88a"}`,
                                     position: 'relative',
                                 }}
+                                className="animate__animated animate__fadeInUpBig"
                             >
                                 {/* Icona preferito */}
                                 <Grid size={{ xs: 1, md: 1 }} sx={{ display: 'flex', justifyContent: 'flex-start' }}>
@@ -301,7 +307,13 @@ export default function SinglePage() {
                         );
                     })}
                     <Grid container spacing={2} sx={{ alignItems: 'center', pt: 5 }}>
-                        <Grid size={{ xs: 12 }}>
+                        <Grid size={{ xs: 12 }} sx={{ borderBottom: `1px solid ${"#ffc88a"}`, p: 4 }}>
+                            <Typography variant='body1' sx={{ fontSize: '20px', color: "#fff" }}>
+                                <b>ALTRE PROPOSTE</b><br />
+                                <span style={{ fontSize: '16px', lineHeight: '21px' }}>Non hai trovato quello che cercavi? Nessun problema. Raccontaci i tuoi gusti e ti suggeriremo noi la scelta giusta.</span>
+                            </Typography>
+                        </Grid>
+                        <Grid size={{ xs: 12 }} sx={{ pt: 2, pl: 4, pb: 4, pr: 4 }} >
                             <Typography variant='body1' sx={{ fontSize: '20px', color: "#fff" }}>
                                 <b>ALLERGIE/INTOLLERENZE</b><br />
                                 <span style={{ fontSize: '16px', lineHeight: '21px' }}>Se hai allergie o intolleranze alimentari, parlane con noi prima di ordinare: saremo felici di consigliarti la scelta più adatta per goderti il tuo drink o snack in completa tranquillità.</span>

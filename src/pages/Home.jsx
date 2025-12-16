@@ -8,23 +8,45 @@ import MenuCTAsection from '../components/Home/MenuCTAsection';
 import Teddy from '../components/Home/Teddy';
 import ReferenceSection from '../components/Home/ReferenceSection';
 import ScrollGallery from '../components/Home/ScrollGallery';
-
-
+import LazyRender from '../components/LazyRender';
 
 
 function Home() {
 
+
     return (
         <Box>
             <HeroSection />
-            <AboutSection />
+
+            <LazyRender >
+                <AboutSection />
+            </LazyRender>
+
             <ScrollingText />
-            <PrenotaSection />
+
+            <LazyRender>
+                <PrenotaSection />
+            </LazyRender>
+
             <ImageSection />
-            <MenuCTAsection />
-            <Teddy />
-            <ScrollGallery />
-            <ReferenceSection />
+
+            <LazyRender>
+                <MenuCTAsection />
+            </LazyRender>
+
+            <LazyRender>
+                <Teddy />
+            </LazyRender>
+
+            <LazyRender>
+                <ScrollGallery />
+            </LazyRender>
+
+            <LazyRender>
+                <ReferenceSection />
+            </LazyRender>
+
+
         </Box>
     );
 }

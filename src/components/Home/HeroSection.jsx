@@ -1,5 +1,6 @@
 import { Box, Container, Typography, Button, useMediaQuery } from '@mui/material';
 import { useTheme } from '@mui/material/styles';
+import 'animate.css';
 
 
 
@@ -19,15 +20,16 @@ function HeroSection() {
         >
             <Container maxWidth="lg" sx={{ textAlign: 'center', pt: isMobile ? 15 : 22 }}>
 
-                <Typography variant='h2' className="hero-title">
+
+
+                <Typography variant='h2' className="hero-title animate__animated animate__fadeInDown">
                     Qui, si bevono emozioni.
                 </Typography>
 
-
-                <img src='slider.png' alt='Librati slider' className='librati-image-slider' />
+                <img src='slider.png' alt='Librati slider' className='librati-image-slider animate__animated animate__fadeInUp' />
 
                 <div style={{ display: 'flex', justifyContent: 'flex-end' }}>
-                    <Button variant="contained" size="large" className='menu-button-slider' href='/drinklist'>
+                    <Button variant="contained" size="large" className='menu-button-slider animate__animated animate__fadeIn' href='/drinklist'>
                         Drink List
                     </Button>
                 </div>
