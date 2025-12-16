@@ -17,7 +17,6 @@
     "@reduxjs/toolkit": "^2.10.1",
     "animate.css": "^4.1.1",
     "react": "^19.1.1",
-    "react-cookie-consent": "^9.0.0",
     "react-dom": "^19.1.1",
     "react-fast-marquee": "^1.6.5",
     "react-helmet-async": "^2.0.5",
