@@ -1,3 +1,4 @@
+import { useEffect } from 'react';
 import { Box } from '@mui/material';
 import HeroSection from '../components/Home/HeroSection';
 import AboutSection from '../components/Home/AboutSection';
