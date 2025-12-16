@@ -40,7 +40,7 @@ h5,
 h6 {
   font-size: 3.2em;
   line-height: 1.1;
-  font-family: "PT Serif", serif !important;
+  font-family: "PT Serif", serif!important;
 }
 
 p {
@@ -143,10 +143,6 @@ h2.title {
   margin: 0px 0px 0px 0px;
 }
 
-.MuiButton-root {
-  font-family: "Work Sans", sans-serif !important;
-}
-
 .MuiButton-root.menu-link-title {
   font-size: 65px;
   line-height: 60px;
@@ -154,6 +150,7 @@ h2.title {
   font-weight: 400;
   margin: 0px 0px 0px 0px;
   letter-spacing: 0px !important;
+  font-family: "PT Serif", serif!important;
   text-transform: none !important;
 }
 
@@ -235,7 +232,7 @@ span.marquee-text {
   font-weight: 400;
   letter-spacing: -0.5px;
   margin-right: 20px;
-  font-family: "PT Serif", serif !important;
+  font-family: "PT Serif", serif!important;
   color: #ffc88a;
 }
 
@@ -243,7 +240,7 @@ span.marquee-text {
   font-size: 26px;
   font-weight: 400;
   letter-spacing: -0.5px;
-  font-family: "PT Serif", serif !important;
+  font-family: "PT Serif", serif!important;
   color: #ffc88a;
 }
 
@@ -357,7 +354,7 @@ span.marquee-text {
 
 h2.menu-item-text {
   font-size: 35px !important;
-  padding: 10px 0px !important;
+  padding: 10px 0px!important ;
 }
 
 .menu-item {
@@ -551,17 +548,17 @@ h2.price-drawer {
   }
 
   h2.menu-item-text {
-    font-size: 30px !important;
-    padding: 10px 0px !important;
-  }
+  font-size: 30px !important;
+  padding: 10px 0px!important ;
+}
 
-  h2.title-single-page {
-    font-family: 'Work Sans', sans-serif !important;
-    text-transform: uppercase;
-    font-weight: 700;
-    font-size: 30px;
-    line-height: 30px;
-    margin-bottom: 10px;
-  }
+h2.title-single-page {
+  font-family: 'Work Sans', sans-serif !important;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 30px;
+  margin-bottom: 10px;
+}
 
 }
