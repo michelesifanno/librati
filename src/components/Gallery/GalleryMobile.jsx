@@ -30,21 +30,21 @@ export default function GalleryMobile() {
                     </Grid>
 
                     <Grid size={{ xs: 6 }} className="animate__animated animate__fadeInUp">
-                        <img src='1.png' alt='final image home' style={{ width: '100%', height: '350px', objectFit: 'cover', marginBottom: '10px' }} />
-                        <img src='2.png' alt='final image home' style={{ width: '100%', height: '250px', objectFit: 'cover', marginBottom: '10px' }} />
-                        <img src='3.png' alt='final image home' style={{ width: '100%', height: '350px', objectFit: 'cover', marginBottom: '10px' }} />
-                        <img src='4.png' alt='final image home' style={{ width: '100%', height: '250px', objectFit: 'cover', marginBottom: '10px' }} />
-                        <img src='5.png' alt='final image home' style={{ width: '100%', height: '350px', objectFit: 'cover', marginBottom: '10px' }} />
-                        <img src='6.png' alt='final image home' style={{ width: '100%', height: '250px', objectFit: 'cover' }} />
+                        <img src='1.webp' alt='final image home' style={{ width: '100%', height: '350px', objectFit: 'cover', marginBottom: '10px' }} />
+                        <img src='2.webp' alt='final image home' style={{ width: '100%', height: '250px', objectFit: 'cover', marginBottom: '10px' }} />
+                        <img src='3.webp' alt='final image home' style={{ width: '100%', height: '350px', objectFit: 'cover', marginBottom: '10px' }} />
+                        <img src='4.webp' alt='final image home' style={{ width: '100%', height: '250px', objectFit: 'cover', marginBottom: '10px' }} />
+                        <img src='5.webp' alt='final image home' style={{ width: '100%', height: '350px', objectFit: 'cover', marginBottom: '10px' }} />
+                        <img src='6.webp' alt='final image home' style={{ width: '100%', height: '250px', objectFit: 'cover' }} />
                     </Grid>
 
                     <Grid size={{ xs: 6 }} className="animate__animated animate__fadeInUp">
-                        <img src='7.png' alt='final image home' style={{ width: '100%', height: '250px', objectFit: 'cover', marginBottom: '10px' }} />
-                        <img src='8.png' alt='final image home' style={{ width: '100%', height: '350px', objectFit: 'cover', marginBottom: '10px' }} />
-                        <img src='9.png' alt='final image home' style={{ width: '100%', height: '250px', objectFit: 'cover', marginBottom: '10px' }} />
-                        <img src='10.png' alt='final image home' style={{ width: '100%', height: '350px', objectFit: 'cover', marginBottom: '10px' }} />
-                        <img src='11.png' alt='final image home' style={{ width: '100%', height: '250px', objectFit: 'cover', marginBottom: '10px' }} />
-                        <img src='12.png' alt='final image home' style={{ width: '100%', height: '350px', objectFit: 'cover' }} />
+                        <img src='7.webp' alt='final image home' style={{ width: '100%', height: '250px', objectFit: 'cover', marginBottom: '10px' }} />
+                        <img src='8.webp' alt='final image home' style={{ width: '100%', height: '350px', objectFit: 'cover', marginBottom: '10px' }} />
+                        <img src='9.webp' alt='final image home' style={{ width: '100%', height: '250px', objectFit: 'cover', marginBottom: '10px' }} />
+                        <img src='10.webp' alt='final image home' style={{ width: '100%', height: '350px', objectFit: 'cover', marginBottom: '10px' }} />
+                        <img src='11.webp' alt='final image home' style={{ width: '100%', height: '250px', objectFit: 'cover', marginBottom: '10px' }} />
+                        <img src='12.webp' alt='final image home' style={{ width: '100%', height: '350px', objectFit: 'cover' }} />
                     </Grid>
 
                 </Grid>

@@ -26,7 +26,7 @@ function HeroSection() {
                     Qui, si bevono emozioni.
                 </Typography>
 
-                <img src='slider.png' alt='Librati slider' className='librati-image-slider animate__animated animate__fadeInUp' />
+                <img src='slider.webp' alt='Librati slider' className='librati-image-slider animate__animated animate__fadeInUp' />
 
                 <div style={{ display: 'flex', justifyContent: 'flex-end' }}>
                     <Button variant="contained" size="large" className='menu-button-slider animate__animated animate__fadeIn' href='/drinklist'>

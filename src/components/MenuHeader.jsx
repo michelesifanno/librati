@@ -39,8 +39,14 @@ export default function MenuHeader() {
     }, []);
 
     const handleGoBack = () => {
-        navigate(-1);
+        if (window.history.length > 1) {
+            navigate(-1);
+        } else {
+            window.location.href = 'https://libratipub.it';
+        }
     };
+
+    const hasHistory = window.history.length > 1;
 
 
     const toggleDrawer = (open) => (event) => {
@@ -207,7 +213,7 @@ export default function MenuHeader() {
                             <Box onClick={handleGoBack} sx={{ cursor: 'pointer', display: 'flex', alignItems: 'center' }}>
                                 <WestIcon sx={{ pr: 1, fontSize: '36px' }} />
                                 <Typography variant="p" className="text-menu">
-                                    Indietro
+                                    {hasHistory ? 'Indietro' : 'Sito web'}
                                 </Typography>
                             </Box>
                             <Box

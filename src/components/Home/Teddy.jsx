@@ -32,7 +32,7 @@ function Teddy() {
                         </div>
                     </Grid>
                     <Grid size={{ xs: 12, md: 6 }} className="animate__animated animate__fadeIn">
-                        <img src='teddy_rutigliano.png' alt='teddy librati' style={{ width: '100%' }} />
+                        <img src='teddy_rutigliano.webp' alt='teddy librati' style={{ width: '100%' }} />
                     </Grid>
                 </Grid>
             </Container>

@@ -99,7 +99,7 @@ function MainHeader() {
                         >
                             {/* Logo */}
                             <Box>
-                                <img src="logo.png" alt="Librati Logo" style={{ height: isMobile ? 50 : 70 }} />
+                                <img src="logo.webp" alt="Librati Logo" style={{ height: isMobile ? 50 : 70 }} />
                             </Box>
 
                             {/* Desktop menu */}

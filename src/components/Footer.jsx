@@ -57,27 +57,6 @@ export default function Footer() {
                     </Grid>
                 </Container>
             </Box>
-            <Box sx={{ pt: 4, backgroundColor: '#ff5700', color: 'white' }}>
-                <Grid container justifyContent="center" spacing={0} sx={{ marginBottom: '-10px' }}>
-
-                    <Grid size={{ xs: 3 }}>
-                        <img src='1.png' alt='final gallery' style={{ width: '100%', height: isMobile ? '120px' : '300px', objectFit: 'cover' }} />
-                    </Grid>
-
-                    <Grid size={{ xs: 3 }}>
-                        <img src='8.png' alt='final gallery' style={{ width: '100%', height: isMobile ? '120px' : '300px', objectFit: 'cover' }} />
-                    </Grid>
-
-                    <Grid size={{ xs: 3 }}>
-                        <img src='4.png' alt='final gallery' style={{ width: '100%', height: isMobile ? '120px' : '300px', objectFit: 'cover' }} />
-                    </Grid>
-
-                    <Grid size={{ xs: 3 }}>
-                        <img src='9.png' alt='final gallery' style={{ width: '100%', height: isMobile ? '120px' : '300px', objectFit: 'cover' }} />
-                    </Grid>
-
-                </Grid>
-            </Box>
         </>
     );
 }
