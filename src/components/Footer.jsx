@@ -23,13 +23,23 @@ export default function Footer() {
                                 Via Crocifisso, 10
                                 <br />
                                 70054 Giovinazzo BA
-                            </Typography>
-                        </Grid>
-                        <Grid size={{ xs: 12, md: 4 }} sx={{ display: 'flex', flexDirection: 'column', gap: 0 }}>
-                            <Typography component='p' sx={{ fontSize: '14px' }}>
+                                <br />
+                                <br />
                                 Siamo aperti tutti i giorni,
                                 <br />
                                 dalle 20:00 alle 03:00
+                            </Typography>
+                        </Grid>
+                        <Grid size={{ xs: 12, md: 4 }} sx={{ display: 'flex', flexDirection: 'column', gap: 0 }}>
+                            <Typography component='h2' sx={{ fontSize: '40px', textAlign: 'left', letterSpacing: '-2px', lineHeight: '35px' }}>
+                                <a
+                                    href="https://www.instagram.com/librati_dal.male_official/"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    style={{ color: 'inherit', textDecoration: 'none' }}
+                                >
+                                    Instagram.
+                                </a>
                             </Typography>
                         </Grid>
                         <Grid size={{ xs: 12, md: 4 }}>
@@ -43,19 +53,19 @@ export default function Footer() {
                 <Container maxWidth="lg">
                     <Grid container spacing={isMobile ? 5 : 30}>
                         <Grid size={{ xs: 12 }}>
-                            <Typography component='h2' sx={{ fontSize: '40px', textAlign: 'left', letterSpacing: '-2px', lineHeight: '35px' }}>
-                                <a
-                                    href="https://www.instagram.com/librati_dal.male_official/"
-                                    target="_blank"
-                                    rel="noopener noreferrer"
-                                    style={{ color: 'inherit', textDecoration: 'none' }}
-                                >
-                                    Instagram.
-                                </a>
-                            </Typography>
                         </Grid>
                     </Grid>
                 </Container>
+            </Box>
+            <Box sx={{ p: 4, backgroundColor: '#ff5700', color: 'white' }}>
+                <Grid container justifyContent="center" spacing={0} sx={{ marginBottom: '-10px' }}>
+
+                    <Grid size={{ xs: 12 }}>
+                        <Typography variant='body1' className="paragraph">
+                            ©2025 - Librati Cocktail Pub | Tutti i diritti riservati | P.I. IT06850260727 | <a href="/privacy-policy" style={{ color: 'inherit', textDecoration: 'none' }}>Privacy Policy</a> | <a href="/privacy-policy/#3" style={{ color: 'inherit', textDecoration: 'none' }}>Cookie Policy</a>
+                        </Typography>
+                    </Grid>
+                </Grid>
             </Box>
         </>
     );

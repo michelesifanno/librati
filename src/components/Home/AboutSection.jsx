@@ -12,7 +12,7 @@ function AboutSection() {
 
     return (
 
-        <Box sx={{ pt: 10, display: 'flex' }} id='about'>
+        <Box sx={{ pt: 10, display: 'flex' }} id='about' className="anchor">
             <Container maxWidth="lg">
                 <Grid container spacing={isMobile ? 5 : 30}>
                     <Grid size={{ xs: 12, md: 6 }} sx={{ display: 'flex', flexDirection: 'column', gap: 0 }}>

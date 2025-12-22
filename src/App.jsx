@@ -6,9 +6,11 @@ import ScrollToTop from './ScrollToTop';
 
 function App() {
   return (
+    <>
     <HelmetProvider>
       <RouterProvider router={router} />
     </HelmetProvider>
+    </>
   )
 }
 

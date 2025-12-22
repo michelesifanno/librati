@@ -10,7 +10,8 @@ function Teddy() {
 
     return (
 
-        <Box sx={{ py: 10, display: 'flex' }} id="teddy">
+        <Box sx={{ py: 10, display: 'flex' }} id="teddy" className="anchor">
+            
             <Container maxWidth="lg">
                 <Grid container spacing={isMobile ? 5 : 30} sx={{ alignItems: 'center' }}>
                     <Grid size={{ xs: 12, md: 6 }} sx={{ display: 'flex', flexDirection: 'column', gap: 0 }} className="animate__animated animate__fadeInLeft">

@@ -4,6 +4,7 @@ import Home from "../pages/Home";
 import MenuRoot from "../pages/MenuRoot";
 import Menu from "../pages/Menu";
 import SinglePage from "../pages/SinglePage";
+import PrivacyPolicy from "../pages/PrivacyPolicy";
 
 export const router = createBrowserRouter([
     {
@@ -13,6 +14,10 @@ export const router = createBrowserRouter([
             {
                 path: "/",
                 element: <Home />,
+            },
+            {
+                path: "/privacy-policy",
+                element: <PrivacyPolicy />,
             },
         ],
     },

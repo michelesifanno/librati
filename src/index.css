@@ -48,6 +48,10 @@ p {
   font-family: "Work Sans", sans-serif !important;
 }
 
+.MuiButton-root {
+  font-family: "Work Sans", sans-serif !important;
+}
+
 .MuiTypography-root p {
   font-family: "Work Sans", sans-serif !important;
 }

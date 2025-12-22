@@ -3,6 +3,7 @@ import { AppBar, Toolbar, Button, Box, Container, Drawer, IconButton, List, List
 import { useTheme } from '@mui/material/styles';
 import DragHandleIcon from '@mui/icons-material/DragHandle';
 import CloseIcon from '@mui/icons-material/Close';
+import { Link } from 'react-router-dom';
 
 
 
@@ -99,8 +100,15 @@ function MainHeader() {
                         >
                             {/* Logo */}
                             <Box>
-                                <img src="logo.webp" alt="Librati Logo" style={{ height: isMobile ? 50 : 70 }} />
+                                <Link to="/" style={{ display: 'inline-block' }}>
+                                    <img
+                                        src="/logo.webp"
+                                        alt="Librati Cocktail Bar"
+                                        style={{ height: isMobile ? 50 : 70, cursor: 'pointer' }}
+                                    />
+                                </Link>
                             </Box>
+
 
                             {/* Desktop menu */}
                             {!isMobile && (
