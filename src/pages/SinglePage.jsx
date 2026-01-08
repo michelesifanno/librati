@@ -276,9 +276,9 @@ export default function SinglePage() {
                                                 <span style={{ fontSize: '17px' }}>€ (0.25l)</span>
                                             </Typography>
                                         )}
-                                        {item.prezzo_grande && (
+                                        {item.prezzo_media && (
                                             <Typography variant="h2" className="price-single-page" sx={{ textAlign: isMobile ? 'left' : 'right', color: "#ffc88a" }}>
-                                                <b>{item.prezzo_grande}</b>
+                                                <b>{item.prezzo_media}</b>
                                                 <span style={{ fontSize: '17px' }}>€ (0.40l)</span>
                                             </Typography>
                                         )}
